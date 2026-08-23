@@ -1,0 +1,1021 @@
+{
+    "ComplianceItems": [
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "NetworkManager.x86_64",
+            "Title": "NetworkManager.x86_64:1:1.40.16-20.0.1.el8_10",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:36:05Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "NetworkManager-libnm.x86_64",
+            "Title": "NetworkManager-libnm.x86_64:1:1.40.16-20.0.1.el8_10",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:36:05Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "NetworkManager-team.x86_64",
+            "Title": "NetworkManager-team.x86_64:1:1.40.16-20.0.1.el8_10",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:36:06Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "NetworkManager-tui.x86_64",
+            "Title": "NetworkManager-tui.x86_64:1:1.40.16-20.0.1.el8_10",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:36:06Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "acl.x86_64",
+            "Title": "acl.x86_64:0:2.2.53-3.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:36:19Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "acpid.x86_64",
+            "Title": "acpid.x86_64:0:2.0.30-2.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "InstalledTime": "2023-03-07T16:22:53Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "adcli.x86_64",
+            "Title": "adcli.x86_64:0:0.9.2-1.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2024-04-29T10:08:12Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "audit-libs.x86_64",
+            "Title": "audit-libs.x86_64:0:3.1.2-1.0.1.el8_10.1",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:36:23Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "authselect.x86_64",
+            "Title": "authselect.x86_64:0:1.2.6-2.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:36:27Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "authselect-libs.x86_64",
+            "Title": "authselect-libs.x86_64:0:1.2.6-2.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:36:27Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "avahi-libs.x86_64",
+            "Title": "avahi-libs.x86_64:0:0.7-27.el8_10.1",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:36:34Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "basesystem.noarch",
+            "Title": "basesystem.noarch:0:11-5.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "InstalledTime": "2023-03-07T16:22:24Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "bash.x86_64",
+            "Title": "bash.x86_64:0:4.4.20-6.el8_10",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:36:38Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "bcache-tools.x86_64",
+            "Title": "bcache-tools.x86_64:0:1.0.8-3.101.0.4.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2026-03-07T10:06:16Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "brotli.x86_64",
+            "Title": "brotli.x86_64:0:1.0.6-4.el8_10",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-02-14T10:06:32Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "bzip2-libs.x86_64",
+            "Title": "bzip2-libs.x86_64:0:1.0.6-28.el8_10",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2025-10-15T18:37:03Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchSeverity": "Moderate",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "c-ares.x86_64",
+            "Title": "c-ares.x86_64:0:1.13.0-11.el8_10",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2025-10-15T18:37:07Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchSeverity": "Low",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "ca-certificates.noarch",
+            "Title": "ca-certificates.noarch:0:2025.2.80_v9.0.304-80.2.el8_10",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-11-01T09:12:02Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "checkpolicy.x86_64",
+            "Title": "checkpolicy.x86_64:0:2.9-1.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2023-03-07T16:22:30Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "chkconfig.x86_64",
+            "Title": "chkconfig.x86_64:0:1.19.2-1.0.2.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:37:16Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "chrony.x86_64",
+            "Title": "chrony.x86_64:0:4.5-2.0.2.el8_10",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:37:20Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "cloud-utils-growpart.noarch",
+            "Title": "cloud-utils-growpart.noarch:0:0.33-0.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:37:30Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "cpio.x86_64",
+            "Title": "cpio.x86_64:0:2.12-11.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2023-03-07T16:22:30Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchSeverity": "Moderate",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "cracklib.x86_64",
+            "Title": "cracklib.x86_64:0:2.9.6-15.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "InstalledTime": "2023-03-07T16:22:34Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "cracklib-dicts.x86_64",
+            "Title": "cracklib-dicts.x86_64:0:2.9.6-15.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "InstalledTime": "2023-03-07T16:22:35Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "crypto-policies.noarch",
+            "Title": "crypto-policies.noarch:0:20230731-1.git3177e06.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:37:42Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "crypto-policies-scripts.noarch",
+            "Title": "crypto-policies-scripts.noarch:0:20230731-1.git3177e06.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:37:42Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "cryptsetup-libs.x86_64",
+            "Title": "cryptsetup-libs.x86_64:0:2.3.7-7.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:37:49Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "cyrus-sasl-gssapi.x86_64",
+            "Title": "cyrus-sasl-gssapi.x86_64:0:2.1.27-6.el8_5",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2024-04-29T10:08:12Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "cyrus-sasl-lib.x86_64",
+            "Title": "cyrus-sasl-lib.x86_64:0:2.1.27-6.el8_5",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2023-03-07T16:22:31Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "dbus-glib.x86_64",
+            "Title": "dbus-glib.x86_64:0:0.110-2.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "InstalledTime": "2023-03-07T16:22:46Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "device-mapper-persistent-data.x86_64",
+            "Title": "device-mapper-persistent-data.x86_64:0:0.9.0-7.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:53:57Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "dhcp-client.x86_64",
+            "Title": "dhcp-client.x86_64:12:4.3.6-50.el8_10",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2025-10-15T18:38:20Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "dhcp-common.noarch",
+            "Title": "dhcp-common.noarch:12:4.3.6-50.el8_10",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2025-10-15T18:38:20Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "dhcp-libs.x86_64",
+            "Title": "dhcp-libs.x86_64:12:4.3.6-50.el8_10",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2025-10-15T18:38:20Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "diffutils.x86_64",
+            "Title": "diffutils.x86_64:0:3.6-6.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2023-03-07T16:22:27Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "dmidecode.x86_64",
+            "Title": "dmidecode.x86_64:1:3.5-1.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:38:30Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "dnf.noarch",
+            "Title": "dnf.noarch:0:4.7.0-21.0.1.el8_10",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:38:34Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "dnf-data.noarch",
+            "Title": "dnf-data.noarch:0:4.7.0-21.0.1.el8_10",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:38:34Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "dnf-plugin-spacewalk.noarch",
+            "Title": "dnf-plugin-spacewalk.noarch:0:2.8.5-11.0.3.module+el8.3.0+20070+f5719e00",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2023-03-07T16:22:50Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "dnf-plugins-core.noarch",
+            "Title": "dnf-plugins-core.noarch:0:4.0.21-25.0.1.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:38:42Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "e2fsprogs.x86_64",
+            "Title": "e2fsprogs.x86_64:0:1.46.2-2.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:38:57Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "e2fsprogs-libs.x86_64",
+            "Title": "e2fsprogs-libs.x86_64:0:1.46.2-2.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:38:56Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "elfutils-debuginfod-client.x86_64",
+            "Title": "elfutils-debuginfod-client.x86_64:0:0.190-2.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "InstalledTime": "2025-10-15T18:39:04Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "elfutils-default-yama-scope.noarch",
+            "Title": "elfutils-default-yama-scope.noarch:0:0.190-2.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:39:08Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "elfutils-libelf.x86_64",
+            "Title": "elfutils-libelf.x86_64:0:0.190-2.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:39:04Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "elfutils-libs.x86_64",
+            "Title": "elfutils-libs.x86_64:0:0.190-2.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:39:04Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "ethtool.x86_64",
+            "Title": "ethtool.x86_64:2:5.13-2.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2023-03-07T16:22:28Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "falcon-sensor.x86_64",
+            "Title": "falcon-sensor.x86_64:0:7.17.0-17005.el8",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "InstalledTime": "2024-08-27T16:11:28Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0d869e2ce71ec97b1",
+            "Id": "file.x86_64",
+            "Title": "file.x86_64:0:5.33-27.el8_10",
+            "Status": "COMPLIANT",
+            "Severity": "CRITICAL",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:09+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Bugfix",
+                "InstalledTime": "2025-10-15T18:39:21Z",
+                "PatchBaselineId": "pb-07b02614ef953c5d1",
+                "PatchState": "Installed"
+            }
+        }
+    ],
+    "NextToken": "AAEAAWLpD/cjF8az2twWoawFoeXH5S7uSFaxYBqzxHmC1SS/c9C0h+bEDTqbtwPAa9UuVrZi7bH3/LThN4R27axBopCMhUyUwNM+KRZgNXEog6owmp12Ag2W9kdSmJ08WE0Q/UIovb+1X9p36ZrIorRHos5Vj2jBQWalB9g45IKc9sNcwN8BVtpkkepf3RRmeIUC8TxJ1YrtwrEop9u+nGpnLq2F2+3uxfg1nmIYQDLyUl8e1jg5Tv/dV1gR4wDV3gGcaV7TR0xKuDs/myF1Wycxv7ZIf1jRHDgQ5FOqFzd/x+mR",
+    "ResponseMetadata": {
+        "RequestId": "406b5320-79ff-4522-b572-bec604f79f75",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "server": "Server",
+            "date": "Fri, 26 Jun 2026 11:18:04 GMT",
+            "content-type": "application/x-amz-json-1.1",
+            "content-length": "24751",
+            "connection": "keep-alive",
+            "x-amzn-requestid": "406b5320-79ff-4522-b572-bec604f79f75",
+            "cache-control": "no-store"
+        },
+        "RetryAttempts": 0
+    }
+}

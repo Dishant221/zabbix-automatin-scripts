@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.12.0
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node # no cluster and run locally 
+      - xpack.security.enabled=false #no login
+      - ES_JAVA_OPTS=-Xms1g -Xmx1g  # prevents memory crash
+    ports: 
+      - "9200:9200"
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+
+volumes:
+  es_data:

@@ -1,0 +1,130 @@
+[default]
+region = us-east-1
+output = json
+
+[profile INTTRA]
+region = us-east-1
+output = json
+
+[profile INTTRA2]
+region = us-east-1
+output = json
+
+[profile INTTRA_CHINA]
+region = us-east-1
+output = json
+
+[profile AMBERROAD]
+region = us-east-1
+output = json
+
+[profile AMBERROAD_DEV]
+region = us-east-1
+output = json
+
+[profile CLOUDLOGISTICS]
+region = us-east-1
+output = json
+
+[profile STEELWEDGE]
+region = us-east-1
+output = json
+
+[profile SW2PLAN]
+region = us-east-1
+output = json
+
+[profile BJS_CHINA]
+region = us-east-1
+output = json
+
+[profile ZYME]
+region = us-east-1
+output = json
+
+[profile E2_BACKUP]
+region = us-east-1
+output = json
+
+[profile INTTRA_STCVT]
+region = us-east-1
+output = json
+
+[profile ADSIOnline]
+region = us-east-1
+output = json
+
+[profile CL_DEV]
+region = us-east-1
+output = json
+
+[profile BJS_GLOBAL_Kewill]
+role_arn = arn:aws:iam::342603411774:role/CloudInsights
+source_profile = BJS_GLOBAL
+region = us-east-1
+output = json
+
+[profile BJS_GLOBAL_LeanLogistics]
+role_arn = arn:aws:iam::392847174790:role/CloudInsights
+source_profile = BJS_GLOBAL
+region = us-east-1
+output = json
+
+[profile BJS_GLOBAL_Blackbay]
+role_arn = arn:aws:iam::546590225841:role/CloudInsights
+source_profile = BJS_GLOBAL
+region = us-east-1
+output = json
+
+[profile BJS_GLOBAL_Development]
+role_arn = arn:aws:iam::952828395949:role/CloudInsights
+source_profile = BJS_GLOBAL
+region = eu-west-1
+output = json
+
+[profile BJS_GLOBAL_GlobalServices]
+role_arn = arn:aws:iam::963476408260:role/CloudInsights
+source_profile = BJS_GLOBAL
+region = us-east-1
+output = json
+
+[profile BJS_CHINA_ChinaHosting]
+role_arn = arn:aws:iam::027287724507:role/CloudInsights
+source_profile = BJS_CHINA
+region = us-east-1
+output = json
+
+[profile BJS_GLOBAL_TMS_Shippers_Development]
+role_arn = arn:aws:iam::888371225963:role/CloudInsights
+source_profile = BJS_GLOBAL
+region = us-east-1
+output = json
+
+[profile BJS_GLOBAL_TMS_Shippers_QA]
+role_arn = arn:aws:iam::152687033415:role/CloudInsights
+source_profile = BJS_GLOBAL
+region = us-east-1
+output = json
+
+[profile BJS_GLOBAL_Expedient_Development]
+role_arn = arn:aws:iam::593712111050:role/CloudInsights
+source_profile = BJS_GLOBAL
+region = us-east-1
+output = json
+
+[profile BJS_GLOBAL_ExpedientSoftware]
+role_arn = arn:aws:iam::432767480088:role/CloudInsights
+source_profile = BJS_GLOBAL
+region = us-east-1
+output = json
+
+
+
+[profile OBS_Kewill]
+role_arn = arn:aws:iam::342603411774:role/observability
+source_profile = OBS_Kewill
+region = eu-central-1
+output = json
+
+
+

@@ -1,0 +1,23 @@
+{
+    "sftp": {
+        "URL": "bastion4.chg.e2open.com",
+        "UserName": "ci-sftp",
+        "Passphrase": "E2open123Net",
+        "Fingerprint": "",
+        "SecretKeyPath": "DATA/CONFIG/sftpprivatekey.pem",
+        "Paths": [
+            {
+                "Path": "/CI_SFTP/ci-sftp/inbound/file_DELETE_TEST/folder1/folder2",
+                "LocalPath": "Z:/inbound/file_DELETE_TEST/folder1/folder2",
+                "Age": "30",
+                "Recurse": "No"
+            },
+            {
+                "Path": "/CI_SFTP/ci-sftp/inbound/delete-test/Test1 - Copy (5)",
+                "LocalPath": "Z:/inbound/delete-test/Test1 - Copy (5)",
+                "Age": "30",
+                "Recurse": "Yes"
+            }
+        ]
+    }
+}

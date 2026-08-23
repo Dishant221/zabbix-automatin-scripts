@@ -1,0 +1,19 @@
+MissingCount:(Not installed patches) The number of patches required by the baseline that are applicable but not yet installed.
+
+InstalledCount: (successfully install)  The number of patches required by the baseline that have been successfully installed on the instance.
+
+InstalledOtherCount:(installed patches not part of ssm patch ) Patches installed on the machine that were not part of the SSM patch baseline criteria.
+
+InstalledPendingRebootCount: (patch installed successfully but required reboot)Patches that have been successfully installed but require an instance reboot to take effect.
+
+InstalledRejectedCount: (patch installed that are rejected ) Patches installed on the instance that are explicitly blocked/rejected by your patch baseline configuration.
+
+FailedCount: (patch installation failed)The number of patches that attempted to install but failed. This usually indicates an error that requires troubleshooting.
+
+NotApplicableCount: (patches not applicalble to that system) The number of patches in the baseline that do not apply to this specific instance (e.g., a Windows Server 2022 patch evaluated against a Windows Server 2019 instance).
+
+CriticalNonCompliantCount: (need to install patches but missing patches that are critical) The number of missing patches classified as Critical severity.
+
+SecurityNonCompliantCount:(needs to install this seciritu patches) The number of missing patches classified as Security updates.
+
+OtherNonCompliantCount: (needs to be installed but like small fix and bug fix)The number of missing patches that fall into other categories (like bug fixes or minor updates).

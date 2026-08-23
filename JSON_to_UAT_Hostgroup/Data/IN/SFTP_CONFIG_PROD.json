@@ -1,0 +1,109 @@
+{
+  "ZabbixDatabase": {
+    "user": "zbx_updater",
+    "password": "REDACTED",
+    "host": "10.141.96.41",
+    "port": "9009",
+    "database": "zabbix"
+  },
+
+  "ZabbixServer": {
+    "url": "https://monitor.e2open.com/zabbix",
+    "user": "ZB_SF_INT_API_USER",
+    "password": "REDACTED"
+  },
+
+  "JIRAServer": {
+    "url": "https://jira.dev.e2open.com/jira",
+    "user": "sd_event_user",
+    "password": "REDACTED"
+  },
+
+  "SFTPServer": {
+    "host": "bastion4.chg.e2open.com",
+    "user": "ci-sftp",
+    "keyfile": "Data/IN/sftpprivatekey.pem",
+    "keyPhrase": "E2open123Net"
+  },
+
+  "SalesForce": {
+    "user": "api_user@e2open.com",
+    "password": "REDACTED",
+    "token": "REDACTED",
+    "domain": "e2open.my",
+    "queues": [
+      {
+        "solution": "Default",
+        "queueName": "CSRINCQueueCaseneedsAssignment",
+        "label": "CSR-INC Queue: Case needs Assignment",
+        "id": "00G60000001J6xK"
+      },
+      {
+        "solution": "SnOP",
+        "queueName": "CSR_Needs_Assignment_Steelwedge",
+        "label": "[CSR] Needs Assignment - Steelwedge",
+        "id": "00G60000003CkEw"
+      },
+      {
+        "solution": "Steelwedge",
+        "queueName": "CSR_Needs_Assignment_Steelwedge",
+        "label": "[CSR] Needs Assignment - Steelwedge",
+        "id": "00G60000003CkEw"
+      },
+      {
+        "solution": "Orchestro",
+        "queueName": "CSR_Needs_Assignment_Orchestro",
+        "label": "[CSR] Needs Assignment - Orchestro",
+        "id": "00G60000003CkEr"
+      },
+      {
+        "solution": "DSM",
+        "queueName": "CSR_Needs_Assignment_Orchestro",
+        "label": "[CSR] Needs Assignment - Orchestro",
+        "id": "00G60000003CkEr"
+      },
+      {
+        "solution": "Terra",
+        "queueName": "CSR_Needs_Assignment_Terra",
+        "label": "[CSR] Needs Assignment - Terra",
+        "id": "00G0z000003CwUG"
+      },
+      {
+        "solution": "Zyme",
+        "queueName": "CSR_Needs_Assignment_Zyme",
+        "label": "[CSR] Needs Assignment - Zyme",
+        "id": "00G0z000003roXt"
+      },
+      {
+        "solution": "CDM",
+        "queueName": "CSR_Needs_Assignment_Zyme",
+        "label": "[CSR] Needs Assignment - Zyme",
+        "id": "00G0z000003roXt"
+      },
+      {
+        "solution": "Entomo",
+        "queueName": "CSR_Needs_Assignment_Entomo",
+        "label": "[CSR] Needs Assignment - Entomo",
+        "id": "00G0z000003sd0S"
+      },
+      {
+        "solution": "CCI",
+        "queueName": "CSR_Needs_Assignment_Trans_Ops",
+        "label": "[CSR] Needs Assignment - Trans Ops",
+        "id": "00G0z0000031gBR"
+      },
+      {
+        "solution": "Cloud Logistics",
+        "queueName": "CSR_Needs_Assignment_TMS",
+        "label": "[CSR] Needs Assignment - TMS",
+        "id": "00G0z0000041vpS"
+      },
+      {
+        "solution": "TMS",
+        "queueName": "CSR_Needs_Assignment_TMS",
+        "label": "[CSR] Needs Assignment - TMS",
+        "id": "00G0z0000041vpS"
+      }
+    ]
+  }
+}

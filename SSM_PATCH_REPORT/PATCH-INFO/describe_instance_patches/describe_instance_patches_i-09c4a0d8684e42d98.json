@@ -1,0 +1,419 @@
+{
+    "Patches": [
+        {
+            "Title": "NetworkManager.x86_64:1:1.40.16-20.0.1.el8_10",
+            "KBId": "NetworkManager.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:39:20+05:30"
+        },
+        {
+            "Title": "NetworkManager-libnm.x86_64:1:1.40.16-20.0.1.el8_10",
+            "KBId": "NetworkManager-libnm.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:39:20+05:30"
+        },
+        {
+            "Title": "NetworkManager-team.x86_64:1:1.40.16-20.0.1.el8_10",
+            "KBId": "NetworkManager-team.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:39:21+05:30"
+        },
+        {
+            "Title": "NetworkManager-tui.x86_64:1:1.40.16-20.0.1.el8_10",
+            "KBId": "NetworkManager-tui.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:39:21+05:30"
+        },
+        {
+            "Title": "abattis-cantarell-fonts.noarch:0:0.0.25-6.el8",
+            "KBId": "abattis-cantarell-fonts.noarch",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2024-05-02 11:49:39+05:30"
+        },
+        {
+            "Title": "acl.x86_64:0:2.2.53-3.el8",
+            "KBId": "acl.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:39:34+05:30"
+        },
+        {
+            "Title": "acpid.x86_64:0:2.0.30-2.el8",
+            "KBId": "acpid.x86_64",
+            "Classification": "",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2023-03-07 21:52:53+05:30"
+        },
+        {
+            "Title": "adcli.x86_64:0:0.9.2-1.el8",
+            "KBId": "adcli.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2024-02-22 07:06:22+05:30"
+        },
+        {
+            "Title": "adwaita-cursor-theme.noarch:0:3.28.0-3.el8",
+            "KBId": "adwaita-cursor-theme.noarch",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2024-05-02 11:49:41+05:30"
+        },
+        {
+            "Title": "adwaita-icon-theme.noarch:0:3.28.0-3.el8",
+            "KBId": "adwaita-icon-theme.noarch",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2024-05-02 11:49:44+05:30"
+        },
+        {
+            "Title": "alsa-lib.x86_64:0:1.2.10-2.el8",
+            "KBId": "alsa-lib.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:39:38+05:30"
+        },
+        {
+            "Title": "at-spi2-atk.x86_64:0:2.26.2-1.el8",
+            "KBId": "at-spi2-atk.x86_64",
+            "Classification": "",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2024-05-02 11:49:40+05:30"
+        },
+        {
+            "Title": "at-spi2-core.x86_64:0:2.28.0-1.el8",
+            "KBId": "at-spi2-core.x86_64",
+            "Classification": "",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2024-05-02 11:49:40+05:30"
+        },
+        {
+            "Title": "atk.x86_64:0:2.28.1-1.el8",
+            "KBId": "atk.x86_64",
+            "Classification": "",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2024-05-02 11:49:38+05:30"
+        },
+        {
+            "Title": "audit-libs.x86_64:0:3.1.2-1.0.1.el8_10.1",
+            "KBId": "audit-libs.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:39:43+05:30"
+        },
+        {
+            "Title": "authselect.x86_64:0:1.2.6-2.el8",
+            "KBId": "authselect.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:39:49+05:30"
+        },
+        {
+            "Title": "authselect-libs.x86_64:0:1.2.6-2.el8",
+            "KBId": "authselect-libs.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:39:49+05:30"
+        },
+        {
+            "Title": "avahi-libs.x86_64:0:0.7-27.el8_10.1",
+            "KBId": "avahi-libs.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:39:56+05:30"
+        },
+        {
+            "Title": "basesystem.noarch:0:11-5.el8",
+            "KBId": "basesystem.noarch",
+            "Classification": "",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2023-03-07 21:52:24+05:30"
+        },
+        {
+            "Title": "bash.x86_64:0:4.4.20-6.el8_10",
+            "KBId": "bash.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:40:00+05:30"
+        },
+        {
+            "Title": "bcache-tools.x86_64:0:1.0.8-3.101.0.3.el8",
+            "KBId": "bcache-tools.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:40:04+05:30"
+        },
+        {
+            "Title": "brotli.x86_64:0:1.0.6-3.el8",
+            "KBId": "brotli.x86_64",
+            "Classification": "Security",
+            "Severity": "Moderate",
+            "State": "Installed",
+            "InstalledTime": "2023-03-07 21:52:30+05:30"
+        },
+        {
+            "Title": "bzip2-libs.x86_64:0:1.0.6-28.el8_10",
+            "KBId": "bzip2-libs.x86_64",
+            "Classification": "Security",
+            "Severity": "Moderate",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:40:25+05:30"
+        },
+        {
+            "Title": "c-ares.x86_64:0:1.13.0-11.el8_10",
+            "KBId": "c-ares.x86_64",
+            "Classification": "Security",
+            "Severity": "Low",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:40:28+05:30"
+        },
+        {
+            "Title": "cairo.x86_64:0:1.15.12-6.el8",
+            "KBId": "cairo.x86_64",
+            "Classification": "Security",
+            "Severity": "Moderate",
+            "State": "Installed",
+            "InstalledTime": "2024-05-02 11:49:40+05:30"
+        },
+        {
+            "Title": "cairo-gobject.x86_64:0:1.15.12-6.el8",
+            "KBId": "cairo-gobject.x86_64",
+            "Classification": "Security",
+            "Severity": "Moderate",
+            "State": "Installed",
+            "InstalledTime": "2024-05-02 11:49:40+05:30"
+        },
+        {
+            "Title": "checkpolicy.x86_64:0:2.9-1.el8",
+            "KBId": "checkpolicy.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2023-03-07 21:52:30+05:30"
+        },
+        {
+            "Title": "chkconfig.x86_64:0:1.19.2-1.0.2.el8",
+            "KBId": "chkconfig.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:40:37+05:30"
+        },
+        {
+            "Title": "chrony.x86_64:0:4.5-2.0.2.el8_10",
+            "KBId": "chrony.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:40:41+05:30"
+        },
+        {
+            "Title": "cloud-init.noarch:0:23.4-7.0.2.el8_10.10",
+            "KBId": "cloud-init.noarch",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:40:46+05:30"
+        },
+        {
+            "Title": "cloud-utils-growpart.noarch:0:0.33-0.el8",
+            "KBId": "cloud-utils-growpart.noarch",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:40:51+05:30"
+        },
+        {
+            "Title": "colord-libs.x86_64:0:1.4.2-1.el8",
+            "KBId": "colord-libs.x86_64",
+            "Classification": "",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2024-05-02 11:49:48+05:30"
+        },
+        {
+            "Title": "container-selinux.noarch:2:2.229.0-2.module+el8.10.0+90672+4d6d1825",
+            "KBId": "container-selinux.noarch",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:40:55+05:30"
+        },
+        {
+            "Title": "copy-jdk-configs.noarch:0:4.0-2.el8",
+            "KBId": "copy-jdk-configs.noarch",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2024-05-02 11:49:40+05:30"
+        },
+        {
+            "Title": "coreutils.x86_64:0:8.30-15.0.1.el8",
+            "KBId": "coreutils.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:41:30+05:30"
+        },
+        {
+            "Title": "coreutils-common.x86_64:0:8.30-15.0.1.el8",
+            "KBId": "coreutils-common.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:41:29+05:30"
+        },
+        {
+            "Title": "cpio.x86_64:0:2.12-11.el8",
+            "KBId": "cpio.x86_64",
+            "Classification": "Security",
+            "Severity": "Moderate",
+            "State": "Installed",
+            "InstalledTime": "2023-03-07 21:52:30+05:30"
+        },
+        {
+            "Title": "cracklib.x86_64:0:2.9.6-15.el8",
+            "KBId": "cracklib.x86_64",
+            "Classification": "",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2023-03-07 21:52:34+05:30"
+        },
+        {
+            "Title": "cracklib-dicts.x86_64:0:2.9.6-15.el8",
+            "KBId": "cracklib-dicts.x86_64",
+            "Classification": "",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2023-03-07 21:52:35+05:30"
+        },
+        {
+            "Title": "crypto-policies.noarch:0:20230731-1.git3177e06.el8",
+            "KBId": "crypto-policies.noarch",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:41:36+05:30"
+        },
+        {
+            "Title": "crypto-policies-scripts.noarch:0:20230731-1.git3177e06.el8",
+            "KBId": "crypto-policies-scripts.noarch",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:41:36+05:30"
+        },
+        {
+            "Title": "cryptsetup-libs.x86_64:0:2.3.7-7.el8",
+            "KBId": "cryptsetup-libs.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:41:43+05:30"
+        },
+        {
+            "Title": "cups-libs.x86_64:1:2.2.6-63.el8_10",
+            "KBId": "cups-libs.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:41:47+05:30"
+        },
+        {
+            "Title": "curl.x86_64:0:7.61.1-34.el8_10.8",
+            "KBId": "curl.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:41:51+05:30"
+        },
+        {
+            "Title": "cyrus-sasl-gssapi.x86_64:0:2.1.27-6.el8_5",
+            "KBId": "cyrus-sasl-gssapi.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2024-02-22 07:06:22+05:30"
+        },
+        {
+            "Title": "cyrus-sasl-lib.x86_64:0:2.1.27-6.el8_5",
+            "KBId": "cyrus-sasl-lib.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2023-03-07 21:52:31+05:30"
+        },
+        {
+            "Title": "dbus.x86_64:1:1.12.8-27.0.1.el8_10",
+            "KBId": "dbus.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:41:55+05:30"
+        },
+        {
+            "Title": "dbus-common.noarch:1:1.12.8-27.0.1.el8_10",
+            "KBId": "dbus-common.noarch",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:41:55+05:30"
+        },
+        {
+            "Title": "dbus-daemon.x86_64:1:1.12.8-27.0.1.el8_10",
+            "KBId": "dbus-daemon.x86_64",
+            "Classification": "Bugfix",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2025-10-15 23:41:55+05:30"
+        },
+        {
+            "Title": "dbus-glib.x86_64:0:0.110-2.el8",
+            "KBId": "dbus-glib.x86_64",
+            "Classification": "",
+            "Severity": "",
+            "State": "Installed",
+            "InstalledTime": "2023-03-07 21:52:46+05:30"
+        }
+    ],
+    "NextToken": "AAEAATQq/jn3jy+WpbWnP0rHX9UUVRw9yl/wY+eMLsbW0AlXJQo/vnDVp8ktUAXS3SDmU2mgHTJmECu+bkZzJyRIBbATFf94GpZ1hGBt64ZwwRaosanQ7VAcfgw8hhDliC5y5DDt0BsQnRPWPoxSy21RO0KTAf8ZASbYRqLWshJoXYEMwWCkp/Kc4/goC95luPTV4+gMdBFhcfEw/sKb/BzZKHmR43yyUyB7/QdTpAW6pSv+UWdaTCVwL4nnrfXWIMn7X+CSF1LeOk7hrghmzV2G5RPbQUyVe8Irb7cM/5jDUfos",
+    "ResponseMetadata": {
+        "RequestId": "65000151-39e3-4a40-a461-691274f81253",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "server": "Server",
+            "date": "Fri, 26 Jun 2026 11:20:12 GMT",
+            "content-type": "application/x-amz-json-1.1",
+            "content-length": "8780",
+            "connection": "keep-alive",
+            "x-amzn-requestid": "65000151-39e3-4a40-a461-691274f81253",
+            "cache-control": "no-store"
+        },
+        "RetryAttempts": 0
+    }
+}

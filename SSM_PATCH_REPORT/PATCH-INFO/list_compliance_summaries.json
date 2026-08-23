@@ -1,0 +1,93 @@
+{
+    "ComplianceSummaryItems": [
+        {
+            "ComplianceType": "FleetTotal",
+            "CompliantSummary": {
+                "CompliantCount": 0,
+                "SeveritySummary": {
+                    "CriticalCount": 0,
+                    "HighCount": 0,
+                    "MediumCount": 0,
+                    "LowCount": 0,
+                    "InformationalCount": 0,
+                    "UnspecifiedCount": 0
+                }
+            },
+            "NonCompliantSummary": {
+                "NonCompliantCount": 4,
+                "SeveritySummary": {
+                    "CriticalCount": 3,
+                    "HighCount": 0,
+                    "MediumCount": 0,
+                    "LowCount": 0,
+                    "InformationalCount": 0,
+                    "UnspecifiedCount": 1
+                }
+            }
+        },
+        {
+            "ComplianceType": "Association",
+            "CompliantSummary": {
+                "CompliantCount": 4,
+                "SeveritySummary": {
+                    "CriticalCount": 0,
+                    "HighCount": 0,
+                    "MediumCount": 0,
+                    "LowCount": 0,
+                    "InformationalCount": 0,
+                    "UnspecifiedCount": 4
+                }
+            },
+            "NonCompliantSummary": {
+                "NonCompliantCount": 0,
+                "SeveritySummary": {
+                    "CriticalCount": 0,
+                    "HighCount": 0,
+                    "MediumCount": 0,
+                    "LowCount": 0,
+                    "InformationalCount": 0,
+                    "UnspecifiedCount": 0
+                }
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "CompliantSummary": {
+                "CompliantCount": 0,
+                "SeveritySummary": {
+                    "CriticalCount": 0,
+                    "HighCount": 0,
+                    "MediumCount": 0,
+                    "LowCount": 0,
+                    "InformationalCount": 0,
+                    "UnspecifiedCount": 0
+                }
+            },
+            "NonCompliantSummary": {
+                "NonCompliantCount": 4,
+                "SeveritySummary": {
+                    "CriticalCount": 3,
+                    "HighCount": 0,
+                    "MediumCount": 0,
+                    "LowCount": 0,
+                    "InformationalCount": 0,
+                    "UnspecifiedCount": 1
+                }
+            }
+        }
+    ],
+    "ResponseMetadata": {
+        "RequestId": "d086bfeb-0db5-439c-bf1f-4277add10d53",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "server": "Server",
+            "date": "Fri, 26 Jun 2026 10:50:30 GMT",
+            "content-type": "application/x-amz-json-1.1",
+            "content-length": "1128",
+            "connection": "keep-alive",
+            "x-amzn-requestid": "d086bfeb-0db5-439c-bf1f-4277add10d53",
+            "cache-control": "no-store"
+        },
+        "RetryAttempts": 0
+    }
+}

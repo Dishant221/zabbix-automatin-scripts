@@ -1,0 +1,4 @@
+select [ason], [katello_res_id], [resource_name], [dc], [ip], [env], [purpose], [account], [e2customer], [product_family], [product_name], [operatingsystem_name], [os_name], [os_family], [os_major_version], [is_eol], [hostgroup], [boot_time], [build_status_label], [errata_status_label], [execution_status_label], [global_status_label], [hypervisor], [katello_instance_id], [instance_name], [url], [bmc_available], [kernel_version], [last_checkin], [last_compile], [registered_at], [updated_at], [updated_flag], [security], [bugfix], [enhancement], [total] from [dbo].[t_exp_patch_katello_details]
+
+data_stream_dataset => "ketello-patch-details"
+      data_stream_namespace => "ketello-patch-details"

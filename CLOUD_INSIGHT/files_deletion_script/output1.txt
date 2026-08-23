@@ -1,0 +1,68 @@
+PS C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\CLOUD_INSIGHT\folder_deletion_script> python sftp_cleanup.py 30 -recursive_deletion -path "C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix"
+2026-08-06 11:53:21,070 - INFO - ======================================================================
+2026-08-06 11:53:21,070 - INFO - SFTP ARCHIVE CLEANUP STARTED AT 2026-08-06 11:53:21
+2026-08-06 11:53:21,070 - INFO - ======================================================================
+2026-08-06 11:53:21,071 - INFO - Log file            : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\CLOUD_INSIGHT\folder_deletion_script\DATA\LOG_OUTPUT\sftp_cleanup_20260806_115321.log
+2026-08-06 11:53:21,071 - INFO - Archive folder      : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix
+2026-08-06 11:53:21,071 - INFO - Delete older than   : 30 day(s)
+2026-08-06 11:53:21,071 - INFO - Deletion mode       : RECURSIVE
+2026-08-06 11:53:21,072 - INFO - File age based on   : mtime
+2026-08-06 11:53:21,072 - INFO - Include patterns    : *
+2026-08-06 11:53:21,072 - INFO - Exclude patterns    : *.tmp, *.lock, *.filepart
+2026-08-06 11:53:21,072 - INFO - Exclude folders     : (none)
+2026-08-06 11:53:21,072 - INFO - Delete empty folders: False
+2026-08-06 11:53:21,073 - INFO - Dry run             : False
+2026-08-06 11:53:21,073 - INFO - Retry on failure    : 2 time(s), 2 second(s) apart
+2026-08-06 11:53:21,073 - INFO - Checking access to the archive folder ...
+2026-08-06 11:53:21,074 - INFO - Archive folder is reachable and writable
+2026-08-06 11:53:21,074 - INFO - Deleting files last changed before 2026-07-07 11:53:21
+2026-08-06 11:53:21,075 - INFO - Deleted files report: C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\CLOUD_INSIGHT\folder_deletion_script\DATA\LOG_OUTPUT\sftp_cleanup_deleted_files_20260806_115321.csv
+2026-08-06 11:53:21,075 - INFO - Starting the scan of C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix
+2026-08-06 11:53:21,078 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\.vscode\extensions.json (70.00 B)
+2026-08-06 11:53:21,080 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\COUNTcsc.txt (168.59 KB)
+2026-08-06 11:53:21,081 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\CredentialUtils\file_loader.py (233.00 B)
+2026-08-06 11:53:21,082 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\CredentialUtils\json_decryptor.py (197.00 B)
+2026-08-06 11:53:21,084 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\CredentialUtils\key_loader.py (261.00 B)
+2026-08-06 11:53:21,086 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\CredentialUtils\scripts\HowToUseModule.py (279.00 B)
+2026-08-06 11:53:21,088 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\CredentialUtils\scripts\other_script.py (0.00 B)
+2026-08-06 11:53:21,089 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\CredentialUtils\zb_credentials.py (594.00 B)
+2026-08-06 11:53:21,090 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\CredentialUtils\__init__.py (72.00 B)
+2026-08-06 11:53:21,092 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\CredentialUtils\__pycache__\file_loader.cpython-314.pyc (837.00 B)
+2026-08-06 11:53:21,094 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\CredentialUtils\__pycache__\json_decryptor.cpython-314.pyc (680.00 B)
+2026-08-06 11:53:21,095 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\CredentialUtils\__pycache__\key_loader.cpython-314.pyc (778.00 B)
+2026-08-06 11:53:21,097 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\CredentialUtils\__pycache__\zb_credentials.cpython-314.pyc (1.67 KB)
+2026-08-06 11:53:21,098 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\CredentialUtils\__pycache__\__init__.cpython-314.pyc (374.00 B)
+2026-08-06 11:53:21,101 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\DATA\CONFIG\Credentails_for_DEV.json.enc (676.00 B)
+2026-08-06 11:53:21,103 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\DATA\CONFIG\Credentails_for_PROD.json.enc (676.00 B)
+2026-08-06 11:53:21,104 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\DATA\CONFIG\Credentails_for_STAGE.json.enc (696.00 B)
+2026-08-06 11:53:21,106 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\DATA\INPUT\DEVuserDetails.csv (68.00 B)
+2026-08-06 11:53:21,108 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\DATA\INPUT\userDetails.csv (244.67 KB)
+2026-08-06 11:53:21,110 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\DATA\LOG_OUTPUT\not_found_users.txt (63.00 B)
+2026-08-06 11:53:21,112 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\DATA\LOG_OUTPUT\progress.txt (3.00 B)
+2026-08-06 11:53:21,113 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\DATA\LOG_OUTPUT\update_username_in_zabbix.log (29.83 KB)
+2026-08-06 11:53:21,115 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\notes.md (0.00 B)
+2026-08-06 11:53:21,116 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\update_username_in_zabbix.py (8.97 KB)
+2026-08-06 11:53:21,117 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\user.get_output.json (3.48 MB)
+2026-08-06 11:53:21,118 - INFO - DELETED : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix\userjson_info.json (1.07 KB)
+2026-08-06 11:53:21,118 - INFO - ======================================================================
+2026-08-06 11:53:21,119 - INFO - CLEANUP EXECUTION SUMMARY
+2026-08-06 11:53:21,119 - INFO - ======================================================================
+2026-08-06 11:53:21,119 - INFO - Archive folder        : C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\update_username_in_zabbix
+2026-08-06 11:53:21,119 - INFO - Mode                  : RECURSIVE
+2026-08-06 11:53:21,119 - INFO - Age threshold         : 30 day(s)
+2026-08-06 11:53:21,120 - INFO - Folders scanned       : 8
+2026-08-06 11:53:21,120 - INFO - Files scanned         : 26
+2026-08-06 11:53:21,121 - INFO - Files deleted         : 26
+2026-08-06 11:53:21,121 - INFO - Files skipped         : 0
+2026-08-06 11:53:21,121 - INFO - Files failed          : 0
+2026-08-06 11:53:21,122 - INFO - Empty folders deleted : 0
+2026-08-06 11:53:21,122 - INFO - Folder read errors    : 0
+2026-08-06 11:53:21,122 - INFO - Other errors          : 0
+2026-08-06 11:53:21,123 - INFO - Space freed           : 3.93 MB
+2026-08-06 11:53:21,123 - INFO - Started               : 2026-08-06 11:53:21
+2026-08-06 11:53:21,123 - INFO - Ended                 : 2026-08-06 11:53:21
+2026-08-06 11:53:21,123 - INFO - Duration              : 0:00:00
+2026-08-06 11:53:21,123 - INFO - Throughput            : 532.5 file(s)/second
+2026-08-06 11:53:21,124 - INFO - ======================================================================
+2026-08-06 11:53:21,125 - INFO - SFTP ARCHIVE CLEANUP FINISHED AT 2026-08-06 11:53:21 (exit code 0)
+PS C:\Users\dishant.totade\WiseTech Global\Workspace - e2open Hosting Ops - Monitoring Dev Documents\Zabbix - Monitoring\Zabbix-Automation\Dishant\CLOUD_INSIGHT\folder_deletion_script> 

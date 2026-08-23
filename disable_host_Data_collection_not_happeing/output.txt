@@ -1,0 +1,70 @@
+Host sv4s-cops-nonp.kube-proxy-s6c9p (ID: 405935) has 0 fetching items
+Host sv4s-cops-nonp.antrea-agent-pfvv2 (ID: 405936) has 0 fetching items
+Host sv4s-cops-nonp.docker-registry-sv4s-cops-nonp-x2dwx-9jxl9 (ID: 405937) has 0 fetching items
+Host sv4s-cops-nonp.antrea-agent-7vhqv (ID: 405938) has 0 fetching items
+Host sv4s-cops-nonp.kube-proxy-fw8hf (ID: 405939) has 0 fetching items
+Host sv4s-cops-nonp.kube-apiserver-sv4s-cops-nonp-x2dwx-w8ks5 (ID: 405940) has 0 fetching items
+Host sv4s-cops-nonp.docker-registry-sv4s-cops-nonp-worker-qscns-r7fwz-dtxck (ID: 405941) has 0 fetching items
+Host sv4s-cops-nonp.kube-proxy-lm2c4 (ID: 405942) has 0 fetching items
+Host sv4s-cops-nonp.kube-scheduler-sv4s-cops-nonp-x2dwx-9jxl9 (ID: 405943) has 0 fetching items
+Host sv4s-cops-nonp.docker-registry-sv4s-cops-nonp-worker-qscns-r7fwz-z9xkd (ID: 405944) has 0 fetching items
+Host sv4s-cops-nonp.antrea-agent-zlffm (ID: 405945) has 0 fetching items
+Host sv4s-cops-nonp.ingress-nginx-controller-668d88b78d-xrm65 (ID: 405946) has 0 fetching items
+Host sv4s-cops-nonp.ingress-nginx-controller-668d88b78d-g47hz (ID: 405947) has 0 fetching items
+Host sv4s-cops-nonp.ingress-nginx-controller-668d88b78d-nx966 (ID: 405948) has 0 fetching items
+
+Fetched 6875 hosts with items and history:
+
+Preparing to review 479 hosts for disabling.
+
+============================================================
+Showing hosts 0 to 14 of 479:
+0: bl2shochef001.us-west1-b.c.staging-420017.internal (hostid=10720), (items missing history: 3)
+1: bl2shokc001.sea.prod.e2open.com (hostid=10727), (items missing history: 3)
+2: bl2shokc002.sea.prod.e2open.com (hostid=10728), (items missing history: 3)
+3: bl2shosrch002.us-west1-a.c.staging-420017.internal (hostid=10732), (items missing history: 3)
+4: stg-db-image-latest.us-west1-b.c.staging-420017.internal (hostid=10750), (items missing history: 3)
+5: stg-db-image.us-west1-b.c.staging-420017.internal (hostid=10751), (items missing history: 3)
+6: HKDC1MGTWUS01 (hostid=10768), (items missing history: 3)
+7: hkdc1uat999 (hostid=10782), (items missing history: 3)
+8: oel8-cleanimage-11may2023.dev.e2open.com (hostid=10814), (items missing history: 3)
+9: STG3236.sjcus.prod.e2open.com (hostid=10954), (items missing history: 3)
+10: STG3501.sjcus.prod.e2open.com (hostid=10955), (items missing history: 3)
+11: STG3502.sjcus.prod.e2open.com (hostid=10956), (items missing history: 3)
+12: STG3600.sjcus.prod.e2open.com (hostid=10957), (items missing history: 3)
+13: STG3833.sjcus.prod.e2open.com (hostid=10958), (items missing history: 3)
+14: STG4001.sjcus.prod.e2open.com (hostid=10962), (items missing history: 3)
+Enter comma-separated indices from this page to disable (or press Enter to skip page, 'q' to quit):
+
+============================================================
+Showing hosts 15 to 29 of 479:
+15: STG4003.sjcus.prod.e2open.com (hostid=10963), (items missing history: 3)
+16: STG4005.sjcus.prod.e2open.com (hostid=10964), (items missing history: 3)
+17: STG4351.sjcus.prod.e2open.com (hostid=10965), (items missing history: 3)
+18: stg3777.sjcus.prod.e2open.com (hostid=15937), (items missing history: 3)
+19: stg3778.sjcus.prod.e2open.com (hostid=15938), (items missing history: 3)
+20: cdm-uat-zab (hostid=16145), (items missing history: 3)
+21: stg180.sjcus.prod.e2open.com-dummy (hostid=19561), (items missing history: 3)
+22: dell-dsc-06-05-stg.sjcus.prod.e2open.com (hostid=19959), (items missing history: 3)
+23: stg77.sjcus.prod.e2open.com (hostid=19964), (items missing history: 3)
+24: stg94.sjcus.prod.e2open.com (hostid=19965), (items missing history: 3)
+25: stg199.sjcus.prod.e2open.com (hostid=19979), (items missing history: 3)
+26: stg369.sjcus.prod.e2open.com (hostid=20009), (items missing history: 3)
+27: stg551.sjcus.prod.e2open.com (hostid=20027), (items missing history: 3)
+28: stg553.sjcus.prod.e2open.com (hostid=20028), (items missing history: 3)
+29: stg595.sjcus.prod.e2open.com (hostid=20031), (items missing history: 3)
+Enter comma-separated indices from this page to disable (or press Enter to skip page, 'q' to quit): 15,16,17
+
+Selected hosts to be disabled:
+  15: STG4003.sjcus.prod.e2open.com (hostid=10963) - missing: agent.ping, system.localtime, system.uptime
+  16: STG4005.sjcus.prod.e2open.com (hostid=10964) - missing: agent.ping, system.localtime, system.uptime
+  17: STG4351.sjcus.prod.e2open.com (hostid=10965) - missing: agent.ping, system.localtime, system.uptime
+
+Disable ALL of the above hosts? (y/N): y
+Created hostgroup 2025-11-24_hostdisabled (id=8432)
+Added 3 hosts to group 2025-11-24_hostdisabled (id=8432). Hostids: ['10963', '10964', '10965']
+Added 3 confirmed hosts to hostgroup id=8432
+Host STG4003.sjcus.prod.e2open.com (10963) disabled.
+Host STG4005.sjcus.prod.e2open.com (10964) disabled.
+Host STG4351.sjcus.prod.e2open.com (10965) disabled.
+

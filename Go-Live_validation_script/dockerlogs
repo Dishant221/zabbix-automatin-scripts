@@ -1,0 +1,298 @@
+Last login: Sun Mar 22 05:50:26 UTC 2026 on pts/0
+[root@dev4505 ~]# firewall-cmd --add-port=5678/tcp --permanent
+FirewallD is not running
+
+[root@dev4505 ~]# sudo iptables -A INPUT -p tcp --dport 5678 -j ACCEPT
+[root@dev4505 ~]#
+
+
+curl 10.120.125.239 5678
+
+</html>
+[root@dev4505 ~]# telnet 10.120.125.239 5678
+Trying 10.120.125.239...
+Connected to 10.120.125.239.
+Escape character is '^]'.
+
+________________________ container debug ________________________
+
+bash-4.4$ ls
+compose  volumes  volumns
+
+bash-4.4$ ls compose/
+n8n
+bash-4.4$ ls compose/n8n/docker-compose.yml
+compose/n8n/docker-compose.yml
+bash-4.4$ cd compose/n8n/
+bash-4.4$ ls
+docker-compose.yml 
+
+bash-4.4$ docker compose down
+WARN[0000] /opt/dockeruser/docker/compose/n8n/docker-compose.yml: `version` is obsolete
+[+] Running 1/1
+ ✔ Network n8n_default  Removed
+bash-4.4$ docker compose up -d
+WARN[0000] /opt/dockeruser/docker/compose/n8n/docker-compose.yml: `version` is obsolete
+[+] Running 1/2
+ ✔ Network n8n_default  Created
+ ⠋ Container n8n        Creating
+Error response from daemon: Conflict. The container name "/n8n" is already in use by container "80caa2eb672b1743716070ea7c0689cd1d187372d9dbcd852a4195ec611edble to reuse that name.
+
+bash-4.4$ docker ps
+CONTAINER ID   IMAGE              COMMAND                  CREATED             STATUS             PORTS                                       NAMES
+80caa2eb672b   n8nio/n8n:latest   "tini -- /docker-ent…"   About an hour ago   Up About an hour   0.0.0.0:5678->5678/tcp, :::5678->5678/tcp   n8n
+bash-4.4$ docker stop 80caa2eb672b
+80caa2eb672b
+bash-4.4$ docker compose up -d
+WARN[0000] /opt/dockeruser/docker/compose/n8n/docker-compose.yml: `version` is obsolete
+[+] Running 0/0
+ ⠋ Container n8n  Creating
+Error response from daemon: Conflict. The container name "/n8n" is already in use by container "80caa2eb672b1743716070ea7c0689cd1d187372d9dbcd852a4195ec611edble to reuse that name.
+bash-4.4$
+
+
+bash-4.4$ docker ps
+CONTAINER ID   IMAGE              COMMAND                  CREATED             STATUS             PORTS                                       NAMES
+80caa2eb672b   n8nio/n8n:latest   "tini -- /docker-ent…"   About an hour ago   Up About an hour   0.0.0.0:5678->5678/tcp, :::5678->5678/tcp   n8n
+bash-4.4$ docker stop 80caa2eb672b
+80caa2eb672b
+bash-4.4$ docker compose up -d
+WARN[0000] /opt/dockeruser/docker/compose/n8n/docker-compose.yml: `version` is obsolete
+[+] Running 0/0
+ ⠋ Container n8n  Creating
+Error response from daemon: Conflict. The container name "/n8n" is already in use by container "80caa2eb672b1743716070ea7c0689cd1d187372d9dbcd852a4195ec611edble to reuse that name.
+bash-4.4$
+bash: bash-4.4$: command not found
+bash-4.4$ compose/n8n/docker-compose.yml
+bash: compose/n8n/docker-compose.yml: No such file or directory
+bash-4.4$ bash-4.4$ cd compose/n8n/
+bash: bash-4.4$: command not found
+bash-4.4$ bash-4.4$ ls
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ docker exec -it n8n curl http://localhost:5678
+OCI runtime exec failed: exec failed: unable to start container process: exec: "curl": executable file not found in $PATH: unknown
+bash-4.4$ bash-4.4$ docker exec -it n8n curl http://localhost:5678
+bash: bash-4.4$: command not found
+bash-4.4$ OCI runtime exec failed: exec failed: unable to start container process: exec: "curl": executable file not found in $PATH: unknown
+
+
+
+
+
+bash-4.4$ docker exec -it n8n wget -qO- http://localhost:5678
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="utf-8" />
+                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+                <link rel="icon" href="/favicon.ico" />
+                <meta name="n8n:config:rest-endpoint" content="cmVzdA=="><meta name="n8n:config:sentry" content="eyJkc24iOiIiLCJlbnZpcm9ubWVudCI6ImRldmVsb3BtZW50IiwicmVsZWFzZSI6Im44bkAyLjEyLjIifQ==">
+                <link rel="stylesheet" href="/static/prefers-color-scheme.css">
+                <script src="/static/base-path.js" type="text/javascript"></script>
+                <script src="/static/posthog.init.js" type="text/javascript"></script>
+
+                <title>n8n.io - Workflow Automation</title>
+                <script type="module" crossorigin src="/assets/index-BoEk_-2D.js"></script>
+                <link rel="modulepreload" crossorigin href="/assets/_plugin-vue_export-helper-DCMvDwvh.js">
+                <link rel="modulepreload" crossorigin href="/assets/CalendarDate-PsPdRwZJ.js">
+                <link rel="modulepreload" crossorigin href="/assets/chunk-YeNaJYY1.js">
+                <link rel="modulepreload" crossorigin href="/assets/vue.runtime.esm-bundler-rnXvKGVx.js">
+                <link rel="modulepreload" crossorigin href="/assets/_MapCache-CDUmyzyq.js">
+                <link rel="modulepreload" crossorigin href="/assets/sanitize-html-BJa4rwKx.js">
+                <link rel="modulepreload" crossorigin href="/assets/en-Bs3eduJl.js">
+                <link rel="modulepreload" crossorigin href="/assets/src-B-fm557r.js">
+                <link rel="modulepreload" crossorigin href="/assets/merge-FIruuhNk.js">
+                <link rel="modulepreload" crossorigin href="/assets/expression-runtime-stub-DHY2mkqC.js">
+                <link rel="modulepreload" crossorigin href="/assets/constants-DZcMFH72.js">
+                <link rel="modulepreload" crossorigin href="/assets/_baseOrderBy-wRWvchux.js">
+                <link rel="modulepreload" crossorigin href="/assets/dateformat-BgFmqOsp.js">
+                <link rel="modulepreload" crossorigin href="/assets/useDebounce-DEoJYR61.js">
+                <link rel="modulepreload" crossorigin href="/assets/users.store-3NK49xey.js">
+                <link rel="modulepreload" crossorigin href="/assets/nodeIcon-C5JdJhM8.js">
+                <link rel="modulepreload" crossorigin href="/assets/canvas.utils-DKCwMYqU.js">
+                <link rel="modulepreload" crossorigin href="/assets/canvas.eventBus-VOiTAeSc.js">
+                <link rel="modulepreload" crossorigin href="/assets/uniqBy-Dpq-OiJy.js">
+                <link rel="modulepreload" crossorigin href="/assets/NDVEmptyState-BnvPmCfg.js">
+                <link rel="modulepreload" crossorigin href="/assets/vue-json-pretty-D00hAMgU.js">
+                <link rel="modulepreload" crossorigin href="/assets/core-Cx0jJ9jp.js">
+                <link rel="modulepreload" crossorigin href="/assets/core-C-BiXKYF.js">
+                <link rel="modulepreload" crossorigin href="/assets/xml-WKh7lVKj.js">
+                <link rel="modulepreload" crossorigin href="/assets/VueMarkdown-DyMqYa1i.js">
+                <link rel="modulepreload" crossorigin href="/assets/usePinnedData-QQNyowrZ.js">
+                <link rel="modulepreload" crossorigin href="/assets/executions.store-4xn5c6Bi.js">
+                <link rel="modulepreload" crossorigin href="/assets/useCanvasOperations-J9DeSfEP.js">
+                <link rel="modulepreload" crossorigin href="/assets/retry-B_0tY0zS.js">
+                <link rel="modulepreload" crossorigin href="/assets/pushConnection.store-Bx-4r5vD.js">
+                <link rel="modulepreload" crossorigin href="/assets/useRunWorkflow-C1uZ-3iH.js">
+                <link rel="modulepreload" crossorigin href="/assets/collaboration.store-BzL7zpWl.js">
+                <link rel="modulepreload" crossorigin href="/assets/useClipboard-TDd4SUxr.js">
+                <link rel="modulepreload" crossorigin href="/assets/assistant.store-DQSon-n8.js">
+                <link rel="modulepreload" crossorigin href="/assets/chatPanel.store-C6ebMpki.js">
+                <link rel="modulepreload" crossorigin href="/assets/dateFormatter-Bi5D4C2Y.js">
+                <link rel="modulepreload" crossorigin href="/assets/useExecutionHelpers-Coi7Vv3Z.js">
+                <link rel="modulepreload" crossorigin href="/assets/externalSecrets.ee.store-B_n1ba92.js">
+                <link rel="modulepreload" crossorigin href="/assets/RunDataHtml-DL1qXdyd.js">
+                <link rel="modulepreload" crossorigin href="/assets/RunData-DaNoZWwu.js">
+                <link rel="modulepreload" crossorigin href="/assets/exports-B_F3T5w2.js">
+                <link rel="modulepreload" crossorigin href="/assets/vue-DYRS-vIJ.js">
+                <link rel="modulepreload" crossorigin href="/assets/comlink-BtLdg8LS.js">
+                <link rel="modulepreload" crossorigin href="/assets/flatten-6GlTj5hJ.js">
+                <link rel="modulepreload" crossorigin href="/assets/date-picker-BHZoP3Ru.js">
+                <link rel="modulepreload" crossorigin href="/assets/dialog-C9tWVDbP.js">
+                <link rel="modulepreload" crossorigin href="/assets/Draggable-BpbLg4qO.js">
+                <link rel="modulepreload" crossorigin href="/assets/NodeIcon-B72TwN8E.js">
+                <link rel="modulepreload" crossorigin href="/assets/useCalloutHelpers-jAN2ZbO9.js">
+                <link rel="modulepreload" crossorigin href="/assets/useTelemetryContext-BX1ek3mF.js">
+                <link rel="modulepreload" crossorigin href="/assets/nodeTransforms-U2DPiadq.js">
+                <link rel="modulepreload" crossorigin href="/assets/TextWithHighlights-D-nOUW89.js">
+                <link rel="modulepreload" crossorigin href="/assets/VirtualSchema-Bhg-bDMX.js">
+                <link rel="modulepreload" crossorigin href="/assets/CredentialIcon-3dut7BNx.js">
+                <link rel="modulepreload" crossorigin href="/assets/useQuickConnect-BY0sbk-0.js">
+                <link rel="modulepreload" crossorigin href="/assets/useDynamicCredentials-BS6FyctG.js">
+                <link rel="modulepreload" crossorigin href="/assets/ParameterInputList-C0Sco9sU.js">
+                <link rel="modulepreload" crossorigin href="/assets/col-Cr4gJPpp.js">
+                <link rel="modulepreload" crossorigin href="/assets/useFreeAiCredits-C-jmp0ZS.js">
+                <link rel="modulepreload" crossorigin href="/assets/dataTable.store-nc9gxrZm.js">
+                <link rel="modulepreload" crossorigin href="/assets/semver-qyi_2n2r.js">
+                <link rel="modulepreload" crossorigin href="/assets/communityNodes.store-WUR1jxbV.js">
+                <link rel="modulepreload" crossorigin href="/assets/CommunityNodeUpdateInfo-DO2xyTu-.js">
+                <link rel="modulepreload" crossorigin href="/assets/ContactAdministratorToInstall-DREDl6Cn.js">
+                <link rel="modulepreload" crossorigin href="/assets/useActions-QQRSbvpl.js">
+                <link rel="modulepreload" crossorigin href="/assets/NodeSettings-CkOiiWjT.js">
+                <link rel="modulepreload" crossorigin href="/assets/KeyboardShortcutTooltip-Cl2RAVyb.js">
+                <link rel="modulepreload" crossorigin href="/assets/useKeybindings-CSjwPhEt.js">
+                <link rel="modulepreload" crossorigin href="/assets/injectStrict-BO_mIIiA.js">
+                <link rel="modulepreload" crossorigin href="/assets/setupPanel.store-BiB0bKdf.js">
+                <link rel="modulepreload" crossorigin href="/assets/useNodeCreatorShortcutCoachmark-gymjN5bz.js">
+                <link rel="modulepreload" crossorigin href="/assets/useCanvasMapping-BW4fu05E.js">
+                <link rel="modulepreload" crossorigin href="/assets/chart-DpXigfvC.js">
+                <link rel="modulepreload" crossorigin href="/assets/dist-DnPaNP4Y.js">
+                <link rel="modulepreload" crossorigin href="/assets/banners.store-Ba0u0FXY.js">
+                <link rel="modulepreload" crossorigin href="/assets/sso.store-C9ALSsvM.js">
+                <link rel="modulepreload" crossorigin href="/assets/roles.store-BGn1AFgE.js">
+                <link rel="modulepreload" crossorigin href="/assets/versions.store-BvW6AQNj.js">
+                <link rel="modulepreload" crossorigin href="/assets/constants-C1ZbMRYk.js">
+                <link rel="modulepreload" crossorigin href="/assets/mcp.constants-BhYqECw7.js">
+                <link rel="modulepreload" crossorigin href="/assets/insights.constants-RdsknXJO.js">
+                <link rel="modulepreload" crossorigin href="/assets/insights.utils-COGvueAG.js">
+                <link rel="modulepreload" crossorigin href="/assets/insights.store-DoiLcMrM.js">
+                <link rel="modulepreload" crossorigin href="/assets/router-B9BXfWdu.js">
+                <link rel="modulepreload" crossorigin href="/assets/_initCloneObject-COIgxGPJ.js">
+                <link rel="modulepreload" crossorigin href="/assets/table-W1P8Lg76.js">
+                <link rel="modulepreload" crossorigin href="/assets/radio-Comdd_PH.js">
+                <link rel="modulepreload" crossorigin href="/assets/values-BEzTZM9G.js">
+                <link rel="modulepreload" crossorigin href="/assets/shuffle-wwXWQ65u.js">
+                <link rel="modulepreload" crossorigin href="/assets/orderBy-7TjXuVFU.js">
+                <link rel="modulepreload" crossorigin href="/assets/TimeAgo-BTtcF-Rg.js">
+                <link rel="modulepreload" crossorigin href="/assets/WorkflowDiffView-DX9aGpok.js">
+                <link rel="modulepreload" crossorigin href="/assets/chat.store-DEFrgC0_.js">
+                <link rel="modulepreload" crossorigin href="/assets/sortByProperty-CVN9GYf0.js">
+                <link rel="modulepreload" crossorigin href="/assets/ProjectIcon-Cyx62dlm.js">
+                <link rel="modulepreload" crossorigin href="/assets/apiKeys.store-CNRD0iV9.js">
+                <link rel="modulepreload" crossorigin href="/assets/logStreaming.store-w5BWyavr.js">
+                <link rel="modulepreload" crossorigin href="/assets/usage.store-C_EmnVNf.js">
+                <link rel="modulepreload" crossorigin href="/assets/CopyInput-g4skz8jR.js">
+                <link rel="modulepreload" crossorigin href="/assets/EnterpriseEdition.ee-Bq5vGHHm.js">
+                <link rel="modulepreload" crossorigin href="/assets/Modal-ChJNp4kK.js">
+                <link rel="modulepreload" crossorigin href="/assets/SlideTransition-BAtp2Ai5.js">
+                <link rel="modulepreload" crossorigin href="/assets/useBugReporting-jddLKzVP.js">
+                <link rel="modulepreload" crossorigin href="/assets/usePageRedirectionHelper-91Vnm4oh.js">
+                <link rel="modulepreload" crossorigin href="/assets/useGlobalEntityCreation-DLa-scoO.js">
+                <link rel="modulepreload" crossorigin href="/assets/CanvasRunWorkflowButton-DjuBR1I9.js">
+                <link rel="modulepreload" crossorigin href="/assets/useWorkflowActivate-CE0DrEIZ.js">
+                <link rel="modulepreload" crossorigin href="/assets/BaseLayout-D8keUzbH.js">
+                <link rel="modulepreload" crossorigin href="/assets/CredentialPicker-BAzGzAT2.js">
+                <link rel="modulepreload" crossorigin href="/assets/templateTransforms-B_zvSQ3D.js">
+                <link rel="modulepreload" crossorigin href="/assets/SetupTemplateFormStep-CZgWcJo8.js">
+                <link rel="modulepreload" crossorigin href="/assets/LoadingView-C1PP_9Cs.js">
+                <link rel="modulepreload" crossorigin href="/assets/useMcp-fMb23b35.js">
+                <link rel="modulepreload" crossorigin href="/assets/ProjectCardBadge-CZCysAAq.js">
+                <link rel="modulepreload" crossorigin href="/assets/ProjectSharing-p98E1y8D.js">
+                <link rel="modulepreload" crossorigin href="/assets/auth.eventBus-5_ssCysx.js">
+                <link rel="modulepreload" crossorigin href="/assets/folders.store-B4-zcIga.js">
+                <link rel="modulepreload" crossorigin href="/assets/one-password-H5X4ESba.js">
+                <link rel="modulepreload" crossorigin href="/assets/ExternalSecretsProviderConnectionSwitch.ee-LV2ApZgu.js">
+                <link rel="modulepreload" crossorigin href="/assets/SecretsProviderImage.ee-BmZaXCUr.js">
+                <link rel="modulepreload" crossorigin href="/assets/useSecretsProviderConnection.ee-CNbgsO46.js">
+                <link rel="modulepreload" crossorigin href="/assets/sourceControl.eventBus-BmfDg4Fl.js">
+                <link rel="modulepreload" crossorigin href="/assets/useCredentialResolvers-CGhgOcIu.js">
+                <link rel="modulepreload" crossorigin href="/assets/TagsDropdown-CthBjd5d.js">
+                <link rel="modulepreload" crossorigin href="/assets/WorkflowTagsDropdown-BWqhUiN9.js">
+                <link rel="modulepreload" crossorigin href="/assets/utils-z1svZiJn.js">
+                <link rel="stylesheet" crossorigin href="/assets/src-Bhw2h_v3.css">
+                <link rel="stylesheet" crossorigin href="/assets/NDVEmptyState-wmCtLnDW.css">
+                <link rel="stylesheet" crossorigin href="/assets/useCanvasOperations-C5vD0y-x.css">
+                <link rel="stylesheet" crossorigin href="/assets/RunDataHtml-Dn-4rgtR.css">
+                <link rel="stylesheet" crossorigin href="/assets/RunData-BosQZ3sp.css">
+                <link rel="stylesheet" crossorigin href="/assets/Draggable-B0pfmmgs.css">
+                <link rel="stylesheet" crossorigin href="/assets/NodeIcon-Cd4SL1LV.css">
+                <link rel="stylesheet" crossorigin href="/assets/useTelemetryContext-DP1IjWBS.css">
+                <link rel="stylesheet" crossorigin href="/assets/TextWithHighlights-CnnnTpA3.css">
+                <link rel="stylesheet" crossorigin href="/assets/VirtualSchema-CDm-q_NY.css">
+                <link rel="stylesheet" crossorigin href="/assets/CredentialIcon-D9KQZeCk.css">
+                <link rel="stylesheet" crossorigin href="/assets/ParameterInputList-C4AC3tMD.css">
+                <link rel="stylesheet" crossorigin href="/assets/CommunityNodeUpdateInfo-Bi69iCuf.css">
+                <link rel="stylesheet" crossorigin href="/assets/ContactAdministratorToInstall-Baw4NRUI.css">
+                <link rel="stylesheet" crossorigin href="/assets/NodeSettings-3eAar3hw.css">
+                <link rel="stylesheet" crossorigin href="/assets/KeyboardShortcutTooltip-Bz9DcSWs.css">
+                <link rel="stylesheet" crossorigin href="/assets/useCanvasMapping-DLocHQ0s.css">
+                <link rel="stylesheet" crossorigin href="/assets/banners-CfXPQxke.css">
+                <link rel="stylesheet" crossorigin href="/assets/WorkflowDiffView-3qYPpk5H.css">
+                <link rel="stylesheet" crossorigin href="/assets/ProjectIcon-O0hNAMma.css">
+                <link rel="stylesheet" crossorigin href="/assets/CopyInput-B98-wdxU.css">
+                <link rel="stylesheet" crossorigin href="/assets/Modal-qf2xVyw6.css">
+                <link rel="stylesheet" crossorigin href="/assets/SlideTransition-CdYmKjFb.css">
+                <link rel="stylesheet" crossorigin href="/assets/CanvasRunWorkflowButton-BwtI3_CH.css">
+                <link rel="stylesheet" crossorigin href="/assets/BaseLayout-CVWlZK-m.css">
+                <link rel="stylesheet" crossorigin href="/assets/CredentialPicker-BOY9Bz32.css">
+                <link rel="stylesheet" crossorigin href="/assets/SetupTemplateFormStep-3ogHiUKu.css">
+                <link rel="stylesheet" crossorigin href="/assets/LoadingView-DYCNmVIf.css">
+                <link rel="stylesheet" crossorigin href="/assets/ProjectCardBadge-Dsx641C-.css">
+                <link rel="stylesheet" crossorigin href="/assets/ProjectSharing-DYPTpSlr.css">
+                <link rel="stylesheet" crossorigin href="/assets/ExternalSecretsProviderConnectionSwitch-CkTWLm8f.css">
+                <link rel="stylesheet" crossorigin href="/assets/TagsDropdown-BhpNFWHz.css">
+                <link rel="stylesheet" crossorigin href="/assets/index--QnjmCQd.css">
+                <script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();window.__vite_is_modern_browser=true</script>
+                <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+        </head>
+        <body>
+                <noscript>
+                        <strong
+                                >We're sorry but the n8n Editor-UI doesn't work properly without JavaScript enabled. Please
+                                enable it to continue.</strong
+                        >
+                </noscript>
+                <div id="app"></div>
+                <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+                <script nomodule crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy-B1QVWbRQ.js"></script>
+                <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy-U8buVgv4.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+        </body>
+</html>
+
+
+cd /docker/compose/n8n
+docker compose down
+edit docker/compose/n8n/docker-compose.yml
+docker rm -f n8n 
+docker ps
+copy dockerid: docker ps
+
+docker rm -f dockerid
+docker compose up -d
+
+docker exec -it n8n http://localhost:5678
+
+docker logs -f n8n

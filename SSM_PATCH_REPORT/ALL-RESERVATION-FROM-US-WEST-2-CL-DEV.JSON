@@ -1,0 +1,978 @@
+
+{
+    "Reservations": [
+        {
+            "ReservationId": "r-0c5e6bb4fc884867e",
+            "OwnerId": "117484691099",
+            "RequesterId": "658754138699",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2024-02-20 21:59:26+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0f6b24b9469fd1b94",
+                                "EbsCardIndex": 0
+                            }
+                        }
+                    ],
+                    "ClientToken": "d494bd37-7637-5b34-8d8d-55937b73b6ea",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::117484691099:instance-profile/CLDEV-BJS-Jenkins-EC2-Role",
+                        "Id": "AIPARWWVCD2NYRJ7Z4ZOV"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2024-02-20 21:59:26+00:00",
+                                "AttachmentId": "eni-attach-0be02b81c7e501b42",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-09bab1bdc5b79eccc",
+                                    "GroupName": "SG-EC2-BJS-Jenkins"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:ac:b7:90:68:99",
+                            "NetworkInterfaceId": "eni-09f3ee0683984dac0",
+                            "OwnerId": "117484691099",
+                            "PrivateDnsName": "ip-10-125-24-167.us-west-2.compute.internal",
+                            "PrivateIpAddress": "10.125.24.167",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-125-24-167.us-west-2.compute.internal",
+                                    "PrivateIpAddress": "10.125.24.167"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-01085bb03db921f1a",
+                            "VpcId": "vpc-0cab64b7950ddfc05",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-09bab1bdc5b79eccc",
+                            "GroupName": "SG-EC2-BJS-Jenkins"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "autoscaling_group",
+                            "Value": "false"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-id",
+                            "Value": "arn:aws:cloudformation:us-west-2:117484691099:stack/cldev-bjs-jenkins-ec2/4d1f2a40-d03b-11ee-8e1e-0214c4561f93"
+                        },
+                        {
+                            "Key": "CI-Environment",
+                            "Value": "DEV"
+                        },
+                        {
+                            "Key": "cpm backup",
+                            "Value": "CL-Dev-App"
+                        },
+                        {
+                            "Key": "Platform",
+                            "Value": "linux"
+                        },
+                        {
+                            "Key": "CI-ServiceTier",
+                            "Value": "Development"
+                        },
+                        {
+                            "Key": "monitoring",
+                            "Value": "nomonitoring"
+                        },
+                        {
+                            "Key": "application",
+                            "Value": "Jenkins"
+                        },
+                        {
+                            "Key": "CI-Solution",
+                            "Value": "Multiple Components"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "bjs-jenkins-lsp"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-name",
+                            "Value": "cldev-bjs-jenkins-ec2"
+                        },
+                        {
+                            "Key": "CI-Department",
+                            "Value": "Development"
+                        },
+                        {
+                            "Key": "CI--Requestor",
+                            "Value": ""
+                        },
+                        {
+                            "Key": "CI-Account",
+                            "Value": "E2open, Inc."
+                        },
+                        {
+                            "Key": "CI-HubID",
+                            "Value": "HUB00002106"
+                        },
+                        {
+                            "Key": "CI-Hubid",
+                            "Value": "HUB00002106"
+                        },
+                        {
+                            "Key": "CI-e2Customer",
+                            "Value": "Ops Management"
+                        },
+                        {
+                            "Key": "environment",
+                            "Value": "Development"
+                        },
+                        {
+                            "Key": "ostype",
+                            "Value": "Linux"
+                        },
+                        {
+                            "Key": "aws:cloudformation:logical-id",
+                            "Value": "ec2E2NETXMPP1"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 2,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2024-02-20 21:59:26+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false,
+                        "HiddenByDefault": false
+                    },
+                    "SecondaryInterfaces": [],
+                    "InstanceId": "i-09c4a0d8684e42d98",
+                    "ImageId": "ami-07ec38a03db614220",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-125-24-167.us-west-2.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "",
+                    "KeyName": "cl-dev-app",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "m6i.xlarge",
+                    "LaunchTime": "2026-05-29 15:58:08+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "usw2-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "us-west-2a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-01085bb03db921f1a",
+                    "VpcId": "vpc-0cab64b7950ddfc05",
+                    "PrivateIpAddress": "10.125.24.167"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-0b97a9beba31d7f51",
+            "OwnerId": "117484691099",
+            "RequesterId": "658754138699",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2024-05-08 17:51:14+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-02811b9b4f03c53ce",
+                                "EbsCardIndex": 0
+                            }
+                        }
+                    ],
+                    "ClientToken": "eba8f9da-3615-60b9-df8e-8fb2b600b746",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::117484691099:instance-profile/CLDEV-EC2-DEV-SSM",
+                        "Id": "AIPARWWVCD2NWI6D5Q2LD"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "117484691099",
+                                "PublicDnsName": "ec2-35-155-98-49.us-west-2.compute.amazonaws.com",
+                                "PublicIp": "35.155.98.49"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2024-05-08 17:51:13+00:00",
+                                "AttachmentId": "eni-attach-0a5b07bd310c059af",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-0e67c04219fd688ba",
+                                    "GroupName": "SG-ZABBIXPROXY-ACCESS"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:b2:15:71:09:59",
+                            "NetworkInterfaceId": "eni-002b015b34b91f05c",
+                            "OwnerId": "117484691099",
+                            "PrivateDnsName": "ip-10-125-24-7.us-west-2.compute.internal",
+                            "PrivateIpAddress": "10.125.24.7",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "117484691099",
+                                        "PublicDnsName": "ec2-35-155-98-49.us-west-2.compute.amazonaws.com",
+                                        "PublicIp": "35.155.98.49"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-125-24-7.us-west-2.compute.internal",
+                                    "PrivateIpAddress": "10.125.24.7"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0c3516f013b8e5ec6",
+                            "VpcId": "vpc-0cab64b7950ddfc05",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-0e67c04219fd688ba",
+                            "GroupName": "SG-ZABBIXPROXY-ACCESS"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Application",
+                            "Value": "IT Management"
+                        },
+                        {
+                            "Key": "CI-Account",
+                            "Value": "E2open, Inc."
+                        },
+                        {
+                            "Key": "CI-Solution",
+                            "Value": "INTERNAL"
+                        },
+                        {
+                            "Key": "Cl-StackId",
+                            "Value": "N/a"
+                        },
+                        {
+                            "Key": "Usage",
+                            "Value": "Zabbix proxy server"
+                        },
+                        {
+                            "Key": "CI--Requestor",
+                            "Value": ""
+                        },
+                        {
+                            "Key": "monitoring",
+                            "Value": "nomonitoring"
+                        },
+                        {
+                            "Key": "Backup",
+                            "Value": "Daily: 23"
+                        },
+                        {
+                            "Key": "CI-ServiceTier",
+                            "Value": "Production"
+                        },
+                        {
+                            "Key": "cpm backup",
+                            "Value": "INTTRA-DEV-App"
+                        },
+                        {
+                            "Key": "ostype",
+                            "Value": "Linux"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "zabbix-proxy-cldev"
+                        },
+                        {
+                            "Key": "CI-Environment",
+                            "Value": "PROD"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-name",
+                            "Value": "CLDEV-MGMT-ZABBIX-EC2"
+                        },
+                        {
+                            "Key": "CI-Department",
+                            "Value": "Hosting Operations"
+                        },
+                        {
+                            "Key": "CI-e2Customer",
+                            "Value": "Monitoring-Internal"
+                        },
+                        {
+                            "Key": "autoscaling_group",
+                            "Value": "false"
+                        },
+                        {
+                            "Key": "aws:cloudformation:logical-id",
+                            "Value": "Ec2Instance"
+                        },
+                        {
+                            "Key": "CI-HubID",
+                            "Value": "HUB00003222"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-id",
+                            "Value": "arn:aws:cloudformation:us-west-2:117484691099:stack/CLDEV-MGMT-ZABBIX-EC2/8da7c300-0d63-11ef-83ab-0a82744299dd"
+                        },
+                        {
+                            "Key": "environment",
+                            "Value": "IT Management"
+                        },
+                        {
+                            "Key": "CI-Hubid",
+                            "Value": "HUB00003222"
+                        },
+                        {
+                            "Key": "Platform",
+                            "Value": "linux"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 2,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2024-05-08 17:51:13+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false,
+                        "HiddenByDefault": false
+                    },
+                    "SecondaryInterfaces": [],
+                    "InstanceId": "i-00d3065b84292207f",
+                    "ImageId": "ami-0bed7b0d33452782d",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-125-24-7.us-west-2.compute.internal",
+                    "PublicDnsName": "ec2-35-155-98-49.us-west-2.compute.amazonaws.com",
+                    "StateTransitionReason": "",
+                    "KeyName": "cl-dev-app",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "m5.xlarge",
+                    "LaunchTime": "2024-05-08 17:51:13+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "usw2-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "us-west-2a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-0c3516f013b8e5ec6",
+                    "VpcId": "vpc-0cab64b7950ddfc05",
+                    "PrivateIpAddress": "10.125.24.7",
+                    "PublicIpAddress": "35.155.98.49"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-0eab52f064067cbbc",
+            "OwnerId": "117484691099",
+            "RequesterId": "658754138699",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2024-03-28 19:48:09+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0fa40834a0644d5e5",
+                                "EbsCardIndex": 0
+                            }
+                        }
+                    ],
+                    "ClientToken": "9b9f3615-13fc-20e7-32b4-c6e713bc1eaa",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::117484691099:instance-profile/CLDEV-BJS-Jenkins-CMUS-EC2-Role",
+                        "Id": "AIPARWWVCD2NXSCVDFX43"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2024-03-28 19:48:09+00:00",
+                                "AttachmentId": "eni-attach-0e5fc98ea3e13c311",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-0a449e602066c1ef0",
+                                    "GroupName": "e2open-dev-ad-sg"
+                                },
+                                {
+                                    "GroupId": "sg-09bab1bdc5b79eccc",
+                                    "GroupName": "SG-EC2-BJS-Jenkins"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "06:83:5b:d7:3f:f1",
+                            "NetworkInterfaceId": "eni-0513c0345ff108921",
+                            "OwnerId": "117484691099",
+                            "PrivateDnsName": "ip-10-125-25-122.us-west-2.compute.internal",
+                            "PrivateIpAddress": "10.125.25.122",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-125-25-122.us-west-2.compute.internal",
+                                    "PrivateIpAddress": "10.125.25.122"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-006ba476c06ed995e",
+                            "VpcId": "vpc-0cab64b7950ddfc05",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-0a449e602066c1ef0",
+                            "GroupName": "e2open-dev-ad-sg"
+                        },
+                        {
+                            "GroupId": "sg-09bab1bdc5b79eccc",
+                            "GroupName": "SG-EC2-BJS-Jenkins"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "CI-ServiceTier",
+                            "Value": "Development"
+                        },
+                        {
+                            "Key": "CI-e2Customer",
+                            "Value": "Ops Management"
+                        },
+                        {
+                            "Key": "environment",
+                            "Value": "Development"
+                        },
+                        {
+                            "Key": "CI-Account",
+                            "Value": "E2open, Inc."
+                        },
+                        {
+                            "Key": "aws:cloudformation:logical-id",
+                            "Value": "ec2E2NETXMPP1"
+                        },
+                        {
+                            "Key": "CI-Department",
+                            "Value": "Development"
+                        },
+                        {
+                            "Key": "autoscaling_group",
+                            "Value": "false"
+                        },
+                        {
+                            "Key": "CI-Solution",
+                            "Value": "Multiple Components"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-name",
+                            "Value": "cldev-bjs-jenkins-cmus-ec2"
+                        },
+                        {
+                            "Key": "application",
+                            "Value": "Jenkins"
+                        },
+                        {
+                            "Key": "monitoring",
+                            "Value": "nomonitoring"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-id",
+                            "Value": "arn:aws:cloudformation:us-west-2:117484691099:stack/cldev-bjs-jenkins-cmus-ec2/17cbd8c0-ed3c-11ee-9472-0af78200b731"
+                        },
+                        {
+                            "Key": "ostype",
+                            "Value": "Linux"
+                        },
+                        {
+                            "Key": "CI-Environment",
+                            "Value": "DEV"
+                        },
+                        {
+                            "Key": "Platform",
+                            "Value": "linux"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "bjs-jenkins-cmus"
+                        },
+                        {
+                            "Key": "cpm backup",
+                            "Value": "CL-Dev-App"
+                        },
+                        {
+                            "Key": "CI-HubID",
+                            "Value": "HUB00002106"
+                        },
+                        {
+                            "Key": "CI-Hubid",
+                            "Value": "HUB00002106"
+                        },
+                        {
+                            "Key": "CI--Requestor",
+                            "Value": ""
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2024-03-28 19:48:09+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false,
+                        "HiddenByDefault": false
+                    },
+                    "SecondaryInterfaces": [],
+                    "InstanceId": "i-0d869e2ce71ec97b1",
+                    "ImageId": "ami-07ec38a03db614220",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-125-25-122.us-west-2.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "",
+                    "KeyName": "cl-dev-app",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "m6i.large",
+                    "LaunchTime": "2026-03-17 14:51:09+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "usw2-az2",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "us-west-2b"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-006ba476c06ed995e",
+                    "VpcId": "vpc-0cab64b7950ddfc05",
+                    "PrivateIpAddress": "10.125.25.122"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-04548621967df9107",
+            "OwnerId": "117484691099",
+            "RequesterId": "658754138699",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2026-05-20 15:06:50+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-095dad5769e98bd75",
+                                "EbsCardIndex": 0
+                            }
+                        },
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2026-05-20 15:06:49.660000+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0c7ef2c147ae5048f",
+                                "EbsCardIndex": 0
+                            }
+                        }
+                    ],
+                    "ClientToken": "acfba043-21aa-2565-eedc-c296eeeed8b3",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::117484691099:instance-profile/CLDEV-EC2-DEV-SSM",
+                        "Id": "AIPARWWVCD2NWI6D5Q2LD"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2026-05-20 15:06:49+00:00",
+                                "AttachmentId": "eni-attach-0e11b512be6d2cbef",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-051cf55560d2fb13b",
+                                    "GroupName": "SG-EC2-SnowFlake-Org"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:3e:45:d9:e0:b1",
+                            "NetworkInterfaceId": "eni-0c0336ebf22ac7264",
+                            "OwnerId": "117484691099",
+                            "PrivateDnsName": "ip-10-125-25-231.us-west-2.compute.internal",
+                            "PrivateIpAddress": "10.125.25.231",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-125-25-231.us-west-2.compute.internal",
+                                    "PrivateIpAddress": "10.125.25.231"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-07f6d8d8648c32484",
+                            "VpcId": "vpc-0cab64b7950ddfc05",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-051cf55560d2fb13b",
+                            "GroupName": "SG-EC2-SnowFlake-Org"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "CI-StackId",
+                            "Value": "cldev-snowflake-org-al-ec2"
+                        },
+                        {
+                            "Key": "CI-Account",
+                            "Value": "E2open Inc."
+                        },
+                        {
+                            "Key": "application",
+                            "Value": "Snowflake Org"
+                        },
+                        {
+                            "Key": "CI-Solution",
+                            "Value": "Platform - Operations"
+                        },
+                        {
+                            "Key": "CI-e2Customer",
+                            "Value": "PCOps-Internal"
+                        },
+                        {
+                            "Key": "aws:cloudformation:logical-id",
+                            "Value": "ec2E2NETXMPP1"
+                        },
+                        {
+                            "Key": "ostype",
+                            "Value": "Linux"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-id",
+                            "Value": "arn:aws:cloudformation:us-west-2:117484691099:stack/cldev-snowflake-org-al-ec2/84a9faa0-545d-11f1-af92-02d40aabe169"
+                        },
+                        {
+                            "Key": "cpm backup",
+                            "Value": "CL-Dev-App"
+                        },
+                        {
+                            "Key": "autoscaling_group",
+                            "Value": "false"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-name",
+                            "Value": "cldev-snowflake-org-al-ec2"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "snowflake_org_al2023"
+                        },
+                        {
+                            "Key": "CI-Department",
+                            "Value": "Hosting Ops"
+                        },
+                        {
+                            "Key": "environment",
+                            "Value": "Development"
+                        },
+                        {
+                            "Key": "CI-ServiceTier",
+                            "Value": "Development"
+                        },
+                        {
+                            "Key": "CI-Environment",
+                            "Value": "DEV"
+                        },
+                        {
+                            "Key": "Platform",
+                            "Value": "linux"
+                        },
+                        {
+                            "Key": "CI-HubID",
+                            "Value": "HUB00046116"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "required",
+                        "HttpPutResponseHopLimit": 2,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "BootMode": "uefi-preferred",
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2026-05-20 15:06:49+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "uefi",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false,
+                        "HiddenByDefault": false
+                    },
+                    "SecondaryInterfaces": [],
+                    "InstanceId": "i-0531c566e8a46d711",
+                    "ImageId": "ami-077a07a4dbc77b5da",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-125-25-231.us-west-2.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "",
+                    "KeyName": "cl-dev-app",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t3.medium",
+                    "LaunchTime": "2026-05-20 17:51:36+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "usw2-az3",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "us-west-2c"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-07f6d8d8648c32484",
+                    "VpcId": "vpc-0cab64b7950ddfc05",
+                    "PrivateIpAddress": "10.125.25.231"
+                }
+            ]
+        }
+    ],
+    "ResponseMetadata": {
+        "RequestId": "99a3daba-199a-466f-829e-5effe0e94fb9",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "99a3daba-199a-466f-829e-5effe0e94fb9",
+            "cache-control": "no-cache, no-store",
+            "strict-transport-security": "max-age=31536000; includeSubDomains",
+            "vary": "accept-encoding",
+            "content-type": "text/xml;charset=UTF-8",
+            "transfer-encoding": "chunked",
+            "date": "Fri, 26 Jun 2026 10:15:43 GMT",
+            "server": "AmazonEC2"
+        },
+        "RetryAttempts": 0
+    }
+}

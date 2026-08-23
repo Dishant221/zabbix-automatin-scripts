@@ -1,0 +1,47 @@
+# Virtual environments
+venv/
+zb-agent-venv/
+*venv*/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets / keys — never commit
+*.pem
+*.key
+*.ppk
+*.pfx
+*.p12
+*.enc
+.env
+.env.*
+sftpprivatekey*
+saved_decryption_Privatekey.txt
+Creadentail_from_*.json
+credential_for_prod.json
+Credentails_for_*.json
+EncryptedFILES/
+LAPTOP_BACKUP/
+prod_connecting_string.txt
+ODBC_add_tag_*.json
+SNOW_CONFIG.json
+
+# OS / editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+
+# Logs and temp output
+*.log
+*.tmp
+
+# Too large for GitHub (>100MB)
+SNOW_SCRIPT/application222.json
+
+# AWS credentials — never commit
+Credentials.json

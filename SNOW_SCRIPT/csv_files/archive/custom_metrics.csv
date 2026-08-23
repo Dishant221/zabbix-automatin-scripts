@@ -1,0 +1,11 @@
+Total Records: 8
+E,n,d,P,O,I,N,T,:, ,h,t,t,p,s,:,/,/,a,u,s,t,r,a,l,i,a,s,o,u,t,h,e,a,s,t,.,s,n,o,w,s,o,f,t,w,a,r,e,.,i,o,/,a,p,i,/,c,u,s,t,o,m,-,m,e,t,r,i,c,s,/,v,1,/,c,u,s,t,o,m,-,m,e,t,r,i,c,s
+customFieldId,description,id,name
+b41d714d-759f-4219-aebe-6f1256e89fb8,,d951b0c0-0439-4848-a46a-a8a4221cfc47,Credits
+a43f0f55-7faf-4174-945f-4157556556b6,Gigabytes of storage,24d564ac-f268-4170-9886-5c4bdc26d90a,GB
+f3fd512d-5a2a-47e8-9e77-fc23d9a28e48,Gigabytes per day,a728f4fc-3655-4c7c-b647-0b87457dc38f,GB per day
+3568b1b8-35e9-4ef4-8514-b95b387349ea,Instances,aa952e33-98eb-4148-b06c-53aa3f325726,Instances
+bdf01b97-bbdd-4b21-909a-115c736588e9,,4facd771-da74-46f1-94c3-f318cba6048b,Months of transactions
+cfc57a3d-0f2b-4d68-8e56-fb84f97b5619,Terabytes of storage,e792cb6b-bab9-4f40-aaf6-fd35d87e5e4e,TB
+e4604e9e-ee96-466a-b39a-970934f17e1a,Original CCVT was referenced by more than one application,de9246f8-5dc7-4378-bcfc-1aace0553243,Instances01
+4f638a39-67c5-402a-ad15-e90c682aa838,Original CCVT was referenced by more than one application,420e10ec-ffa1-48c1-a80a-aac8374082a4,Instances02

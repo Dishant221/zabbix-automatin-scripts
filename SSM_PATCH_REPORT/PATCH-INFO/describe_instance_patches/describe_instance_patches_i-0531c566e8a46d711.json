@@ -1,0 +1,419 @@
+{
+    "Patches": [
+        {
+            "Title": "amd-ucode-firmware.noarch:0:20210208-117.amzn2023.0.7",
+            "KBId": "amd-ucode-firmware.noarch",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:26+05:30"
+        },
+        {
+            "Title": "cpio.x86_64:0:2.13-13.amzn2023.0.3",
+            "KBId": "cpio.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:19+05:30"
+        },
+        {
+            "Title": "cyrus-sasl-lib.x86_64:0:2.1.27-18.amzn2023.0.3",
+            "KBId": "cyrus-sasl-lib.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:56:06+05:30"
+        },
+        {
+            "Title": "cyrus-sasl-plain.x86_64:0:2.1.27-18.amzn2023.0.3",
+            "KBId": "cyrus-sasl-plain.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:56:43+05:30"
+        },
+        {
+            "Title": "glib2.x86_64:0:2.82.2-769.amzn2023",
+            "KBId": "glib2.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:41+05:30"
+        },
+        {
+            "Title": "glibc.x86_64:0:2.34-231.amzn2023.0.4",
+            "KBId": "glibc.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:02+05:30"
+        },
+        {
+            "Title": "glibc-all-langpacks.x86_64:0:2.34-231.amzn2023.0.4",
+            "KBId": "glibc-all-langpacks.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:02+05:30"
+        },
+        {
+            "Title": "glibc-common.x86_64:0:2.34-231.amzn2023.0.4",
+            "KBId": "glibc-common.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:02+05:30"
+        },
+        {
+            "Title": "glibc-gconv-extra.x86_64:0:2.34-231.amzn2023.0.4",
+            "KBId": "glibc-gconv-extra.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:02+05:30"
+        },
+        {
+            "Title": "glibc-locale-source.x86_64:0:2.34-231.amzn2023.0.4",
+            "KBId": "glibc-locale-source.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:57:00+05:30"
+        },
+        {
+            "Title": "json-c.x86_64:0:0.14-8.amzn2023.0.2",
+            "KBId": "json-c.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:03+05:30"
+        },
+        {
+            "Title": "less.x86_64:0:608-2.amzn2023.0.2",
+            "KBId": "less.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:19+05:30"
+        },
+        {
+            "Title": "libnghttp2.x86_64:0:1.59.0-3.amzn2023.0.2",
+            "KBId": "libnghttp2.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:05+05:30"
+        },
+        {
+            "Title": "libsss_certmap.x86_64:0:2.9.4-1.amzn2023.0.3",
+            "KBId": "libsss_certmap.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:56:07+05:30"
+        },
+        {
+            "Title": "libsss_idmap.x86_64:0:2.9.4-1.amzn2023.0.3",
+            "KBId": "libsss_idmap.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:05+05:30"
+        },
+        {
+            "Title": "libsss_nss_idmap.x86_64:0:2.9.4-1.amzn2023.0.3",
+            "KBId": "libsss_nss_idmap.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:21+05:30"
+        },
+        {
+            "Title": "libsss_sudo.x86_64:0:2.9.4-1.amzn2023.0.3",
+            "KBId": "libsss_sudo.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:21+05:30"
+        },
+        {
+            "Title": "libtasn1.x86_64:0:4.19.0-1.amzn2023.0.6",
+            "KBId": "libtasn1.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:05+05:30"
+        },
+        {
+            "Title": "libtirpc.x86_64:0:1.3.3-0.amzn2023",
+            "KBId": "libtirpc.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:56:05+05:30"
+        },
+        {
+            "Title": "linux-firmware-whence.noarch:0:20210208-117.amzn2023.0.7",
+            "KBId": "linux-firmware-whence.noarch",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:26+05:30"
+        },
+        {
+            "Title": "openssh.x86_64:0:8.7p1-8.amzn2023.0.17",
+            "KBId": "openssh.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:33+05:30"
+        },
+        {
+            "Title": "openssh-clients.x86_64:0:8.7p1-8.amzn2023.0.17",
+            "KBId": "openssh-clients.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:56:44+05:30"
+        },
+        {
+            "Title": "openssh-server.x86_64:0:8.7p1-8.amzn2023.0.17",
+            "KBId": "openssh-server.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:56:07+05:30"
+        },
+        {
+            "Title": "openssl.x86_64:1:3.5.5-1.amzn2023.0.4",
+            "KBId": "openssl.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:56:05+05:30"
+        },
+        {
+            "Title": "openssl-fips-provider-latest.x86_64:1:3.5.5-1.amzn2023.0.4",
+            "KBId": "openssl-fips-provider-latest.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:33+05:30"
+        },
+        {
+            "Title": "openssl-libs.x86_64:1:3.5.5-1.amzn2023.0.4",
+            "KBId": "openssl-libs.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:38+05:30"
+        },
+        {
+            "Title": "perl-Pod-Perldoc.noarch:0:3.28.01-459.amzn2023.0.3",
+            "KBId": "perl-Pod-Perldoc.noarch",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:56:05+05:30"
+        },
+        {
+            "Title": "python3.x86_64:0:3.9.25-1.amzn2023.0.5",
+            "KBId": "python3.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:29+05:30"
+        },
+        {
+            "Title": "python3-jinja2.noarch:0:2.11.3-1.amzn2023.0.6",
+            "KBId": "python3-jinja2.noarch",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:56:09+05:30"
+        },
+        {
+            "Title": "python3-libs.x86_64:0:3.9.25-1.amzn2023.0.5",
+            "KBId": "python3-libs.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:29+05:30"
+        },
+        {
+            "Title": "python3-pip.noarch:0:21.3.1-2.amzn2023.0.19",
+            "KBId": "python3-pip.noarch",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-20 20:50:39+05:30"
+        },
+        {
+            "Title": "python3-pip-wheel.noarch:0:21.3.1-2.amzn2023.0.19",
+            "KBId": "python3-pip-wheel.noarch",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:27+05:30"
+        },
+        {
+            "Title": "python3-setuptools.noarch:0:59.6.0-2.amzn2023.0.6",
+            "KBId": "python3-setuptools.noarch",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:27+05:30"
+        },
+        {
+            "Title": "python3-setuptools-wheel.noarch:0:59.6.0-2.amzn2023.0.6",
+            "KBId": "python3-setuptools-wheel.noarch",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:01+05:30"
+        },
+        {
+            "Title": "python3-urllib3.noarch:0:1.25.10-5.amzn2023.0.6",
+            "KBId": "python3-urllib3.noarch",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:56:09+05:30"
+        },
+        {
+            "Title": "python3.14-pip-wheel.noarch:0:25.1.1-1.amzn2023.0.2",
+            "KBId": "python3.14-pip-wheel.noarch",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-20 20:48:34+05:30"
+        },
+        {
+            "Title": "rust-toolset-srpm-macros.noarch:0:1.95.0-1.amzn2023.0.2",
+            "KBId": "rust-toolset-srpm-macros.noarch",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:01+05:30"
+        },
+        {
+            "Title": "sssd-client.x86_64:0:2.9.4-1.amzn2023.0.3",
+            "KBId": "sssd-client.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:56:07+05:30"
+        },
+        {
+            "Title": "sssd-common.x86_64:0:2.9.4-1.amzn2023.0.3",
+            "KBId": "sssd-common.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:56:07+05:30"
+        },
+        {
+            "Title": "sssd-kcm.x86_64:0:2.9.4-1.amzn2023.0.3",
+            "KBId": "sssd-kcm.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:56:40+05:30"
+        },
+        {
+            "Title": "sssd-nfs-idmap.x86_64:0:2.9.4-1.amzn2023.0.3",
+            "KBId": "sssd-nfs-idmap.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:56:06+05:30"
+        },
+        {
+            "Title": "sudo.x86_64:0:1.9.15-1.p5.amzn2023.0.3",
+            "KBId": "sudo.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:56:43+05:30"
+        },
+        {
+            "Title": "sysstat.x86_64:0:12.5.6-1.amzn2023.0.3",
+            "KBId": "sysstat.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:56:57+05:30"
+        },
+        {
+            "Title": "vim-common.x86_64:2:9.2.240-1.amzn2023.0.3",
+            "KBId": "vim-common.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:22+05:30"
+        },
+        {
+            "Title": "vim-data.noarch:2:9.2.240-1.amzn2023.0.3",
+            "KBId": "vim-data.noarch",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:01+05:30"
+        },
+        {
+            "Title": "vim-enhanced.x86_64:2:9.2.240-1.amzn2023.0.3",
+            "KBId": "vim-enhanced.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:56:57+05:30"
+        },
+        {
+            "Title": "vim-filesystem.noarch:2:9.2.240-1.amzn2023.0.3",
+            "KBId": "vim-filesystem.noarch",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:01+05:30"
+        },
+        {
+            "Title": "vim-minimal.x86_64:2:9.2.240-1.amzn2023.0.3",
+            "KBId": "vim-minimal.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:56:57+05:30"
+        },
+        {
+            "Title": "xxd.x86_64:2:9.2.240-1.amzn2023.0.3",
+            "KBId": "xxd.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:21+05:30"
+        },
+        {
+            "Title": "xz.x86_64:0:5.2.5-9.amzn2023.0.2",
+            "KBId": "xz.x86_64",
+            "Classification": "Security",
+            "Severity": "Important",
+            "State": "Installed",
+            "InstalledTime": "2026-05-15 05:55:05+05:30"
+        }
+    ],
+    "NextToken": "AAEAAWDtQghqZlnDbAx14mHkNvXJjxeSUjQGZFA664RXYC594K/3bqMrT1Acy2dEMUYee7uBU+JNtEm5dlQhYraLIwb0pOKv8xykLjseomSXJnGnztAsE3v6n3Pt6DMWqckmZhd/P6oHfqoTi9IK/7D0iDaJtDxf45VJNG5ZkAs/9pQuqiiizVNh1SqLTuwzwIy5J1ziNWJwve62DkUU8RV5+hFI1rI0r0S8MwIP4/fEX99cALyaVq+DhNFp25mIv3gjf/oTlG74PpCFGAHoFAF4L+OxROtgKb1AYxZ1VUZ+jLVP",
+    "ResponseMetadata": {
+        "RequestId": "d320bd08-5960-4ff1-bba4-22c0bce44f3d",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "server": "Server",
+            "date": "Fri, 26 Jun 2026 11:20:13 GMT",
+            "content-type": "application/x-amz-json-1.1",
+            "content-length": "9659",
+            "connection": "keep-alive",
+            "x-amzn-requestid": "d320bd08-5960-4ff1-bba4-22c0bce44f3d",
+            "cache-control": "no-store"
+        },
+        "RetryAttempts": 0
+    }
+}

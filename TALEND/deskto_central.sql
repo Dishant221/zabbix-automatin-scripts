@@ -1,0 +1,4 @@
+select [ason], [dc_res_id], [resource_name], [ip], [scan_status], [status_name], [status_label], [last_successful_scan], [updated_flag], [dc], [env], [purpose], [os_major_version], [os_family], [is_eol], [account], [e2customer], [product_family], [product_name], [resource_health_status], [health_status_name], [computer_live_status], [live_status_name], [last_patched_time], [remarks], [scan_remarks], [domain], [instance_name], [os_name], [os_platform_name], [url], [missing_ms_patches], [missing_tp_patches], [total_ms_patches], [total_tp_patches], [installed_tp_patches], [installed_ms_patches], [total_missing_patches] from [dbo].[t_exp_patch_desktop_central_details]
+
+data_stream_dataset => "desktop-centrail-patch-details"
+      data_stream_namespace => "desktop-centrail-patch"

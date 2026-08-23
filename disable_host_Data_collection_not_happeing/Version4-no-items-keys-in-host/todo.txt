@@ -1,0 +1,165 @@
+QUERY = ''' 
+
+select  distinct h.name , h.hostid
+from hosts_groups hg inner join hstgrp g on g.groupid=hg.groupid
+     inner join hosts h on hg.hostid=h.hostid
+       where h.status=0 and
+       UPPER(g.name) Not like 'GO-LIVE/%' and
+       h.name not like '%_asg%'; -asg
+
+'''
+
+
+1> hostgroup structure : Zabbix-Maintenance/Automation/Non_Golive_Hosts_To_Be_Deleted_YYYYMMDD
+2> IGNORE : script will disable the host _______________________________________________________
+3> host history value check : interval vise e.g 1 interval , values should be 60 values  for last 1 hour
+
+
+last 3 hours: recent 10 values, 
+___________________________________________________________________________________________________________________
+
+host disable scripts steps :
+
+1> from ODBC connection getting name, hostid
+2> from hostid of the host, script is getting groups present in host
+3> from hostid of the host, script is getting the 10 recent metrics of agent.ping, system.localtime, system.uptime
+
+4> script bundle all the parameter in on json for further process
+
+5> script is calling filter_empty_history_hosts function to filter out the host where host_key_history < HISTORY_LIMIT
+
+6> after that script is passing list of host with missing history to disable_hosts function for further process
+
+7> In disable_hosts function, it will pass host_with_missing_history list to add_hostgroup_to_hosts function to add all the host in 
+  'HOSTS_TO_BE_DELETED/HOST_DELETE_' + today_data  group before disabling it
+
+8> after adding all the host to HOSTS_TO_BE_DELETED/HOST_DELETE_ group , 
+IGNORE : script will disable the host _______________________________________________________
+
+
+
+
+____________________________________________________________________________________________________________________
+
+
+host deletion scripts steps :
+
+1> after running the script, script will ask for date on the the host disabling script was execited , and it will search for 
+  HOSTS_TO_BE_DELETED/HOST_DELETE_date
+
+2> after that , it will fetch list of host from the host group and pass that list it delete function
+
+3> and delete fucntion will delete that host one by one
+
+output:
+
+
+Enter the date (MM/DD/YYYY): 01/08/2026
+Valid date format: 2026-01-08
+Searching for hosts created on:   01/08/2026
+Searching for HOSTS_TO_BE_DELETED/HOST_DELETE_01/08/2026 hostgroup......
+Hosts in the hostgroup 'HOSTS_TO_BE_DELETED/HOST_DELETE_01/08/2026':
+
+Host ID: 4088761, Host Name: dishant_test1 Deleted
+Host ID: 4495035, Host Name: dishant_test2 Deleted
+Host ID: 4495036, Host Name: dishant_test3 Deleted
+
+
+=================================================================================================================
+
+
+
++---------+------------------------------------------------------------------+--------+-----------------------------------------------------------------+
+| hostid  | name                                                             | status | groups_list                                                     |
++---------+------------------------------------------------------------------+--------+-----------------------------------------------------------------+
+| 1294607 | .cert-manager.cert-manager-7db9d89dc7-9zfw9                      |      0 | DEV/INFRA/TKC/PODS, DEV/INFRA/TKC/sv4-dev-rdm/cert-manager/PODS |
+| 1287126 | .cert-manager.cert-manager-88c5d4447-xc4dm                       |      0 | DEV/INFRA/TKC/PODS, DEV/INFRA/TKC/sv4-dev-cdm/cert-manager/PODS |
+| 1294608 | .cert-manager.cert-manager-cainjector-5bc9c5f8bf-d2t9c           |      0 | DEV/INFRA/TKC/PODS, DEV/INFRA/TKC/sv4-dev-rdm/cert-manager/PODS |
+| 1287127 | .cert-manager.cert-manager-cainjector-74cd9bb679-xpggx           |      0 | DEV/INFRA/TKC/PODS, DEV/INFRA/TKC/sv4-dev-cdm/cert-manager/PODS |
+| 1294609 | .cert-manager.cert-manager-webhook-6dfcf5f6c4-nrsqd              |      0 | DEV/INFRA/TKC/PODS, DEV/INFRA/TKC/sv4-dev-rdm/cert-manager/PODS |
+| 1287128 | .cert-manager.cert-manager-webhook-74b58865dd-bcdgr              |      0 | DEV/INFRA/TKC/PODS, DEV/INFRA/TKC/sv4-dev-cdm/cert-manager/PODS |
+| 1286822 | .crp-dev.crp-mrri-20231214075606-149-qa-logitech-mysql-24-driver |      0 | DEV/INFRA/TKC/PODS, DEV/INFRA/TKC/sv4-dev-cdm/crp-dev/PODS      |
+| 1286823 | .crp-dev.crp-mrri-20231214082933-149-qa-logitech-mysql-24-driver |      0 | DEV/INFRA/TKC/PODS, DEV/INFRA/TKC/sv4-dev-cdm/crp-dev/PODS      |
+| 1286824 | .crp-dev.crp-mrri-20231214084901-149-qa-logitech-mysql-24-driver |      0 | DEV/INFRA/TKC/PODS, DEV/INFRA/TKC/sv4-dev-cdm/crp-dev/PODS      |
+| 1286825 | .crp-dev.crp-mrri-spark-example                                  |      0 | DEV/INFRA/TKC/PODS, DEV/INFRA/TKC/sv4-dev-cdm/crp-dev/PODS      |
++---------+------------------------------------------------------------------+--------+-----------------------------------------------------------------+
+
+
+
+select h.hostid,h.name 
+from hosts h JOIN hosts_groups hg JOIN hstgrp 
+where h.hostid=hg.hostid 
+and hg.groupid=hstgrp.groupid 
+and hstgrp.name NOT LIKE "GO-LIVE%" 
+and h.status=0  limit 10;
+
+
+
+agenda :
+
+
+1> get all host details from db 
+2> checks iteam for data collection is happening or not
+3> if data collection is not happening , then list out that host
+4> after listing it out ask user to enter this index number of that host and press enter
+5> after asking again list out the selected host and ask for confirmation and ask for yes or not
+6> then delete the host and show the output
+
+
+kunwar KT:
+
+1> find all host which not belong to go-live hostgroup
+2> find 2 active checks and 2 passive check , all active check should be working and any one
+    checks not working the ,script should mark that host to be disabled list
+3> put all the host in syntax formated hostgroup and ask user , do you wan to disabled  this host
+
+
+
+passive check:
+
+1> system.uptime
+2> system.localtime
+3> vm.memory.size[available]
+
+
+active checks:
+
+1> system.localtime
+2> vm.memory.size[available]
+
+
+value_type	Meaning
+0	Float (numeric float) — e.g., CPU load, latency
+1	Character (string) — any text up to 255 chars
+2	Log — multi-line logs
+3	Numeric unsigned (integer) — counters, bytes, uptime seconds
+4	Text — long text values
+5	NOT used / deprecated
+
+
+| `state` | Meaning                                          |
+| ------- | ------------------------------------------------ |
+| **0**   | NORMAL — item is collecting normally             |
+| **1**   | NOT SUPPORTED — Zabbix disabled it due to errors |
+
+
+
+now = 1700000000
+three_hours_ago = 1700000000 - 10800
+
+
+
+QUERY = ''' 
+
+select  distinct h.name , h.hostid
+from hosts_groups hg inner join hstgrp g on g.groupid=hg.groupid
+     inner join hosts h on hg.hostid=h.hostid
+       where h.status=0 and
+       UPPER(g.name)  like 'GO-LIVE/%' and
+       g.name Not like 'GO-LIVE/INFRA/TKC/%' and
+       g.name Not like 'GO-LIVE/INTTRA/INTTRA-Internal%' and
+       h.name not like '%_asg%';
+
+'''
+
+

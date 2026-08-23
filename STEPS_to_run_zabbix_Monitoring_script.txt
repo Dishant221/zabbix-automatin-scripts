@@ -1,0 +1,21 @@
+step 1: before running the script, make sure you have configured enviorment variable ZABBIX_SCRIPTS_APP_SECRET_KEY and its key 
+	NOTE: find the key in folder : C:\Users\dtotade\e2open, LLC\Monitoring-Dev - Zabbix - Monitoring\Zabbix-Automation\Dishant\CredentialUtils_and_setup\saved_decryption_Privatekey.txt
+
+
+step2 : check you have enviorment variable setup  in your system with as "ZABBIX_SCRIPTS_APP_SECRET_KEY, open cmd terminal and type : echo %ZABBIX_SCRIPTS_APP_SECRET_KEY%
+        if not setup then run below:
+            for windows : setx ZABBIX_SCRIPTS_APP_SECRET_KEY <private key>  
+            for linux : nano ~/.bashrc
+                        export ZABBIX_SCRIPTS_APsetP_SECRET_KEY="private key"
+                        source ~/.bashrc
+                        echo $ZABBIX_SCRIPTS_APP_SECRET_KEY
+	check if variable exist or not : echo %ZABBIX_SCRIPTS_APP_SECRET_KEY%
+
+step3 : make sure you are running the script in correct environment, if script need database access then  run it in respective env, from where it can access the database
+
+step 4 : check what input is needed to run the script and place that obecjt in INPUT folder (i.e place hostgroup name inside file, place excel inside the input folder)
+
+step 5 : command to execute the script :
+		go inside the script folder
+		windows : python scriptname.py <ENV NAME> (i.e PROD,DEV,STG)
+		Linux   : python3 scriptname.py <ENV NAME> (i.e PROD,DEV,STG)

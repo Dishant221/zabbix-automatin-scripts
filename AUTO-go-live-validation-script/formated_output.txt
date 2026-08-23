@@ -1,0 +1,119 @@
+
+D:\JENKINS-WS\Cloud_Insights\workspace\ZB-AUTO-GOLIVE-VALIDATION-PROD>python auto-go-live-validation-script.py PROD 
+Decryption successful.
+Connected to Zabbix API Version: 7.0.25
+********************************************************************************
+Found 1 hosts in host group 'UAT/CI-PROD-PRODUCTION/HUB/Planning/S&OP/HUB00000375/SnOP-Internal'
+
+# ADDING HOSTS TAGS
+
+Processing Host ID: 2329713, Host Name: PROD46184.chg.prod.e2open.com
+2329713(Mention host name instead of host id): Added 1 new tag(s) (Add name of tag added)
+
+# PERFORMING DATA VALIDATION
+
+Total hosts collecting data: 1
+
++----------+-------------------------------+-------------------+---------------+----------+
+|   HostID | Hostname                      | Data Collection   | Failed Keys   | Status   |
++==========+===============================+===================+===============+==========+
+|  2329713 | PROD46184.chg.prod.e2open.com | YES               | -             | Enabled  |
++----------+-------------------------------+-------------------+---------------+----------+
+
+Total hosts NOT collecting data: 0
+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+| HostID   | Hostname   | Failed Item Keys   | History (Actual/Expected)   | Data Collection   | Status   |
++==========+============+====================+=============================+===================+==========+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+
+# HIGH AND DISASTER TRIGGER: REVIEW ACTIVE PROBLEMS AND HISTORY OF ALERTS GENERATED IN LAST 7 DAYS
+
++---------------+-----------------------------------+------------------+------------------------------+
+| Host ID       | Hostname                          | Active Now       | Last 7 Days Active + Resolved |
++---------------+-----------------------------------+------------------+------------------------------+
+| 2329713       | PROD46184.chg.prod.e2open.com     | 1                | 5                  |
++---------------+-----------------------------------+------------------+--------------------+
+
+Total Active Problems (High + Disaster): 1
+Total Last 7 Days Problems (Active + Resolved): 5
+
+# PROCESSING HOSTS: PROD46184.chg.prod.e2open.com FOR LIVE MONITORING
+
+WARNING: PROD46184.chg.prod.e2open.com (hostid: 2329713) : Has problem older than 6h, still proceeding GO-LIVE
+Closed problem 2514533188
+
+Created new HG: GO-LIVE/Planning/S&OP/HUB00000375/SnOP-Internal
+
+Removing group UAT/CI-PROD-PRODUCTION/HUB/Planning/S&OP/HUB00000375/SnOP-Internal from PROD46184.chg.prod.e2open.com
+
+PROD46184.chg.prod.e2open.com moved to GO-LIVE/Planning/S&OP/HUB00000375/SnOP-Internal hostgroup
+
+Added automation host group 'GO-LIVE-SCRIPT-VM-ENABLED' to PROD46184.chg.prod.e2open.com
+
+GO-LIVE process completed.
+
+********************************************************************************
+Found 1 hosts in host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000380/Caterpillar-MTIM'
+
+# ADDING HOSTS TAGS
+
+Processing Host ID: 2330120, Host Name: prod46185.chg.prod.e2open.com
+2330120: Added 1 new tag(s)
+
+# PERFORMING DATA VALIDATION
+
+Total hosts collecting data: 1
+
++----------+-------------------------------+-------------------+---------------+----------+
+|   HostID | Hostname                      | Data Collection   | Failed Keys   | Status   |
++==========+===============================+===================+===============+==========+
+|  2330120 | prod46185.chg.prod.e2open.com | YES               | -             | Enabled  |
++----------+-------------------------------+-------------------+---------------+----------+
+************************************************************************
+
+Total hosts NOT collecting data: 0
+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+| HostID   | Hostname   | Failed Item Keys   | History (Actual/Expected)   | Data Collection   | Status   |
++==========+============+====================+=============================+===================+==========+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+
+# HIGH AND DISASTER TRIGGER: REVIEW ACTIVE PROBLEMS AND HISTORY OF ALERTS GENERATED IN LAST 7 DAYS
+
++---------------+-----------------------------------+------------------+------------------------------+
+| Host ID       | Hostname                          | Active Now       | Last 7 Days Active + Resolved |
++---------------+-----------------------------------+------------------+------------------------------+
+| 2330120       | prod46185.chg.prod.e2open.com     | 0                | 1                  |
++---------------+-----------------------------------+------------------+--------------------+
+
+Total Active Problems (High + Disaster): 0
+Total Last 7 Days Problems (Active + Resolved): 1
+
+
+
+# PROCESSING HOSTS: Processing Host: prod46185.chg.prod.e2open.com FOR LIVE MONITORING
+
+
+Processing host: prod46185.chg.prod.e2open.com (enabled)
+
+Created new HG: GO-LIVE/Supply/SCPM/HUB00000380/Caterpillar-MTIM
+
+Removing group UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000380/Caterpillar-MTIM from prod46185.chg.prod.e2open.com
+
+prod46185.chg.prod.e2open.com moved to GO-LIVE/Supply/SCPM/HUB00000380/Caterpillar-MTIM hostgroup
+
+Added automation host group 'GO-LIVE-SCRIPT-VM-ENABLED' to prod46185.chg.prod.e2open.com
+
+- GO-LIVE process completed.
+********************************************************************************
+
+Deleted empty uat host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Parcel TMS/HUB00003031/Orgill-ShipIT
+Deleted empty uat host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal
+Deleted empty uat host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar
+Deleted empty uat host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar
+Deleted empty uat host group: UAT/CI-PROD-PRODUCTION/HUB/Planning/S&OP/HUB00000375/SnOP-Internal
+Deleted empty uat host group: UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000380/Caterpillar-MTIM
+
+D:\JENKINS-WS\Cloud_Insights\workspace\ZB-AUTO-GOLIVE-VALIDATION-PROD>exit 0 
+Finished: SUCCESS

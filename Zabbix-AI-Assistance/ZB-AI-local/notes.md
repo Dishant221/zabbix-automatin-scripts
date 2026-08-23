@@ -1,0 +1,12 @@
+pip install langchain==0.1.16 langchain-openai==0.1.6 streamlit elasticsearch python-dotenv
+
+py -0  (to check python version installed)
+
+py -3.11 -m venv zb-agent-venv
+
+
+pip install langchain==0.1.16 langchain-openai==0.1.6 streamlit elasticsearch python-dotenv
+
+
+
+"{\"content\":[{\"id\":\"rs_0eaf05f488b62fd20069f9950cdcb88190a5b8aeb6351b4892\",\"summary\":[],\"type\":\"reasoning\"},{\"type\":\"text\",\"text\":\"{\\n    \\\"jsonrpc\\\": \\\"2.0\\\",\\n    \\\"method\\\": \\\"hostgroup.get\\\",\\n    \\\"params\\\": {\\n        \\\"filter\\\": {\\n            \\\"name\\\": [\\n                \\\"Linux servers\\\"\\n            ]\\n        },\\n        \\\"selectHosts\\\": \\\"count\\\"\\n    },\\n    \\\"auth\\\": \\\"YOUR_AUTH_TOKEN\\\",\\n    \\\"id\\\": 1\\n}\",\"annotations\":[],\"id\":\"msg_0eaf05f488b62fd20069f9951ba9808190af03a40c61139ca9\"}],\"additional_kwargs\":{},\"response_metadata\":{\"id\":\"resp_2VIkaYz4wzRAtC3CE4SeCGLM5fK8-TSod-DZY2YNML7fWa62r12wdfP0JBQdyMtY8at0VB1Fkbp0poAGyeC-V_cQazRgrv0uxwuZwi6BM02PZQg4em6e5WKdUQCf9T0vMqMc-INKMkRO2VMXBX1cyFM4HfE90zDeMo2Zqg6tqR7oroI0GQeCGU5vBzCv8af0ZbZl8SyiF_aie_vnbqvVtoem_1o1F20T3cEmKOpP0ZPuGg6RHr_RjlWi6dD8PhoJY7r192QDJcaw1UwRwTAf0OJ5U2-9QQ10M8yj1Xo_XyOphJSRlPIQg9RbnRrCF5-G7qyIBWPOlo03G6Smgi1TCHQ8BXk377a9Ygex_P29c_v1wMyBtPlzmljIngaVegwrOvRuiZrZBEMCTu2ZipJvboP-guYGjs1qV9UnAryFRFJrz-CyvW9J3GCuKVeGue9c3MG8\",\"created_at\":1777964300.0,\"metadata\":{},\"model\":\"gpt-5.1-codex\",\"object\":\"response\",\"service_tier\":\"default\",\"status\":\"completed\",\"model_provider\":\"openai\",\"model_name\":\"gpt-5.1-codex\"},\"type\":\"ai\",\"name\":null,\"id\":\"resp_2VIkaYz4wzRAtC3CE4SeCGLM5fK8-TSod-DZY2YNML7fWa62r12wdfP0JBQdyMtY8at0VB1Fkbp0poAGyeC-V_cQazRgrv0uxwuZwi6BM02PZQg4em6e5WKdUQCf9T0vMqMc-INKMkRO2VMXBX1cyFM4HfE90zDeMo2Zqg6tqR7oroI0GQeCGU5vBzCv8af0ZbZl8SyiF_aie_vnbqvVtoem_1o1F20T3cEmKOpP0ZPuGg6RHr_RjlWi6dD8PhoJY7r192QDJcaw1UwRwTAf0OJ5U2-9QQ10M8yj1Xo_XyOphJSRlPIQg9RbnRrCF5-G7qyIBWPOlo03G6Smgi1TCHQ8BXk377a9Ygex_P29c_v1wMyBtPlzmljIngaVegwrOvRuiZrZBEMCTu2ZipJvboP-guYGjs1qV9UnAryFRFJrz-CyvW9J3GCuKVeGue9c3MG8\",\"tool_calls\":[],\"invalid_tool_calls\":[],\"usage_metadata\":{\"input_tokens\":59,\"output_tokens\":1527,\"total_tokens\":1586,\"input_token_details\":{\"cache_read\":0},\"output_token_details\":{\"reasoning\":1408}}}"

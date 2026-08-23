@@ -1,0 +1,150 @@
+{
+    "hostid": "10262",
+    "host": "dev641.dev.e2open.com",
+    "status": "0",
+    "groups": [
+      {
+        "groupid": "419",
+        "name": "DEV4812_PROXY"
+      },
+      {
+        "groupid": "2",
+        "name": "Linux servers"
+      },
+      {
+        "groupid": "462",
+        "name": "ZABBIX/STURPATI"
+      }
+    ],
+    "items": [
+      {
+        "itemid": "28543",
+        "key_": "agent.ping",
+        "name": "Agent ping",
+        "value_type": 3,
+        "state": "0",
+        "lastvalue": "1",
+        "lastclock": "1763669949",
+        "history": [
+          {
+            "itemid": "28543",
+            "clock": "1763669949",
+            "value": "1",
+            "ns": "187511840"
+          },
+          {
+            "itemid": "28543",
+            "clock": "1763669889",
+            "value": "1",
+            "ns": "923422076"
+          },
+          {
+            "itemid": "28543",
+            "clock": "1763669829",
+            "value": "1",
+            "ns": "872722268"
+          },
+          {
+            "itemid": "28543",
+            "clock": "1763669769",
+            "value": "1",
+            "ns": "837316338"
+          },
+          {
+            "itemid": "28543",
+            "clock": "1763669709",
+            "value": "1",
+            "ns": "576676666"
+          },
+          {
+            "itemid": "28543",
+            "clock": "1763669649",
+            "value": "1",
+            "ns": "547483522"
+          },
+          {
+            "itemid": "28543",
+            "clock": "1763669589",
+            "value": "1",
+            "ns": "526581269"
+          },
+          {
+            "itemid": "28543",
+            "clock": "1763669529",
+            "value": "1",
+            "ns": "248611834"
+          },
+          {
+            "itemid": "28543",
+            "clock": "1763669469",
+            "value": "1",
+            "ns": "228882317"
+          },
+          {
+            "itemid": "28543",
+            "clock": "1763669409",
+            "value": "1",
+            "ns": "196939342"
+          }
+        ]
+      },
+      {
+        "itemid": "28565",
+        "key_": "system.localtime",
+        "name": "Agent time difference",
+        "value_type": 1,
+        "state": "0",
+        "lastvalue": "2",
+        "lastclock": "1763669892",
+        "history": [
+          {
+            "itemid": "28565",
+            "clock": "1763669892",
+            "value": "2",
+            "ns": "98293700"
+          },
+          {
+            "itemid": "28565",
+            "clock": "1763669711",
+            "value": "4",
+            "ns": "750056385"
+          },
+          {
+            "itemid": "28565",
+            "clock": "1763669531",
+            "value": "4",
+            "ns": "434857886"
+          },
+          {
+            "itemid": "28565",
+            "clock": "1763669351",
+            "value": "3",
+            "ns": "119067882"
+          }
+        ]
+      },
+      {
+        "itemid": "28570",
+        "key_": "system.uptime",
+        "name": "System uptime",
+        "value_type": 3,
+        "state": "0",
+        "lastvalue": "37999609",
+        "lastclock": "1763669829",
+        "history": [
+          {
+            "itemid": "28570",
+            "clock": "1763669829",
+            "value": "37999609",
+            "ns": "902474716"
+          },
+          {
+            "itemid": "28570",
+            "clock": "1763669229",
+            "value": "37999009",
+            "ns": "883860466"
+          }
+        ]
+      }
+    ]
+  }

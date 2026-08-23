@@ -1,0 +1,38 @@
+pld50006
+
+pla11089.amberroad.com
+
+ETW01PROD-MBW26M-FR4.blujay.global
+ETW01PROD-MBW26OF-FR4.blujay.global
+
+hkdc1mgt001
+
+BJG-DC01-FR8.blujay.global
+prod46181.chg.prod.e2open.com
+prod90027.fra.prod.e2open.com
+
+PROD48012.chg.prod.e2open.com
+
+
+PROD46179.chg.prod.e2open.com
+PROD46180.chg.prod.e2open.com
+
+
+SGTPRDFSSMCAP1
+SGTPRDSISMCAP1
+
+prod46279.chg.prod.e2open.com
+
+
+ch3pffvogprap1
+
+prod46282.chg.prod.e2open.com
+
+ch3pffvogprap1
+ch3pobscxdxap1
+ ch3pobscxdxcl1
+  ch3pobscxdxdb1
+   ch3pobscxdxmq1
+    ch3pvkdvwdxap1
+     ch3pvkdvwdxcl1
+      ch3pvkdvwdxmq1

@@ -1,0 +1,62 @@
+
+
+
+
+[
+    {
+        "host_name": "prod45861",
+        "environment": "PROD",
+        "env_purpose": "Production",
+        "e2customer_hub": "Sensing-Internal",
+        "hub_type": "DS",
+        "hub_identifier": "HUB00002114"
+    },
+    {
+        "host_name": "prod9836",
+        "environment": "PROD",
+        "env_purpose": "Production",
+        "e2customer_hub": "E2net",
+        "hub_type": "e2net",
+        "hub_identifier": "HUB00000080"
+    }
+]
+
+
+Connected to Zabbix API Version: 7.0.21
+[{'groupid': '8485', 'name': 'UAT/CI-PROD-PRODUCTION/ENABLED', 'flags': '0', 'uuid': 'd36ce4115cb24785a55c828d1187fa2b'}]
+Group ID: 8485
+[
+    {
+        "hostid": "408424",
+        "name": "prod121121211.DO-LIKE-testing1",
+        "host": "prod121121211.DO-LIKE-testing1",
+        "status": "0",
+        "groups": [
+            {
+                "groupid": "8457",
+                "name": "DO-LIKE/Testing"
+            },
+            {
+                "groupid": "8485",
+                "name": "UAT/CI-PROD-PRODUCTION/ENABLED"
+            }
+        ]
+    },
+    {
+        "hostid": "408425",
+        "name": "PROD344349872.DO-LIKE-testing2_asg",
+        "host": "PROD344349872.DO-LIKE-testing2_asg",
+        "status": "0",
+        "groups": [
+            {
+                "groupid": "8457",
+                "name": "DO-LIKE/Testing"
+            },
+            {
+                "groupid": "8485",
+                "name": "UAT/CI-PROD-PRODUCTION/ENABLED"
+            }
+        ]
+    }
+]
+Total Hosts in Host Group 'UAT/CI-PROD-PRODUCTION/ENABLED': 2

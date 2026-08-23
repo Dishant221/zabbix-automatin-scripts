@@ -1,0 +1,939 @@
+2026-05-13 08:10:45,279 - INFO - _________________SCRIPTING_STARTING_2026-05-13 08:10:45.279957________________
+2026-05-13 08:10:45,367 - INFO - JSON-RPC Server Endpoint: https://monitor.e2open.com/zabbix/api_jsonrpc.php
+2026-05-13 08:10:45,755 - INFO - Zabbix API version is: 7.0.21
+2026-05-13 08:10:45,802 - INFO - Connected to Zabbix API Version: 7.0.21
+2026-05-13 08:10:48,937 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:10:48,963 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:10:48,988 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:10:49,015 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:10:49,042 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:10:49,067 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:10:49,095 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:10:52,615 - INFO - 
+================ Processing Host: prod46173.chg.prod.e2open.com =================
+
+2026-05-13 08:10:52,710 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:10:52,744 - INFO - Processing host: prod46173.chg.prod.e2open.com (enabled)
+2026-05-13 08:10:52,744 - INFO - Current groups for prod46173.chg.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal']
+2026-05-13 08:10:52,805 - INFO - Created new HG: Test-GO-LIVE/Channel/Channel Data Management/HUB00000546/CDM-Internal
+2026-05-13 08:10:52,853 - INFO - prod46173.chg.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:10:52,853 - INFO - 
+================ Processing Host: prod46178.chg.prod.e2open.com =================
+
+2026-05-13 08:10:52,950 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:10:52,981 - INFO - Processing host: prod46178.chg.prod.e2open.com (enabled)
+2026-05-13 08:10:52,982 - INFO - Current groups for prod46178.chg.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal']
+2026-05-13 08:10:53,050 - INFO - prod46178.chg.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:10:53,050 - INFO - 
+================ Processing Host: prod46175.chg.prod.e2open.com =================
+
+2026-05-13 08:10:53,145 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:10:53,176 - INFO - Processing host: prod46175.chg.prod.e2open.com (enabled)
+2026-05-13 08:10:53,176 - INFO - Current groups for prod46175.chg.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal']
+2026-05-13 08:10:53,247 - INFO - prod46175.chg.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:10:53,247 - INFO - 
+================ Processing Host: prod46177.chg.prod.e2open.com =================
+
+2026-05-13 08:10:53,341 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:10:53,370 - INFO - Processing host: prod46177.chg.prod.e2open.com (enabled)
+2026-05-13 08:10:53,370 - INFO - Current groups for prod46177.chg.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal']
+2026-05-13 08:10:53,439 - INFO - prod46177.chg.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:10:53,439 - INFO - 
+================ Processing Host: prod46172.chg.prod.e2open.com =================
+
+2026-05-13 08:10:53,537 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:10:53,565 - INFO - Processing host: prod46172.chg.prod.e2open.com (enabled)
+2026-05-13 08:10:53,566 - INFO - Current groups for prod46172.chg.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal']
+2026-05-13 08:10:53,631 - INFO - prod46172.chg.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:10:53,631 - INFO - 
+================ Processing Host: prod46176.chg.prod.e2open.com =================
+
+2026-05-13 08:10:53,720 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:10:53,749 - INFO - Processing host: prod46176.chg.prod.e2open.com (enabled)
+2026-05-13 08:10:53,750 - INFO - Current groups for prod46176.chg.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal']
+2026-05-13 08:10:53,816 - INFO - prod46176.chg.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:10:53,817 - INFO - 
+================ Processing Host: prod46174.chg.prod.e2open.com =================
+
+2026-05-13 08:10:53,911 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:10:53,939 - INFO - Processing host: prod46174.chg.prod.e2open.com (enabled)
+2026-05-13 08:10:53,940 - INFO - Current groups for prod46174.chg.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal']
+2026-05-13 08:10:54,010 - INFO - prod46174.chg.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:10:54,093 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal
+2026-05-13 08:10:54,148 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal' is not empty, skipping deletion.
+2026-05-13 08:10:54,210 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)' is not empty, skipping deletion.
+2026-05-13 08:10:54,287 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal' is not empty, skipping deletion.
+2026-05-13 08:10:54,356 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal' is not empty, skipping deletion.
+2026-05-13 08:10:54,411 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs' is not empty, skipping deletion.
+2026-05-13 08:10:54,463 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY' is not empty, skipping deletion.
+2026-05-13 08:10:54,516 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal' is not empty, skipping deletion.
+2026-05-13 08:10:54,569 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar' is not empty, skipping deletion.
+2026-05-13 08:10:54,624 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar' is not empty, skipping deletion.
+2026-05-13 08:10:54,673 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO' is not empty, skipping deletion.
+2026-05-13 08:10:54,723 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO' is not empty, skipping deletion.
+2026-05-13 08:10:54,770 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP' is not empty, skipping deletion.
+2026-05-13 08:10:54,820 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost' is not empty, skipping deletion.
+2026-05-13 08:10:54,870 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM' is not empty, skipping deletion.
+2026-05-13 08:10:54,920 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM' is not empty, skipping deletion.
+2026-05-13 08:10:58,043 - INFO -  2320933: Added 1 new tag(s)
+2026-05-13 08:10:58,043 - INFO - PREVIOUS Tags of unknown_2320933 : [{"tag": "SuppressedBy", "value": ""}, {"tag": "ControlledAccess", "value": "{INVENTORY.SOFTWARE.APP.D}"}, {"tag": "CustomerCategory", "value": "{INVENTORY.SOFTWARE.APP.C}"}, {"tag": "Hub", "value": "{INVENTORY.TYPE.FULL}"}, {"tag": "JID", "value": ""}, {"tag": "SFID", "value": ""}, {"tag": "USER", "value": ""}]
+2026-05-13 08:10:58,295 - INFO - 
+================ Processing Host: prod1832.sjca.prod.e2open.com =================
+
+2026-05-13 08:10:58,387 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:10:58,415 - INFO - Processing host: prod1832.sjca.prod.e2open.com (enabled)
+2026-05-13 08:10:58,415 - INFO - Current groups for prod1832.sjca.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'San Jose', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal']
+2026-05-13 08:10:58,475 - INFO - Created new HG: Test-GO-LIVE/Channel/Channel Data Management/HUB00000560/Entomo-Internal
+2026-05-13 08:10:58,522 - INFO - prod1832.sjca.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:10:58,549 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal
+2026-05-13 08:10:58,645 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal
+2026-05-13 08:10:58,705 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)' is not empty, skipping deletion.
+2026-05-13 08:10:58,758 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal' is not empty, skipping deletion.
+2026-05-13 08:10:59,816 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal' is not empty, skipping deletion.
+2026-05-13 08:10:59,877 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs' is not empty, skipping deletion.
+2026-05-13 08:10:59,938 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY' is not empty, skipping deletion.
+2026-05-13 08:10:59,995 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal' is not empty, skipping deletion.
+2026-05-13 08:11:00,048 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar' is not empty, skipping deletion.
+2026-05-13 08:11:00,108 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar' is not empty, skipping deletion.
+2026-05-13 08:11:00,166 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:00,221 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:00,279 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP' is not empty, skipping deletion.
+2026-05-13 08:11:00,335 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost' is not empty, skipping deletion.
+2026-05-13 08:11:00,389 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:00,452 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:03,576 - INFO -  2319511: Added 1 new tag(s)
+2026-05-13 08:11:03,576 - INFO - PREVIOUS Tags of unknown_2319511 : [{"tag": "SuppressedBy", "value": ""}, {"tag": "ControlledAccess", "value": "{INVENTORY.SOFTWARE.APP.D}"}, {"tag": "CustomerCategory", "value": "{INVENTORY.SOFTWARE.APP.C}"}, {"tag": "Hub", "value": "{INVENTORY.TYPE.FULL}"}, {"tag": "JID", "value": ""}, {"tag": "SFID", "value": ""}, {"tag": "USER", "value": ""}]
+2026-05-13 08:11:03,607 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:04,072 - INFO - 
+================ Processing Host: pld50006 =================
+
+2026-05-13 08:11:04,168 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:04,198 - INFO - Processing host: pld50006 (enabled)
+2026-05-13 08:11:04,198 - INFO - Current groups for pld50006: ['Linux Servers', 'Discovered hosts', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)']
+2026-05-13 08:11:04,257 - INFO - Created new HG: Test-GO-LIVE/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)
+2026-05-13 08:11:04,304 - INFO - pld50006 moved to GO-LIVE group
+2026-05-13 08:11:04,305 - INFO - 
+================ Processing Host: pld50005 =================
+
+2026-05-13 08:11:04,400 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:04,432 - INFO - Processing host: pld50005 (enabled)
+2026-05-13 08:11:04,432 - INFO - Current groups for pld50005: ['Linux Servers', 'Discovered hosts', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)']
+2026-05-13 08:11:04,510 - INFO - pld50005 moved to GO-LIVE group
+2026-05-13 08:11:04,537 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal
+2026-05-13 08:11:04,565 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal
+2026-05-13 08:11:04,666 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)
+2026-05-13 08:11:04,722 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal' is not empty, skipping deletion.
+2026-05-13 08:11:04,782 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal' is not empty, skipping deletion.
+2026-05-13 08:11:04,840 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs' is not empty, skipping deletion.
+2026-05-13 08:11:04,898 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY' is not empty, skipping deletion.
+2026-05-13 08:11:04,955 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal' is not empty, skipping deletion.
+2026-05-13 08:11:05,012 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar' is not empty, skipping deletion.
+2026-05-13 08:11:05,068 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar' is not empty, skipping deletion.
+2026-05-13 08:11:05,124 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:05,182 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:05,234 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP' is not empty, skipping deletion.
+2026-05-13 08:11:05,285 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost' is not empty, skipping deletion.
+2026-05-13 08:11:05,346 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:05,409 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:08,834 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:09,073 - INFO - 
+================ Processing Host: prod7108.den.prod.e2open.com =================
+
+2026-05-13 08:11:09,163 - WARNING - WARNING: prod7108.den.prod.e2open.com (hostid: 2312253) : Has problem older than 6h, still proceeding GO-LIVE
+2026-05-13 08:11:09,199 - INFO - prod7108.den.prod.e2open.com: Closed problem 2487658811
+2026-05-13 08:11:09,200 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:09,233 - INFO - Processing host: prod7108.den.prod.e2open.com (enabled)
+2026-05-13 08:11:09,234 - INFO - Current groups for prod7108.den.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Auto-Registration/Linux', 'Denver', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal']
+2026-05-13 08:11:09,297 - INFO - Created new HG: Test-GO-LIVE/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal
+2026-05-13 08:11:09,345 - INFO - prod7108.den.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:11:09,372 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal
+2026-05-13 08:11:09,398 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal
+2026-05-13 08:11:09,426 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)
+2026-05-13 08:11:09,524 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal
+2026-05-13 08:11:09,586 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal' is not empty, skipping deletion.
+2026-05-13 08:11:09,644 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs' is not empty, skipping deletion.
+2026-05-13 08:11:09,701 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY' is not empty, skipping deletion.
+2026-05-13 08:11:09,759 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal' is not empty, skipping deletion.
+2026-05-13 08:11:09,815 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar' is not empty, skipping deletion.
+2026-05-13 08:11:09,871 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar' is not empty, skipping deletion.
+2026-05-13 08:11:09,925 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:09,981 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:10,037 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP' is not empty, skipping deletion.
+2026-05-13 08:11:10,096 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost' is not empty, skipping deletion.
+2026-05-13 08:11:10,148 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:10,197 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:13,281 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:13,308 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:13,337 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:13,366 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:13,394 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:13,423 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:13,452 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:13,481 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:13,509 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:13,540 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:13,568 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:13,598 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:15,897 - INFO - 
+================ Processing Host: prod2019.ham.prod.e2open.com =================
+
+2026-05-13 08:11:15,989 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:16,019 - INFO - Processing host: prod2019.ham.prod.e2open.com (enabled)
+2026-05-13 08:11:16,020 - INFO - Current groups for prod2019.ham.prod.e2open.com: ['Discovered hosts', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 08:11:16,080 - INFO - Created new HG: Test-GO-LIVE/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal
+2026-05-13 08:11:16,128 - INFO - prod2019.ham.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:11:16,129 - INFO - 
+================ Processing Host: prod13074.sjca.prod.e2open.com =================
+
+2026-05-13 08:11:16,218 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:16,246 - INFO - Processing host: prod13074.sjca.prod.e2open.com (enabled)
+2026-05-13 08:11:16,246 - INFO - Current groups for prod13074.sjca.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'San Jose', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 08:11:16,321 - INFO - prod13074.sjca.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:11:16,321 - INFO - 
+================ Processing Host: prod2022.ham.prod.e2open.com =================
+
+2026-05-13 08:11:16,405 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:16,433 - INFO - Processing host: prod2022.ham.prod.e2open.com (enabled)
+2026-05-13 08:11:16,434 - INFO - Current groups for prod2022.ham.prod.e2open.com: ['Discovered hosts', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 08:11:16,504 - INFO - prod2022.ham.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:11:16,504 - INFO - 
+================ Processing Host: prod2025.ham.prod.e2open.com =================
+
+2026-05-13 08:11:16,597 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:16,626 - INFO - Processing host: prod2025.ham.prod.e2open.com (enabled)
+2026-05-13 08:11:16,627 - INFO - Current groups for prod2025.ham.prod.e2open.com: ['Discovered hosts', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 08:11:16,696 - INFO - prod2025.ham.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:11:16,696 - INFO - 
+================ Processing Host: CMUKCB-01-FR8.cmukcloud.com =================
+
+2026-05-13 08:11:16,785 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:16,829 - INFO - Processing host: CMUKCB-01-FR8.cmukcloud.com (enabled)
+2026-05-13 08:11:16,830 - INFO - Current groups for CMUKCB-01-FR8.cmukcloud.com: ['Linux Servers', 'Discovered hosts', 'Auto-Registration/Linux', 'Assa-Abloy/FR8/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 08:11:16,911 - INFO - CMUKCB-01-FR8.cmukcloud.com moved to GO-LIVE group
+2026-05-13 08:11:16,911 - INFO - 
+================ Processing Host: prod2026.ham.prod.e2open.com =================
+
+2026-05-13 08:11:17,008 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:17,044 - INFO - Processing host: prod2026.ham.prod.e2open.com (enabled)
+2026-05-13 08:11:17,044 - INFO - Current groups for prod2026.ham.prod.e2open.com: ['Discovered hosts', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 08:11:17,138 - INFO - prod2026.ham.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:11:17,138 - INFO - 
+================ Processing Host: prod2023.ham.prod.e2open.com =================
+
+2026-05-13 08:11:17,230 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:17,263 - INFO - Processing host: prod2023.ham.prod.e2open.com (enabled)
+2026-05-13 08:11:17,263 - INFO - Current groups for prod2023.ham.prod.e2open.com: ['Discovered hosts', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 08:11:17,332 - INFO - prod2023.ham.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:11:17,333 - INFO - 
+================ Processing Host: CMUKCB-02-FR8.cmukcloud.com =================
+
+2026-05-13 08:11:17,426 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:17,454 - INFO - Processing host: CMUKCB-02-FR8.cmukcloud.com (enabled)
+2026-05-13 08:11:17,454 - INFO - Current groups for CMUKCB-02-FR8.cmukcloud.com: ['Linux Servers', 'Discovered hosts', 'Auto-Registration/Linux', 'Assa-Abloy/FR8/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 08:11:17,526 - INFO - CMUKCB-02-FR8.cmukcloud.com moved to GO-LIVE group
+2026-05-13 08:11:17,526 - INFO - 
+================ Processing Host: CMUKDB-01-FR8.cmukcloud.com =================
+
+2026-05-13 08:11:17,621 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:17,649 - INFO - Processing host: CMUKDB-01-FR8.cmukcloud.com (enabled)
+2026-05-13 08:11:17,650 - INFO - Current groups for CMUKDB-01-FR8.cmukcloud.com: ['Linux Servers', 'Discovered hosts', 'Auto-Registration/Linux', 'Assa-Abloy/FR8/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 08:11:17,724 - INFO - CMUKDB-01-FR8.cmukcloud.com moved to GO-LIVE group
+2026-05-13 08:11:17,725 - INFO - 
+================ Processing Host: CMUKSH-01-FR8.cmukcloud.com =================
+
+2026-05-13 08:11:17,824 - WARNING - WARNING: CMUKSH-01-FR8.cmukcloud.com (hostid: 2208394) : Has problem older than 6h, still proceeding GO-LIVE
+2026-05-13 08:11:17,891 - INFO - CMUKSH-01-FR8.cmukcloud.com: Closed problem 2487658335
+2026-05-13 08:11:17,892 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:17,934 - INFO - Processing host: CMUKSH-01-FR8.cmukcloud.com (enabled)
+2026-05-13 08:11:17,934 - INFO - Current groups for CMUKSH-01-FR8.cmukcloud.com: ['Linux Servers', 'Discovered hosts', 'Auto-Registration/Linux', 'Assa-Abloy/FR8/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 08:11:18,032 - INFO - CMUKSH-01-FR8.cmukcloud.com moved to GO-LIVE group
+2026-05-13 08:11:18,033 - INFO - 
+================ Processing Host: prod2024.ham.prod.e2open.com =================
+
+2026-05-13 08:11:18,146 - WARNING - WARNING: prod2024.ham.prod.e2open.com (hostid: 2305364) : Has problem older than 6h, still proceeding GO-LIVE
+2026-05-13 08:11:18,187 - INFO - prod2024.ham.prod.e2open.com: Closed problem 2487659093
+2026-05-13 08:11:18,187 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:18,218 - INFO - Processing host: prod2024.ham.prod.e2open.com (enabled)
+2026-05-13 08:11:18,218 - INFO - Current groups for prod2024.ham.prod.e2open.com: ['Discovered hosts', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 08:11:18,295 - INFO - prod2024.ham.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:11:18,295 - INFO - 
+================ Processing Host: prod2016.ham.prod.e2open.com =================
+
+2026-05-13 08:11:18,395 - WARNING - WARNING: prod2016.ham.prod.e2open.com (hostid: 2314203) : Has problem older than 6h, still proceeding GO-LIVE
+2026-05-13 08:11:18,432 - INFO - prod2016.ham.prod.e2open.com: Closed problem 2487658742
+2026-05-13 08:11:18,432 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:18,461 - INFO - Processing host: prod2016.ham.prod.e2open.com (enabled)
+2026-05-13 08:11:18,462 - INFO - Current groups for prod2016.ham.prod.e2open.com: ['Discovered hosts', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 08:11:18,535 - INFO - prod2016.ham.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:11:18,572 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal
+2026-05-13 08:11:18,604 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal
+2026-05-13 08:11:18,650 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)
+2026-05-13 08:11:18,678 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal
+2026-05-13 08:11:18,782 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal
+2026-05-13 08:11:18,858 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs' is not empty, skipping deletion.
+2026-05-13 08:11:18,913 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY' is not empty, skipping deletion.
+2026-05-13 08:11:18,967 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal' is not empty, skipping deletion.
+2026-05-13 08:11:19,032 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar' is not empty, skipping deletion.
+2026-05-13 08:11:19,089 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar' is not empty, skipping deletion.
+2026-05-13 08:11:19,147 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:19,200 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:19,254 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP' is not empty, skipping deletion.
+2026-05-13 08:11:19,311 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost' is not empty, skipping deletion.
+2026-05-13 08:11:19,367 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:19,426 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:22,514 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:22,757 - INFO - 
+================ Processing Host: evcargolspdb-01-fr4.blujay.global =================
+
+2026-05-13 08:11:22,849 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:22,877 - INFO - Processing host: evcargolspdb-01-fr4.blujay.global (enabled)
+2026-05-13 08:11:22,877 - INFO - Current groups for evcargolspdb-01-fr4.blujay.global: ['Discovered hosts', 'BJS/EMEA/FR4/LINUX', 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs']
+2026-05-13 08:11:22,932 - INFO - Created new HG: Test-GO-LIVE/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs
+2026-05-13 08:11:22,987 - INFO - evcargolspdb-01-fr4.blujay.global moved to GO-LIVE group
+2026-05-13 08:11:23,015 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal
+2026-05-13 08:11:23,044 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal
+2026-05-13 08:11:23,070 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)
+2026-05-13 08:11:23,099 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal
+2026-05-13 08:11:23,127 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal
+2026-05-13 08:11:23,219 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs
+2026-05-13 08:11:23,273 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY' is not empty, skipping deletion.
+2026-05-13 08:11:23,329 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal' is not empty, skipping deletion.
+2026-05-13 08:11:23,382 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar' is not empty, skipping deletion.
+2026-05-13 08:11:23,437 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar' is not empty, skipping deletion.
+2026-05-13 08:11:23,491 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:23,546 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:23,605 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP' is not empty, skipping deletion.
+2026-05-13 08:11:23,660 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost' is not empty, skipping deletion.
+2026-05-13 08:11:23,715 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:23,767 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:26,859 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:26,884 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:26,915 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:27,538 - INFO - 
+================ Processing Host: ARGOS-SH01-FR4.argos.cmukcloud.net =================
+
+2026-05-13 08:11:27,626 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:27,653 - INFO - Processing host: ARGOS-SH01-FR4.argos.cmukcloud.net (enabled)
+2026-05-13 08:11:27,654 - INFO - Current groups for ARGOS-SH01-FR4.argos.cmukcloud.net: ['Discovered hosts', 'BJS/EMEA/FR4/WINDOWS', 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY']
+2026-05-13 08:11:27,713 - INFO - Created new HG: Test-GO-LIVE/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY
+2026-05-13 08:11:27,758 - INFO - ARGOS-SH01-FR4.argos.cmukcloud.net moved to GO-LIVE group
+2026-05-13 08:11:27,758 - INFO - 
+================ Processing Host: ARGOS-USL01-FR4.argos.cmukcloud.net =================
+
+2026-05-13 08:11:27,847 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:27,876 - INFO - Processing host: ARGOS-USL01-FR4.argos.cmukcloud.net (enabled)
+2026-05-13 08:11:27,876 - INFO - Current groups for ARGOS-USL01-FR4.argos.cmukcloud.net: ['Discovered hosts', 'BJS/EMEA/FR4/WINDOWS', 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY']
+2026-05-13 08:11:27,948 - INFO - ARGOS-USL01-FR4.argos.cmukcloud.net moved to GO-LIVE group
+2026-05-13 08:11:27,949 - INFO - 
+================ Processing Host: ARGOS-RDS01-FR4.argos.cmukcloud.net =================
+
+2026-05-13 08:11:30,077 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:30,106 - INFO - Processing host: ARGOS-RDS01-FR4.argos.cmukcloud.net (enabled)
+2026-05-13 08:11:30,106 - INFO - Current groups for ARGOS-RDS01-FR4.argos.cmukcloud.net: ['Discovered hosts', 'BJS/EMEA/FR4/WINDOWS', 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY']
+2026-05-13 08:11:30,182 - INFO - ARGOS-RDS01-FR4.argos.cmukcloud.net moved to GO-LIVE group
+2026-05-13 08:11:30,211 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal
+2026-05-13 08:11:30,240 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal
+2026-05-13 08:11:31,308 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)
+2026-05-13 08:11:31,334 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal
+2026-05-13 08:11:31,363 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal
+2026-05-13 08:11:31,391 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs
+2026-05-13 08:11:31,497 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY
+2026-05-13 08:11:31,556 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal' is not empty, skipping deletion.
+2026-05-13 08:11:31,613 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar' is not empty, skipping deletion.
+2026-05-13 08:11:31,674 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar' is not empty, skipping deletion.
+2026-05-13 08:11:31,729 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:31,786 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:31,843 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP' is not empty, skipping deletion.
+2026-05-13 08:11:31,902 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost' is not empty, skipping deletion.
+2026-05-13 08:11:31,960 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:32,020 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:35,150 - INFO -  20918: Added 0 new tag(s)
+2026-05-13 08:11:35,151 - INFO - PREVIOUS Tags of unknown_20918 : [{"tag": "Hub", "value": "{INVENTORY.TYPE.FULL}"}, {"tag": "JID", "value": ""}, {"tag": "USER", "value": ""}, {"tag": "SOLUTION", "value": "{INVENTORY.SOFTWARE}"}, {"tag": "SFID", "value": ""}, {"tag": "CustomerCategory", "value": "{INVENTORY.SOFTWARE.APP.C}"}, {"tag": "ControlledAccess", "value": "{INVENTORY.SOFTWARE.APP.D}"}, {"tag": "SuppressedBy", "value": ""}]
+2026-05-13 08:11:35,219 - INFO -  20910: Added 0 new tag(s)
+2026-05-13 08:11:35,219 - INFO - PREVIOUS Tags of unknown_20910 : [{"tag": "Hub", "value": "{INVENTORY.TYPE.FULL}"}, {"tag": "JID", "value": ""}, {"tag": "USER", "value": ""}, {"tag": "SOLUTION", "value": "{INVENTORY.SOFTWARE}"}, {"tag": "SFID", "value": ""}, {"tag": "CustomerCategory", "value": "{INVENTORY.SOFTWARE.APP.C}"}, {"tag": "ControlledAccess", "value": "{INVENTORY.SOFTWARE.APP.D}"}, {"tag": "SuppressedBy", "value": ""}]
+2026-05-13 08:11:35,696 - INFO - 
+================ Processing Host: APAC-PROD-SQLDATABASE =================
+
+2026-05-13 08:11:35,784 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:35,814 - INFO - Processing host: APAC-PROD-SQLDATABASE (enabled)
+2026-05-13 08:11:35,815 - INFO - Current groups for APAC-PROD-SQLDATABASE: ['BJS/APAC/AP-SOUTHEAST-2/LINUX', 'BJS/APAC/AP-SOUTHEAST-2/WINDOWS', 'GO-LIVE/BJS/APAC/AP-SOUTHEAST-2', 'GO-LIVE/BJS/APAC/MOBILESTAR', 'ZABBIX-UPGRADE7-GO-LIVE/AWS/e2ozab-01-syd', 'ZABBIX-UPGRADE7-GO-LIVE/ap-southeast-2/e2ozab-01-syd.blujay.global', 'MSSQL/DB/AWS/CI_INFO', 'GO-LIVE/TMS-LSP/MobileStar/INTERNAL/MobileSTAR-Internal', 'OPS-534504/BJS-PROD-DB-SERVERS', 'DATABASES/MSSQL', 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal']
+2026-05-13 08:11:35,871 - INFO - Created new HG: Test-GO-LIVE/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal
+2026-05-13 08:11:35,925 - INFO - APAC-PROD-SQLDATABASE moved to GO-LIVE group
+2026-05-13 08:11:35,926 - INFO - 
+================ Processing Host: apacprodreplicatenode1 =================
+
+2026-05-13 08:11:36,028 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:36,265 - INFO - Processing host: apacprodreplicatenode1 (enabled)
+2026-05-13 08:11:36,266 - INFO - Current groups for apacprodreplicatenode1: ['BJS/APAC/AP-SOUTHEAST-2/LINUX', 'BJS/APAC/AP-SOUTHEAST-2/WINDOWS', 'GO-LIVE/BJS/APAC/AP-SOUTHEAST-2', 'GO-LIVE/BJS/APAC/MOBILESTAR', 'ZABBIX-UPGRADE7-GO-LIVE/AWS/e2ozab-01-syd', 'ZABBIX-UPGRADE7-GO-LIVE/ap-southeast-2/e2ozab-01-syd.blujay.global', 'MSSQL/DB/AWS/CI_INFO', 'GO-LIVE/TMS-LSP/MobileStar/INTERNAL/MobileSTAR-Internal', 'OPS-534504/BJS-PROD-DB-SERVERS', 'DATABASES/MSSQL', 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal']
+2026-05-13 08:11:36,333 - INFO - apacprodreplicatenode1 moved to GO-LIVE group
+2026-05-13 08:11:36,364 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal
+2026-05-13 08:11:36,392 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal
+2026-05-13 08:11:36,420 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)
+2026-05-13 08:11:36,448 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal
+2026-05-13 08:11:36,478 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal
+2026-05-13 08:11:36,509 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs
+2026-05-13 08:11:36,537 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY
+2026-05-13 08:11:36,637 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal
+2026-05-13 08:11:36,695 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar' is not empty, skipping deletion.
+2026-05-13 08:11:36,750 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar' is not empty, skipping deletion.
+2026-05-13 08:11:36,808 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:36,864 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:36,918 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP' is not empty, skipping deletion.
+2026-05-13 08:11:36,971 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost' is not empty, skipping deletion.
+2026-05-13 08:11:37,023 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:37,074 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:40,158 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:40,415 - INFO - 
+================ Processing Host: dbschenker-prod-db =================
+
+2026-05-13 08:11:40,515 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:40,547 - INFO - Processing host: dbschenker-prod-db (enabled)
+2026-05-13 08:11:40,547 - INFO - Current groups for dbschenker-prod-db: ['GO-LIVE/BJS/APAC/AP-SOUTHEAST-2/DBSchenker/Prod', 'GO-LIVE/BJS/TMS-LSP/DB Schenker', 'MSSQL/DB/AWS/CI_INFO', 'GO-LIVE/TMS-LSP/MobileStar/Schenker Asia Pacific--MobileStar', 'OPS-534504/BJS-PROD-DB-SERVERS', 'DATABASES/MSSQL', 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar']
+2026-05-13 08:11:40,607 - INFO - Created new HG: Test-GO-LIVE/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar
+2026-05-13 08:11:40,668 - INFO - dbschenker-prod-db moved to GO-LIVE group
+2026-05-13 08:11:40,695 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal
+2026-05-13 08:11:40,721 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal
+2026-05-13 08:11:40,747 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)
+2026-05-13 08:11:40,773 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal
+2026-05-13 08:11:40,798 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal
+2026-05-13 08:11:40,824 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs
+2026-05-13 08:11:40,852 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY
+2026-05-13 08:11:40,880 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal
+2026-05-13 08:11:40,975 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar
+2026-05-13 08:11:41,030 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar' is not empty, skipping deletion.
+2026-05-13 08:11:41,084 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:41,139 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:41,193 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP' is not empty, skipping deletion.
+2026-05-13 08:11:41,246 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost' is not empty, skipping deletion.
+2026-05-13 08:11:41,302 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:41,351 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:44,437 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:44,707 - INFO - 
+================ Processing Host: freightways-db =================
+
+2026-05-13 08:11:44,806 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:44,835 - INFO - Processing host: freightways-db (enabled)
+2026-05-13 08:11:44,836 - INFO - Current groups for freightways-db: ['BJS/APAC/AP-SOUTHEAST-2/LINUX', 'BJS/APAC/AP-SOUTHEAST-2/WINDOWS', 'GO-LIVE/BJS/APAC/AP-SOUTHEAST-2', 'GO-LIVE/BJS/APAC/MOBILESTAR', 'ZABBIX-UPGRADE7-GO-LIVE/AWS/e2ozab-01-syd', 'ZABBIX-UPGRADE7-GO-LIVE/ap-southeast-2/e2ozab-01-syd.blujay.global', 'MSSQL/DB/AWS/CI_INFO', 'OPS-534504/BJS-PROD-DB-SERVERS', 'GO-LIVE/TMS-LSP/MobileStar/Freightways Information Services, Ltd--MobileStar', 'DATABASES/MSSQL', 'GO-LIVE/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar', 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar']
+2026-05-13 08:11:44,891 - INFO - Created new HG: Test-GO-LIVE/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar
+2026-05-13 08:11:45,969 - INFO - freightways-db moved to GO-LIVE group
+2026-05-13 08:11:46,000 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal
+2026-05-13 08:11:46,028 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal
+2026-05-13 08:11:46,057 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)
+2026-05-13 08:11:46,085 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal
+2026-05-13 08:11:46,114 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal
+2026-05-13 08:11:46,142 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs
+2026-05-13 08:11:46,171 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY
+2026-05-13 08:11:46,198 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal
+2026-05-13 08:11:46,225 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar
+2026-05-13 08:11:46,323 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar
+2026-05-13 08:11:46,380 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:46,438 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:46,499 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP' is not empty, skipping deletion.
+2026-05-13 08:11:46,555 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost' is not empty, skipping deletion.
+2026-05-13 08:11:46,608 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:46,665 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:49,763 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:51,037 - INFO - 
+================ Processing Host: prod9873 =================
+
+2026-05-13 08:11:51,136 - WARNING - WARNING: prod9873 (hostid: 2314208) : Has problem older than 6h, still proceeding GO-LIVE
+2026-05-13 08:11:51,174 - INFO - prod9873: Closed problem 2487659773
+2026-05-13 08:11:51,175 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:51,205 - INFO - Processing host: prod9873 (enabled)
+2026-05-13 08:11:51,206 - INFO - Current groups for prod9873: ['Discovered hosts', 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO']
+2026-05-13 08:11:51,265 - INFO - Created new HG: Test-GO-LIVE/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO
+2026-05-13 08:11:51,314 - INFO - prod9873 moved to GO-LIVE group
+2026-05-13 08:11:51,343 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal
+2026-05-13 08:11:51,370 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal
+2026-05-13 08:11:51,399 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)
+2026-05-13 08:11:51,429 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal
+2026-05-13 08:11:51,456 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal
+2026-05-13 08:11:51,486 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs
+2026-05-13 08:11:51,518 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY
+2026-05-13 08:11:51,546 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal
+2026-05-13 08:11:51,574 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar
+2026-05-13 08:11:51,602 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar
+2026-05-13 08:11:51,707 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO
+2026-05-13 08:11:51,762 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO' is not empty, skipping deletion.
+2026-05-13 08:11:51,818 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP' is not empty, skipping deletion.
+2026-05-13 08:11:51,877 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost' is not empty, skipping deletion.
+2026-05-13 08:11:51,932 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:51,988 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:55,073 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:55,301 - INFO - 
+================ Processing Host: prod46276.chg.prod.e2open.com =================
+
+2026-05-13 08:11:55,392 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:55,422 - INFO - Processing host: prod46276.chg.prod.e2open.com (enabled)
+2026-05-13 08:11:55,422 - INFO - Current groups for prod46276.chg.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO']
+2026-05-13 08:11:55,479 - INFO - Created new HG: Test-GO-LIVE/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO
+2026-05-13 08:11:55,530 - INFO - prod46276.chg.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:11:55,557 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal
+2026-05-13 08:11:55,587 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal
+2026-05-13 08:11:55,615 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)
+2026-05-13 08:11:55,642 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal
+2026-05-13 08:11:55,668 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal
+2026-05-13 08:11:55,697 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs
+2026-05-13 08:11:55,724 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY
+2026-05-13 08:11:55,747 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal
+2026-05-13 08:11:55,773 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar
+2026-05-13 08:11:55,799 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar
+2026-05-13 08:11:55,827 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO
+2026-05-13 08:11:55,923 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO
+2026-05-13 08:11:55,979 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP' is not empty, skipping deletion.
+2026-05-13 08:11:56,035 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost' is not empty, skipping deletion.
+2026-05-13 08:11:56,088 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:56,142 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM' is not empty, skipping deletion.
+2026-05-13 08:11:59,225 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:11:59,459 - INFO - 
+================ Processing Host: prod90026.fra.prod.e2open.com =================
+
+2026-05-13 08:11:59,550 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:11:59,578 - INFO - Processing host: prod90026.fra.prod.e2open.com (enabled)
+2026-05-13 08:11:59,578 - INFO - Current groups for prod90026.fra.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Auto-Registration/Linux', 'Assa-Abloy/FR8/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP']
+2026-05-13 08:12:00,673 - INFO - Created new HG: Test-GO-LIVE/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP
+2026-05-13 08:12:00,733 - INFO - prod90026.fra.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:12:00,769 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal
+2026-05-13 08:12:00,806 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal
+2026-05-13 08:12:00,839 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)
+2026-05-13 08:12:00,869 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal
+2026-05-13 08:12:00,901 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal
+2026-05-13 08:12:00,934 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs
+2026-05-13 08:12:00,964 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY
+2026-05-13 08:12:00,992 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal
+2026-05-13 08:12:01,022 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar
+2026-05-13 08:12:01,050 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar
+2026-05-13 08:12:01,086 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO
+2026-05-13 08:12:01,123 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO
+2026-05-13 08:12:01,250 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP
+2026-05-13 08:12:01,313 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost' is not empty, skipping deletion.
+2026-05-13 08:12:01,377 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM' is not empty, skipping deletion.
+2026-05-13 08:12:01,445 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM' is not empty, skipping deletion.
+2026-05-13 08:12:04,534 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:12:04,562 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:12:04,590 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:12:04,620 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:12:05,421 - INFO - 
+================ Processing Host: prod13075.sjca.prod.e2open.com =================
+
+2026-05-13 08:12:05,508 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:12:05,539 - INFO - Processing host: prod13075.sjca.prod.e2open.com (enabled)
+2026-05-13 08:12:05,539 - INFO - Current groups for prod13075.sjca.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'San Jose', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost']
+2026-05-13 08:12:05,603 - INFO - Created new HG: Test-GO-LIVE/Supply/MTCM/HUB00000078/Dell-OneCost
+2026-05-13 08:12:05,670 - INFO - prod13075.sjca.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:12:05,670 - INFO - 
+================ Processing Host: prod13078.sjca.prod.e2open.com =================
+
+2026-05-13 08:12:05,763 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:12:05,792 - INFO - Processing host: prod13078.sjca.prod.e2open.com (enabled)
+2026-05-13 08:12:05,793 - INFO - Current groups for prod13078.sjca.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'San Jose', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost']
+2026-05-13 08:12:05,862 - INFO - prod13078.sjca.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:12:05,863 - INFO - 
+================ Processing Host: prod13077.sjca.prod.e2open.com =================
+
+2026-05-13 08:12:05,955 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:12:05,987 - INFO - Processing host: prod13077.sjca.prod.e2open.com (enabled)
+2026-05-13 08:12:05,988 - INFO - Current groups for prod13077.sjca.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'San Jose', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost']
+2026-05-13 08:12:07,055 - INFO - prod13077.sjca.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:12:07,056 - INFO - 
+================ Processing Host: prod13076.sjca.prod.e2open.com =================
+
+2026-05-13 08:12:07,159 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:12:07,194 - INFO - Processing host: prod13076.sjca.prod.e2open.com (enabled)
+2026-05-13 08:12:07,194 - INFO - Current groups for prod13076.sjca.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'San Jose', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost']
+2026-05-13 08:12:07,261 - INFO - prod13076.sjca.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:12:07,289 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal
+2026-05-13 08:12:07,316 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal
+2026-05-13 08:12:07,342 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)
+2026-05-13 08:12:07,368 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal
+2026-05-13 08:12:07,394 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal
+2026-05-13 08:12:07,421 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs
+2026-05-13 08:12:07,448 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY
+2026-05-13 08:12:07,475 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal
+2026-05-13 08:12:07,505 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar
+2026-05-13 08:12:07,534 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar
+2026-05-13 08:12:07,564 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO
+2026-05-13 08:12:07,592 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO
+2026-05-13 08:12:07,618 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP
+2026-05-13 08:12:07,712 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost
+2026-05-13 08:12:07,767 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM' is not empty, skipping deletion.
+2026-05-13 08:12:07,822 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM' is not empty, skipping deletion.
+2026-05-13 08:12:10,909 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:12:11,178 - INFO - 
+================ Processing Host: prod46130 - IM =================
+
+2026-05-13 08:12:11,305 - WARNING - WARNING: prod46130 - IM (hostid: 2278502) : Active problems = 5 (>=5), still proceeding GO-LIVE
+2026-05-13 08:12:11,305 - WARNING - WARNING: prod46130 - IM (hostid: 2278502) : Has problem older than 6h, still proceeding GO-LIVE
+2026-05-13 08:12:11,343 - INFO - prod46130 - IM: Closed problem 2487687580
+2026-05-13 08:12:11,383 - INFO - prod46130 - IM: Closed problem 2487687217
+2026-05-13 08:12:11,421 - INFO - prod46130 - IM: Closed problem 2487661833
+2026-05-13 08:12:11,461 - INFO - prod46130 - IM: Closed problem 2487659731
+2026-05-13 08:12:11,504 - INFO - prod46130 - IM: Closed problem 2487659725
+2026-05-13 08:12:11,505 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:12:11,536 - INFO - Processing host: prod46130 - IM (enabled)
+2026-05-13 08:12:11,536 - INFO - Current groups for prod46130 - IM: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'JAVA_SCPM_INSTANCE_DETECTION_CHG', 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM']
+2026-05-13 08:12:11,601 - INFO - Created new HG: Test-GO-LIVE/Supply/SCPM/HUB00000389/JLR-SCPM
+2026-05-13 08:12:11,652 - INFO - prod46130 - IM moved to GO-LIVE group
+2026-05-13 08:12:11,680 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal
+2026-05-13 08:12:11,712 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal
+2026-05-13 08:12:11,741 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)
+2026-05-13 08:12:11,770 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal
+2026-05-13 08:12:11,797 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal
+2026-05-13 08:12:11,827 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs
+2026-05-13 08:12:11,857 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY
+2026-05-13 08:12:11,883 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal
+2026-05-13 08:12:11,908 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar
+2026-05-13 08:12:11,936 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar
+2026-05-13 08:12:11,963 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO
+2026-05-13 08:12:11,991 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO
+2026-05-13 08:12:12,018 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP
+2026-05-13 08:12:12,047 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost
+2026-05-13 08:12:12,140 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM
+2026-05-13 08:12:12,201 - INFO - Host group 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM' is not empty, skipping deletion.
+2026-05-13 08:12:15,289 - INFO -  No tag changes needed, skipping..
+2026-05-13 08:12:15,535 - INFO - 
+================ Processing Host: prod44012.chg.prod.e2open.com =================
+
+2026-05-13 08:12:15,623 - INFO - __________UAT to GOLIVE_______
+2026-05-13 08:12:15,653 - INFO - Processing host: prod44012.chg.prod.e2open.com (enabled)
+2026-05-13 08:12:15,654 - INFO - Current groups for prod44012.chg.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM']
+2026-05-13 08:12:15,713 - INFO - Created new HG: Test-GO-LIVE/Supply/SCPM/HUB00002548/Facebook-SCPM
+2026-05-13 08:12:15,763 - INFO - prod44012.chg.prod.e2open.com moved to GO-LIVE group
+2026-05-13 08:12:15,793 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal
+2026-05-13 08:12:15,820 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal
+2026-05-13 08:12:15,849 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)
+2026-05-13 08:12:15,877 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal
+2026-05-13 08:12:15,908 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal
+2026-05-13 08:12:15,936 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs
+2026-05-13 08:12:15,965 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY
+2026-05-13 08:12:15,993 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal
+2026-05-13 08:12:16,021 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar
+2026-05-13 08:12:16,047 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar
+2026-05-13 08:12:16,078 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO
+2026-05-13 08:12:16,105 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO
+2026-05-13 08:12:16,134 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP
+2026-05-13 08:12:16,162 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost
+2026-05-13 08:12:16,190 - WARNING - No host uat group found with name to delete: UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM
+2026-05-13 08:12:16,292 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM
+2026-05-13 13:07:01,256 - INFO - _________________SCRIPTING_STARTING_2026-05-13 13:07:01.256027________________
+2026-05-13 13:07:03,386 - INFO - JSON-RPC Server Endpoint: https://monitor.e2open.com/zabbix/api_jsonrpc.php
+2026-05-13 13:07:03,766 - INFO - Zabbix API version is: 7.0.21
+2026-05-13 13:07:03,820 - INFO - Connected to Zabbix API Version: 7.0.21
+2026-05-13 13:07:06,983 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:07,015 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:07,047 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:07,076 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:07,108 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:07,141 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:07,171 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:08,692 - INFO - 
+================ Processing Host: prod46178.chg.prod.e2open.com =================
+
+2026-05-13 13:07:08,792 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:08,825 - INFO - Processing host: prod46178.chg.prod.e2open.com (enabled)
+2026-05-13 13:07:08,825 - INFO - Current groups for prod46178.chg.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal']
+2026-05-13 13:07:08,900 - INFO - prod46178.chg.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:08,900 - INFO - 
+================ Processing Host: prod46175.chg.prod.e2open.com =================
+
+2026-05-13 13:07:09,008 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:09,040 - INFO - Processing host: prod46175.chg.prod.e2open.com (enabled)
+2026-05-13 13:07:09,040 - INFO - Current groups for prod46175.chg.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal']
+2026-05-13 13:07:09,118 - INFO - prod46175.chg.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:09,118 - INFO - 
+================ Processing Host: prod46176.chg.prod.e2open.com =================
+
+2026-05-13 13:07:09,231 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:09,268 - INFO - Processing host: prod46176.chg.prod.e2open.com (enabled)
+2026-05-13 13:07:09,268 - INFO - Current groups for prod46176.chg.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal']
+2026-05-13 13:07:09,354 - INFO - prod46176.chg.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:09,355 - INFO - 
+================ Processing Host: prod46174.chg.prod.e2open.com =================
+
+2026-05-13 13:07:09,457 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:09,491 - INFO - Processing host: prod46174.chg.prod.e2open.com (enabled)
+2026-05-13 13:07:09,491 - INFO - Current groups for prod46174.chg.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal']
+2026-05-13 13:07:09,565 - INFO - prod46174.chg.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:09,565 - INFO - 
+================ Processing Host: prod46173.chg.prod.e2open.com =================
+
+2026-05-13 13:07:09,669 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:09,701 - INFO - Processing host: prod46173.chg.prod.e2open.com (enabled)
+2026-05-13 13:07:09,701 - INFO - Current groups for prod46173.chg.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal']
+2026-05-13 13:07:09,781 - INFO - prod46173.chg.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:09,781 - INFO - 
+================ Processing Host: prod46177.chg.prod.e2open.com =================
+
+2026-05-13 13:07:09,883 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:09,917 - INFO - Processing host: prod46177.chg.prod.e2open.com (enabled)
+2026-05-13 13:07:09,917 - INFO - Current groups for prod46177.chg.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal']
+2026-05-13 13:07:09,991 - INFO - prod46177.chg.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:09,992 - INFO - 
+================ Processing Host: prod46172.chg.prod.e2open.com =================
+
+2026-05-13 13:07:10,097 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:10,128 - INFO - Processing host: prod46172.chg.prod.e2open.com (enabled)
+2026-05-13 13:07:10,128 - INFO - Current groups for prod46172.chg.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal']
+2026-05-13 13:07:10,209 - INFO - prod46172.chg.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:13,325 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:13,598 - INFO - 
+================ Processing Host: prod1832.sjca.prod.e2open.com =================
+
+2026-05-13 13:07:13,697 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:13,729 - INFO - Processing host: prod1832.sjca.prod.e2open.com (enabled)
+2026-05-13 13:07:13,729 - INFO - Current groups for prod1832.sjca.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'San Jose', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal']
+2026-05-13 13:07:14,380 - INFO - Created new HG: GO-LIVE/Channel/Channel Data Management/HUB00000560/Entomo-Internal
+2026-05-13 13:07:14,434 - INFO - prod1832.sjca.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:17,525 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:17,553 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:18,011 - INFO - 
+================ Processing Host: pld50005 =================
+
+2026-05-13 13:07:18,115 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:18,147 - INFO - Processing host: pld50005 (enabled)
+2026-05-13 13:07:18,147 - INFO - Current groups for pld50005: ['Linux Servers', 'Discovered hosts', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)']
+2026-05-13 13:07:18,222 - INFO - pld50005 moved to GO-LIVE group
+2026-05-13 13:07:18,222 - INFO - 
+================ Processing Host: pld50006 =================
+
+2026-05-13 13:07:18,329 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:18,361 - INFO - Processing host: pld50006 (enabled)
+2026-05-13 13:07:18,361 - INFO - Current groups for pld50006: ['Linux Servers', 'Discovered hosts', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)']
+2026-05-13 13:07:18,445 - INFO - pld50006 moved to GO-LIVE group
+2026-05-13 13:07:21,541 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:21,816 - INFO - 
+================ Processing Host: prod7108.den.prod.e2open.com =================
+
+2026-05-13 13:07:21,961 - INFO - prod7108.den.prod.e2open.com: Closed problem 2493851295
+2026-05-13 13:07:21,961 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:21,993 - INFO - Processing host: prod7108.den.prod.e2open.com (enabled)
+2026-05-13 13:07:21,993 - INFO - Current groups for prod7108.den.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Auto-Registration/Linux', 'Denver', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal']
+2026-05-13 13:07:22,083 - INFO - prod7108.den.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:25,186 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:25,217 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:25,250 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:25,284 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:25,320 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:25,350 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:25,382 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:25,415 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:25,447 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:25,479 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:25,510 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:25,541 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:28,028 - INFO - 
+================ Processing Host: CMUKCB-01-FR8.cmukcloud.com =================
+
+2026-05-13 13:07:28,120 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:28,151 - INFO - Processing host: CMUKCB-01-FR8.cmukcloud.com (enabled)
+2026-05-13 13:07:28,151 - INFO - Current groups for CMUKCB-01-FR8.cmukcloud.com: ['Linux Servers', 'Discovered hosts', 'Auto-Registration/Linux', 'Assa-Abloy/FR8/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 13:07:28,228 - INFO - CMUKCB-01-FR8.cmukcloud.com moved to GO-LIVE group
+2026-05-13 13:07:28,228 - INFO - 
+================ Processing Host: prod2026.ham.prod.e2open.com =================
+
+2026-05-13 13:07:28,321 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:28,352 - INFO - Processing host: prod2026.ham.prod.e2open.com (enabled)
+2026-05-13 13:07:28,353 - INFO - Current groups for prod2026.ham.prod.e2open.com: ['Discovered hosts', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 13:07:28,432 - INFO - prod2026.ham.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:28,433 - INFO - 
+================ Processing Host: prod2023.ham.prod.e2open.com =================
+
+2026-05-13 13:07:28,526 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:28,559 - INFO - Processing host: prod2023.ham.prod.e2open.com (enabled)
+2026-05-13 13:07:28,560 - INFO - Current groups for prod2023.ham.prod.e2open.com: ['Discovered hosts', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 13:07:28,631 - INFO - prod2023.ham.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:28,631 - INFO - 
+================ Processing Host: CMUKDB-01-FR8.cmukcloud.com =================
+
+2026-05-13 13:07:28,733 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:28,761 - INFO - Processing host: CMUKDB-01-FR8.cmukcloud.com (enabled)
+2026-05-13 13:07:28,762 - INFO - Current groups for CMUKDB-01-FR8.cmukcloud.com: ['Linux Servers', 'Discovered hosts', 'Auto-Registration/Linux', 'Assa-Abloy/FR8/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 13:07:28,842 - INFO - CMUKDB-01-FR8.cmukcloud.com moved to GO-LIVE group
+2026-05-13 13:07:28,843 - INFO - 
+================ Processing Host: CMUKSH-01-FR8.cmukcloud.com =================
+
+2026-05-13 13:07:28,980 - INFO - CMUKSH-01-FR8.cmukcloud.com: Closed problem 2493856515
+2026-05-13 13:07:28,981 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:29,012 - INFO - Processing host: CMUKSH-01-FR8.cmukcloud.com (enabled)
+2026-05-13 13:07:29,013 - INFO - Current groups for CMUKSH-01-FR8.cmukcloud.com: ['Linux Servers', 'Discovered hosts', 'Auto-Registration/Linux', 'Assa-Abloy/FR8/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 13:07:29,083 - INFO - CMUKSH-01-FR8.cmukcloud.com moved to GO-LIVE group
+2026-05-13 13:07:29,083 - INFO - 
+================ Processing Host: prod2019.ham.prod.e2open.com =================
+
+2026-05-13 13:07:29,183 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:29,214 - INFO - Processing host: prod2019.ham.prod.e2open.com (enabled)
+2026-05-13 13:07:29,214 - INFO - Current groups for prod2019.ham.prod.e2open.com: ['Discovered hosts', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 13:07:29,285 - INFO - prod2019.ham.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:29,286 - INFO - 
+================ Processing Host: prod13074.sjca.prod.e2open.com =================
+
+2026-05-13 13:07:29,385 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:29,418 - INFO - Processing host: prod13074.sjca.prod.e2open.com (enabled)
+2026-05-13 13:07:29,418 - INFO - Current groups for prod13074.sjca.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'San Jose', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 13:07:29,494 - INFO - prod13074.sjca.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:29,494 - INFO - 
+================ Processing Host: CMUKCB-02-FR8.cmukcloud.com =================
+
+2026-05-13 13:07:29,585 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:29,617 - INFO - Processing host: CMUKCB-02-FR8.cmukcloud.com (enabled)
+2026-05-13 13:07:29,617 - INFO - Current groups for CMUKCB-02-FR8.cmukcloud.com: ['Linux Servers', 'Discovered hosts', 'Auto-Registration/Linux', 'Assa-Abloy/FR8/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 13:07:29,696 - INFO - CMUKCB-02-FR8.cmukcloud.com moved to GO-LIVE group
+2026-05-13 13:07:29,696 - INFO - 
+================ Processing Host: prod2022.ham.prod.e2open.com =================
+
+2026-05-13 13:07:29,798 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:29,828 - INFO - Processing host: prod2022.ham.prod.e2open.com (enabled)
+2026-05-13 13:07:29,829 - INFO - Current groups for prod2022.ham.prod.e2open.com: ['Discovered hosts', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 13:07:29,903 - INFO - prod2022.ham.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:29,903 - INFO - 
+================ Processing Host: prod2025.ham.prod.e2open.com =================
+
+2026-05-13 13:07:30,008 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:30,040 - INFO - Processing host: prod2025.ham.prod.e2open.com (enabled)
+2026-05-13 13:07:30,040 - INFO - Current groups for prod2025.ham.prod.e2open.com: ['Discovered hosts', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 13:07:30,117 - INFO - prod2025.ham.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:30,118 - INFO - 
+================ Processing Host: prod2024.ham.prod.e2open.com =================
+
+2026-05-13 13:07:30,258 - INFO - prod2024.ham.prod.e2open.com: Closed problem 2493851567
+2026-05-13 13:07:30,258 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:30,289 - INFO - Processing host: prod2024.ham.prod.e2open.com (enabled)
+2026-05-13 13:07:30,289 - INFO - Current groups for prod2024.ham.prod.e2open.com: ['Discovered hosts', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 13:07:30,369 - INFO - prod2024.ham.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:30,369 - INFO - 
+================ Processing Host: prod2016.ham.prod.e2open.com =================
+
+2026-05-13 13:07:30,517 - INFO - prod2016.ham.prod.e2open.com: Closed problem 2493851230
+2026-05-13 13:07:30,518 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:30,547 - INFO - Processing host: prod2016.ham.prod.e2open.com (enabled)
+2026-05-13 13:07:30,547 - INFO - Current groups for prod2016.ham.prod.e2open.com: ['Discovered hosts', 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal']
+2026-05-13 13:07:30,621 - INFO - prod2016.ham.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:33,719 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:33,984 - INFO - 
+================ Processing Host: evcargolspdb-01-fr4.blujay.global =================
+
+2026-05-13 13:07:34,087 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:34,122 - INFO - Processing host: evcargolspdb-01-fr4.blujay.global (enabled)
+2026-05-13 13:07:34,123 - INFO - Current groups for evcargolspdb-01-fr4.blujay.global: ['Discovered hosts', 'BJS/EMEA/FR4/LINUX', 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs']
+2026-05-13 13:07:34,210 - INFO - evcargolspdb-01-fr4.blujay.global moved to GO-LIVE group
+2026-05-13 13:07:37,305 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:37,338 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:37,370 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:38,038 - INFO - 
+================ Processing Host: ARGOS-USL01-FR4.argos.cmukcloud.net =================
+
+2026-05-13 13:07:38,132 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:38,165 - INFO - Processing host: ARGOS-USL01-FR4.argos.cmukcloud.net (enabled)
+2026-05-13 13:07:38,166 - INFO - Current groups for ARGOS-USL01-FR4.argos.cmukcloud.net: ['Discovered hosts', 'BJS/EMEA/FR4/WINDOWS', 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY']
+2026-05-13 13:07:41,328 - INFO - Created new HG: GO-LIVE/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY
+2026-05-13 13:07:41,378 - INFO - ARGOS-USL01-FR4.argos.cmukcloud.net moved to GO-LIVE group
+2026-05-13 13:07:41,378 - INFO - 
+================ Processing Host: ARGOS-RDS01-FR4.argos.cmukcloud.net =================
+
+2026-05-13 13:07:41,478 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:41,517 - INFO - Processing host: ARGOS-RDS01-FR4.argos.cmukcloud.net (enabled)
+2026-05-13 13:07:41,518 - INFO - Current groups for ARGOS-RDS01-FR4.argos.cmukcloud.net: ['Discovered hosts', 'BJS/EMEA/FR4/WINDOWS', 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY']
+2026-05-13 13:07:41,596 - INFO - ARGOS-RDS01-FR4.argos.cmukcloud.net moved to GO-LIVE group
+2026-05-13 13:07:41,596 - INFO - 
+================ Processing Host: ARGOS-SH01-FR4.argos.cmukcloud.net =================
+
+2026-05-13 13:07:41,693 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:41,729 - INFO - Processing host: ARGOS-SH01-FR4.argos.cmukcloud.net (enabled)
+2026-05-13 13:07:41,729 - INFO - Current groups for ARGOS-SH01-FR4.argos.cmukcloud.net: ['Discovered hosts', 'BJS/EMEA/FR4/WINDOWS', 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY']
+2026-05-13 13:07:41,800 - INFO - ARGOS-SH01-FR4.argos.cmukcloud.net moved to GO-LIVE group
+2026-05-13 13:07:44,892 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:45,153 - INFO - 
+================ Processing Host: prod9873 =================
+
+2026-05-13 13:07:45,291 - INFO - prod9873: Closed problem 2493852246
+2026-05-13 13:07:45,291 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:45,320 - INFO - Processing host: prod9873 (enabled)
+2026-05-13 13:07:45,320 - INFO - Current groups for prod9873: ['Discovered hosts', 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO']
+2026-05-13 13:07:46,023 - INFO - Created new HG: GO-LIVE/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO
+2026-05-13 13:07:46,080 - INFO - prod9873 moved to GO-LIVE group
+2026-05-13 13:07:49,244 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:49,510 - INFO - 
+================ Processing Host: prod46276.chg.prod.e2open.com =================
+
+2026-05-13 13:07:49,617 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:49,646 - INFO - Processing host: prod46276.chg.prod.e2open.com (enabled)
+2026-05-13 13:07:49,647 - INFO - Current groups for prod46276.chg.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO']
+2026-05-13 13:07:50,298 - INFO - Created new HG: GO-LIVE/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO
+2026-05-13 13:07:50,410 - INFO - prod46276.chg.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:53,514 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:53,782 - INFO - 
+================ Processing Host: prod90026.fra.prod.e2open.com =================
+
+2026-05-13 13:07:53,880 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:53,915 - INFO - Processing host: prod90026.fra.prod.e2open.com (enabled)
+2026-05-13 13:07:53,916 - INFO - Current groups for prod90026.fra.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Auto-Registration/Linux', 'Assa-Abloy/FR8/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP']
+2026-05-13 13:07:54,577 - INFO - Created new HG: GO-LIVE/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP
+2026-05-13 13:07:54,634 - INFO - prod90026.fra.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:57,733 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:57,763 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:57,794 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:57,824 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:07:58,687 - INFO - 
+================ Processing Host: prod13076.sjca.prod.e2open.com =================
+
+2026-05-13 13:07:58,779 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:58,811 - INFO - Processing host: prod13076.sjca.prod.e2open.com (enabled)
+2026-05-13 13:07:58,811 - INFO - Current groups for prod13076.sjca.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'San Jose', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost']
+2026-05-13 13:07:59,426 - INFO - Created new HG: GO-LIVE/Supply/MTCM/HUB00000078/Dell-OneCost
+2026-05-13 13:07:59,479 - INFO - prod13076.sjca.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:59,480 - INFO - 
+================ Processing Host: prod13075.sjca.prod.e2open.com =================
+
+2026-05-13 13:07:59,576 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:07:59,606 - INFO - Processing host: prod13075.sjca.prod.e2open.com (enabled)
+2026-05-13 13:07:59,606 - INFO - Current groups for prod13075.sjca.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'San Jose', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost']
+2026-05-13 13:07:59,680 - INFO - prod13075.sjca.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:07:59,680 - INFO - 
+================ Processing Host: prod13078.sjca.prod.e2open.com =================
+
+2026-05-13 13:08:00,780 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:08:00,813 - INFO - Processing host: prod13078.sjca.prod.e2open.com (enabled)
+2026-05-13 13:08:00,814 - INFO - Current groups for prod13078.sjca.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'San Jose', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost']
+2026-05-13 13:08:00,928 - INFO - prod13078.sjca.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:08:00,928 - INFO - 
+================ Processing Host: prod13077.sjca.prod.e2open.com =================
+
+2026-05-13 13:08:01,025 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:08:01,057 - INFO - Processing host: prod13077.sjca.prod.e2open.com (enabled)
+2026-05-13 13:08:01,057 - INFO - Current groups for prod13077.sjca.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'San Jose', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost']
+2026-05-13 13:08:01,151 - INFO - prod13077.sjca.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:08:04,284 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:08:04,568 - INFO - 
+================ Processing Host: prod46130 - IM =================
+
+2026-05-13 13:08:04,697 - WARNING - WARNING: prod46130 - IM (hostid: 2278502) : Active problems = 5 (>=5), still proceeding GO-LIVE
+2026-05-13 13:08:04,754 - INFO - prod46130 - IM: Closed problem 2493874852
+2026-05-13 13:08:04,807 - INFO - prod46130 - IM: Closed problem 2493874429
+2026-05-13 13:08:04,859 - INFO - prod46130 - IM: Closed problem 2493854120
+2026-05-13 13:08:04,935 - INFO - prod46130 - IM: Closed problem 2493853106
+2026-05-13 13:08:04,984 - INFO - prod46130 - IM: Closed problem 2493853089
+2026-05-13 13:08:04,984 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:08:05,015 - INFO - Processing host: prod46130 - IM (enabled)
+2026-05-13 13:08:05,016 - INFO - Current groups for prod46130 - IM: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'JAVA_SCPM_INSTANCE_DETECTION_CHG', 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM']
+2026-05-13 13:08:05,146 - INFO - prod46130 - IM moved to GO-LIVE group
+2026-05-13 13:08:08,242 - INFO -  No tag changes needed, skipping..
+2026-05-13 13:08:08,505 - INFO - 
+================ Processing Host: prod44012.chg.prod.e2open.com =================
+
+2026-05-13 13:08:08,614 - INFO - __________UAT to GOLIVE_______
+2026-05-13 13:08:08,644 - INFO - Processing host: prod44012.chg.prod.e2open.com (enabled)
+2026-05-13 13:08:08,645 - INFO - Current groups for prod44012.chg.prod.e2open.com: ['Linux Servers', 'Discovered hosts', 'Chicago', 'Auto-Registration/Linux', 'UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM']
+2026-05-13 13:08:08,730 - INFO - prod44012.chg.prod.e2open.com moved to GO-LIVE group
+2026-05-13 13:08:08,832 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal
+2026-05-13 13:08:08,933 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000560/Entomo-Internal
+2026-05-13 13:08:09,034 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001992/GTM-Internal (EXPIRED)
+2026-05-13 13:08:09,137 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infosec tool/HUB00002107/Infosec-Internal
+2026-05-13 13:08:09,247 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00045885/DCOps-Internal
+2026-05-13 13:08:09,370 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/TMS - LSP/HUB00009623/EV Cargo Solutions Ltd--TMS for LSPs
+2026-05-13 13:08:09,476 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Transportation Management (TMS4S)/HUB00002429/BluJay-Internal-GSONLY
+2026-05-13 13:08:09,583 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00002659/Panasonic GTL-GLO
+2026-05-13 13:08:09,698 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00045402/Caterpillar-GLO
+2026-05-13 13:08:09,805 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Planning/Demand Planning/HUB00002347/Assa Abloy EMEIA-DP
+2026-05-13 13:08:09,909 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Supply/MTCM/HUB00000078/Dell-OneCost
+2026-05-13 13:08:10,018 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00000389/JLR-SCPM
+2026-05-13 13:08:10,128 - INFO - Deleted empty host group: UAT/CI-PROD-PRODUCTION/HUB/Supply/SCPM/HUB00002548/Facebook-SCPM

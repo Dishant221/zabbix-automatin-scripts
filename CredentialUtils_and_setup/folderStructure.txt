@@ -1,0 +1,17 @@
+Zabbix_Python_scripts/
+│
+├── credentials/
+│   ├── __init__.py
+│   ├── key_loader.py
+│   ├── file_loader.py
+│   ├── json_decryptor.py
+│   └── zb_credentials.py
+│
+├── encrypted/
+│   └── credential_for_prod.json.enc
+│
+├── scripts/
+│   ├── main_script.py
+│   └── other_script.py
+│
+└── requirements.txt

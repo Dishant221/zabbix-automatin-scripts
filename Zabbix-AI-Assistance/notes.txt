@@ -1,0 +1,69 @@
+docker network connect bridge embedding-api
+docker network connect bridge n8n
+
+============================================================================
+docker build -t streamlit-chat-ui .
+
+docker run -d -p 8501:8501 --name chat-ui streamlit-chat-ui
+
+production
+
+docker run -d \
+  --network n8n_default \
+  -p 8501:8501 \
+  -e N8N_WEBHOOK_URL=http://n8n:5678/webhook/chat-ai \
+  --name chat-ui \
+  streamlit-chat-ui
+
+  
+
+test 
+  
+docker run -d \
+  --network n8n_default \
+  -p 8501:8501 \
+  -e N8N_WEBHOOK_URL=http://n8n:5678/webhook-test/chat-ai \
+  --name chat-ui \
+  streamlit-chat-ui
+
+
+curl -X POST http://10.120.125.239:5678/webhook-test/chat-ai \
+-H "Content-Type: application/json" \
+-d '{"message": "test"}'
+
+
+++=========================================================================================
+docker build -t embedding-api .
+
+docker run -d \
+--name embedding-api \
+-p 5003:5003 \
+embedding-api
+
+curl -X POST http://10.120.125.239:5003/embed \
+-H "Content-Type: application/json" \
+-d '{"text": "hello world"}'
+
+
+
+
+curl -X POST http://embedding-api:5003/embed \
+-H "Content-Type: application/json" \
+-d '{"text": "hello world"}'
+============================================================================================
+
+____________________________________________________
+doc information
+
+http://10.120.125.239:9200/_cat/indices?v
+
+____________________________________________________
+
+doc count
+http://10.120.125.239:9200/zabbix_api/_count?pretty
+
+____________________________________________________
+
+
+all doc
+http://10.120.125.239:9200/zabbix_api/_search?pretty

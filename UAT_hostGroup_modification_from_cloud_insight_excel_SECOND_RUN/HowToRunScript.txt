@@ -1,0 +1,32 @@
+steps to run this script and what changes it will do ?
+
+___________________________________________________________________________________
+
+steps:
+
+1> make sure the token and url of enviorment is correct
+2> make sure the UAT group on which the script will execute is correct and exists in zabbix enviorment
+3> make sure the excel format and column structure is correct as per below column sequesnce.
+
+    ['DC', 'vCenter/Account', 'Cluster/Region', 'Host/AVZ', 'Name', 'Power State', 'DB Server ?', 'Environment', 'Purpose',
+    'Account', 'E2customer/Hub', 'Hub Identifier', 'Hub Type', 'Hub IsActive?', 'Hub Status', 'Hub State', 'CI Solution', 
+    'Department', 'Requested by', 'HW Request', 'Provisioned by', 'Created On', 'CSM', 'ESE', 'OS Family', 'OS', 'OS Major Version',
+    'Released On', 'EOL ON', 'IS EOL?', 'EOL Age', 'EOL Age Range', 'VMware Tools Version', 'VMware Tools Status', 'DNS Name', 'Vm Fqdn',
+    'R7 Monitored?', 'ZB Monitored?', 'Usage', 'IS R7 LastScan Date', 'AV Installed?', 'Cylance Monitored?', 'CB Monitored?', 'CS Monitored?',
+    'OS Provenance', 'Record CollectionTS', 'Shutdown Date', 'Shutdown Days', 'Metrics', '#vCores', 'Memory-GB', 'Storage-GB', 'Storage-Used-GB', 
+    'Resource Point', 'VM-STATS-Memory-Used-%', 'VM-STATS-CPU-Used-%', 'VM-STATS-Memory-Consumed-GB', 'VM-STATS-Memory-Overhead-GB', 'VM R7 Risk Score', 
+    'VM Used Space (TB)', 'VM provisioned Space (TB)', 'IS R7 Critical', 'IS R7 Exploits', 'IS R7 Malwarekits', 'IS R7 Moderate', 'IS R7 Severe', 'Shutdown Days']
+
+4> command to run :  python host_HG_modification_from_cloud_insight.py
+
+
+
+_______________________________________________________________________________________
+
+THE CHANGES will BE MADE by the script
+
+1> all the host will be processed if the name matches from zabbix and cloud insight DB
+2> new hostgroup will be created and attached to respective host in resppective format 
+3> and asset tag will be added to respective host
+4> the initail hostgroup of uat will be removed 
+

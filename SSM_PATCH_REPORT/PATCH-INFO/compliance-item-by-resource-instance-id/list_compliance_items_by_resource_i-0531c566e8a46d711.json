@@ -1,0 +1,1069 @@
+{
+    "ComplianceItems": [
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "amd-ucode-firmware.noarch",
+            "Title": "amd-ucode-firmware.noarch:0:20210208-117.amzn2023.0.7",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:26Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "cpio.x86_64",
+            "Title": "cpio.x86_64:0:2.13-13.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:19Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "cyrus-sasl-lib.x86_64",
+            "Title": "cyrus-sasl-lib.x86_64:0:2.1.27-18.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:26:06Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "cyrus-sasl-plain.x86_64",
+            "Title": "cyrus-sasl-plain.x86_64:0:2.1.27-18.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:26:43Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "glib2.x86_64",
+            "Title": "glib2.x86_64:0:2.82.2-769.amzn2023",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:41Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "glibc.x86_64",
+            "Title": "glibc.x86_64:0:2.34-231.amzn2023.0.4",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:02Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "glibc-all-langpacks.x86_64",
+            "Title": "glibc-all-langpacks.x86_64:0:2.34-231.amzn2023.0.4",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:02Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "glibc-common.x86_64",
+            "Title": "glibc-common.x86_64:0:2.34-231.amzn2023.0.4",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:02Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "glibc-gconv-extra.x86_64",
+            "Title": "glibc-gconv-extra.x86_64:0:2.34-231.amzn2023.0.4",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:02Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "glibc-locale-source.x86_64",
+            "Title": "glibc-locale-source.x86_64:0:2.34-231.amzn2023.0.4",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:27:00Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "json-c.x86_64",
+            "Title": "json-c.x86_64:0:0.14-8.amzn2023.0.2",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:03Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "less.x86_64",
+            "Title": "less.x86_64:0:608-2.amzn2023.0.2",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:19Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "libnghttp2.x86_64",
+            "Title": "libnghttp2.x86_64:0:1.59.0-3.amzn2023.0.2",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:05Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "libsss_certmap.x86_64",
+            "Title": "libsss_certmap.x86_64:0:2.9.4-1.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:26:07Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "libsss_idmap.x86_64",
+            "Title": "libsss_idmap.x86_64:0:2.9.4-1.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:05Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "libsss_nss_idmap.x86_64",
+            "Title": "libsss_nss_idmap.x86_64:0:2.9.4-1.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:21Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "libsss_sudo.x86_64",
+            "Title": "libsss_sudo.x86_64:0:2.9.4-1.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:21Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "libtasn1.x86_64",
+            "Title": "libtasn1.x86_64:0:4.19.0-1.amzn2023.0.6",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:05Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "libtirpc.x86_64",
+            "Title": "libtirpc.x86_64:0:1.3.3-0.amzn2023",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:26:05Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "linux-firmware-whence.noarch",
+            "Title": "linux-firmware-whence.noarch:0:20210208-117.amzn2023.0.7",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:26Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "openssh.x86_64",
+            "Title": "openssh.x86_64:0:8.7p1-8.amzn2023.0.17",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:33Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "openssh-clients.x86_64",
+            "Title": "openssh-clients.x86_64:0:8.7p1-8.amzn2023.0.17",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:26:44Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "openssh-server.x86_64",
+            "Title": "openssh-server.x86_64:0:8.7p1-8.amzn2023.0.17",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:26:07Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "openssl.x86_64",
+            "Title": "openssl.x86_64:1:3.5.5-1.amzn2023.0.4",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:26:05Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "openssl-fips-provider-latest.x86_64",
+            "Title": "openssl-fips-provider-latest.x86_64:1:3.5.5-1.amzn2023.0.4",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:33Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "openssl-libs.x86_64",
+            "Title": "openssl-libs.x86_64:1:3.5.5-1.amzn2023.0.4",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:38Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "perl-Pod-Perldoc.noarch",
+            "Title": "perl-Pod-Perldoc.noarch:0:3.28.01-459.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:26:05Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "python3.x86_64",
+            "Title": "python3.x86_64:0:3.9.25-1.amzn2023.0.5",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:29Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "python3-jinja2.noarch",
+            "Title": "python3-jinja2.noarch:0:2.11.3-1.amzn2023.0.6",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:26:09Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "python3-libs.x86_64",
+            "Title": "python3-libs.x86_64:0:3.9.25-1.amzn2023.0.5",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:29Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "python3-pip.noarch",
+            "Title": "python3-pip.noarch:0:21.3.1-2.amzn2023.0.19",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-20T15:20:39Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "python3-pip-wheel.noarch",
+            "Title": "python3-pip-wheel.noarch:0:21.3.1-2.amzn2023.0.19",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:27Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "python3-setuptools.noarch",
+            "Title": "python3-setuptools.noarch:0:59.6.0-2.amzn2023.0.6",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:27Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "python3-setuptools-wheel.noarch",
+            "Title": "python3-setuptools-wheel.noarch:0:59.6.0-2.amzn2023.0.6",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:01Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "python3-urllib3.noarch",
+            "Title": "python3-urllib3.noarch:0:1.25.10-5.amzn2023.0.6",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:26:09Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "python3.14-pip-wheel.noarch",
+            "Title": "python3.14-pip-wheel.noarch:0:25.1.1-1.amzn2023.0.2",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-20T15:18:34Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "rust-toolset-srpm-macros.noarch",
+            "Title": "rust-toolset-srpm-macros.noarch:0:1.95.0-1.amzn2023.0.2",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:01Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "sssd-client.x86_64",
+            "Title": "sssd-client.x86_64:0:2.9.4-1.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:26:07Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "sssd-common.x86_64",
+            "Title": "sssd-common.x86_64:0:2.9.4-1.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:26:07Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "sssd-kcm.x86_64",
+            "Title": "sssd-kcm.x86_64:0:2.9.4-1.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:26:40Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "sssd-nfs-idmap.x86_64",
+            "Title": "sssd-nfs-idmap.x86_64:0:2.9.4-1.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:26:06Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "sudo.x86_64",
+            "Title": "sudo.x86_64:0:1.9.15-1.p5.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:26:43Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "sysstat.x86_64",
+            "Title": "sysstat.x86_64:0:12.5.6-1.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:26:57Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "vim-common.x86_64",
+            "Title": "vim-common.x86_64:2:9.2.240-1.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:22Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "vim-data.noarch",
+            "Title": "vim-data.noarch:2:9.2.240-1.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:01Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "vim-enhanced.x86_64",
+            "Title": "vim-enhanced.x86_64:2:9.2.240-1.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:26:57Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "vim-filesystem.noarch",
+            "Title": "vim-filesystem.noarch:2:9.2.240-1.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:01Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "vim-minimal.x86_64",
+            "Title": "vim-minimal.x86_64:2:9.2.240-1.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:26:57Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "xxd.x86_64",
+            "Title": "xxd.x86_64:2:9.2.240-1.amzn2023.0.3",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:21Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        },
+        {
+            "ComplianceType": "Patch",
+            "ResourceType": "ManagedInstance",
+            "ResourceId": "i-0531c566e8a46d711",
+            "Id": "xz.x86_64",
+            "Title": "xz.x86_64:0:5.2.5-9.amzn2023.0.2",
+            "Status": "COMPLIANT",
+            "Severity": "UNSPECIFIED",
+            "ExecutionSummary": {
+                "ExecutionTime": "2026-06-20 14:34:10+05:30",
+                "ExecutionId": "d310ff43-39fa-4176-91c2-5d997d9de25b",
+                "ExecutionType": "Command"
+            },
+            "Details": {
+                "Classification": "Security",
+                "InstalledTime": "2026-05-15T00:25:05Z",
+                "PatchBaselineId": "pb-0a624803d647da0ab",
+                "PatchSeverity": "Important",
+                "PatchState": "Installed"
+            }
+        }
+    ],
+    "NextToken": "AAEAARbYHOtZQQOm2/xkcU4LHGhhHiVDif23ZPhd5qE6WlagO8mi3vcvBeoPO5R8vrvptq52fLMn97amejv5a1R0/1ckUtYDwnw8NxUBwY5Mko4ltNH9ElgN4B+qbkl2oTlv73qzqePjDCPd381knYcHYx98mH5uF23sEdFNQtL3K7ghJMsWdsMPh25jYVJee216q2FdO+J3nWd4HurZwvmAOPeOH/a3IVXv5os+vQgCV7n5YNtss37mEpKLH7/3Te6gyA0S2t5JRK+hm8lnLdQyy+Ue5Ly3wG1U0UcXruoVjM0C",
+    "ResponseMetadata": {
+        "RequestId": "a80ad9d0-a49e-4d03-a4a4-ef574106df98",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "server": "Server",
+            "date": "Fri, 26 Jun 2026 11:18:04 GMT",
+            "content-type": "application/x-amz-json-1.1",
+            "content-length": "26570",
+            "connection": "keep-alive",
+            "x-amzn-requestid": "a80ad9d0-a49e-4d03-a4a4-ef574106df98",
+            "cache-control": "no-store"
+        },
+        "RetryAttempts": 0
+    }
+}

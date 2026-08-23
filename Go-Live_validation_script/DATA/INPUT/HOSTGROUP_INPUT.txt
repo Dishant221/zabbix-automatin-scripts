@@ -1,0 +1,3 @@
+UAT/CI-PROD-PRODUCTION/HUB/Channel/Channel Data Management/HUB00000546/CDM-Internal
+UAT/CI-PROD-PRODUCTION/HUB/Channel/Demand Signal Management/HUB00000372/DSM-Internal
+UAT/CI-PROD-PRODUCTION/HUB/Data and Networks/e2net/HUB00000080/E2net

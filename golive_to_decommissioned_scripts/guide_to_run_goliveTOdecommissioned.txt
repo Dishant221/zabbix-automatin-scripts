@@ -1,0 +1,17 @@
+step 1: replace Zabbix url and token as per env
+
+step 2: sync oneDriver, Go to the folder as per your oneDrive folder
+	(C:\Users\dtotade\e2open, LLC\Monitoring-Dev - Zabbix - Monitoring\Zabbix-Automation	\Dishant	\golive_to_decommissioned_scripts) 
+
+steps 3: Go to above folder in your windows shell
+
+	command : cd "folder name"
+
+step 4: enter command 'code .'
+
+step 5: VSCODE will open automatic and replace url and token
+
+step 6: now, from shell enter command 'python golive_to_decommissioned.py' 
+
+step 7: enter hostname, enter ticketno, enter yourName
+

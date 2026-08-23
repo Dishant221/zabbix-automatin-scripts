@@ -1,0 +1,6 @@
+1> keep folder as it is
+2> python ODBC_ADD_TAG.py <ENV NAME>
+
+env names:
+1> PROD
+2> DEV

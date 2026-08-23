@@ -1,0 +1,436 @@
+ [
+    {
+        "hostid": "4030568",
+        "host": "sv4d-channel-nonp.external-secrets.job-for-trident-snc5d",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1904",
+                "name": "DEV/INFRA/TKC/sv4d-channel-nonp/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030569",
+        "host": "sv4d-channel-nonp.external-secrets.job-for-trident-lrn74",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1904",
+                "name": "DEV/INFRA/TKC/sv4d-channel-nonp/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030570",
+        "host": "sv4d-channel-nonp.external-secrets.job-for-cert-manager-q86gq",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1904",
+                "name": "DEV/INFRA/TKC/sv4d-channel-nonp/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030571",
+        "host": "sv4d-channel-nonp.external-secrets.job-for-tanzu-system-ingress-b4kfz",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1904",
+                "name": "DEV/INFRA/TKC/sv4d-channel-nonp/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030572",
+        "host": "sv4d-channel-nonp.external-secrets.job-for-trident-8k7vk",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1904",
+                "name": "DEV/INFRA/TKC/sv4d-channel-nonp/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030573",
+        "host": "sv4d-sharedservices-nonp.ingress-nginx.ingress-nginx-admission-create-m47gv",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1871",
+                "name": "DEV/INFRA/TKC/sv4d-sharedservices-nonp/ingress-nginx/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030574",
+        "host": "sv4d-sharedservices-nonp.ingress-nginx.ingress-nginx-admission-patch-6vkgp",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1871",
+                "name": "DEV/INFRA/TKC/sv4d-sharedservices-nonp/ingress-nginx/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030575",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-cert-manager-f8hwn",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030576",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-trident-xzv5f",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030577",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-tanzu-system-ingress-76tzl",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030578",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-trident-28bcd",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030579",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-trident-zwlvj",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030580",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-cert-manager-drxj6",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030581",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-tanzu-system-ingress-7xkps",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030582",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-trident-qwdvr",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030583",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-trident-t2zl2",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030584",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-cert-manager-dx45n",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030585",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-tanzu-system-ingress-nhvzw",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030586",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-trident-cbgt2",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030587",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-cert-manager-nm4jd",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030588",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-trident-4zj8s",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030589",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-tanzu-system-ingress-wt2tq",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030590",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-trident-qjqxd",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030591",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-trident-5lkkm",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030592",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-cert-manager-gh8g8",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030593",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-tanzu-system-ingress-8ft88",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030594",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-trident-fjjx8",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030595",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-cert-manager-hgwlg",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030596",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-trident-44ks4",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030597",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-tanzu-system-ingress-slc66",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    },
+    {
+        "hostid": "4030598",
+        "host": "sv4d-betadevtools-prep.external-secrets.job-for-trident-h8ftc",
+        "groups": [
+            {
+                "groupid": "471",
+                "name": "DEV/INFRA/TKC/PODS"
+            },
+            {
+                "groupid": "1757",
+                "name": "DEV/INFRA/TKC/sv4d-betadevtools-prep/external-secrets/PODS"
+            }
+        ]
+    }
+]

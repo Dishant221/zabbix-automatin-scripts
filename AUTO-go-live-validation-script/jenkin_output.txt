@@ -1,0 +1,458 @@
+Decryption successful.
+Connected to Zabbix API Version: 7.0.25
+********************************************************************************
+Found 1 hosts in host group 'UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/Import Management/HUB00003225/GTM-Import-Internal'
+********************************************************************************
+ Processing Host ID: 2334054, Host Name: pla12011.amberroad.com
+ 2334054: Added 1 new tag(s)
+
+
+********************************************************************************
+
+Total hosts collecting data: 1
+
++----------+------------------------+-------------------+---------------+----------+
+|   HostID | Hostname               | Data Collection   | Failed Keys   | Status   |
++==========+========================+===================+===============+==========+
+|  2334054 | pla12011.amberroad.com | YES               | -             | Enabled  |
++----------+------------------------+-------------------+---------------+----------+
+************************************************************************
+
+Total hosts NOT collecting data: 0
+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+| HostID   | Hostname   | Failed Item Keys   | History (Actual/Expected)   | Data Collection   | Status   |
++==========+============+====================+=============================+===================+==========+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+
+
+
+High and Disaster problems in last 7 days and currently active problems
+
++---------------+-----------------------------------+------------------+------------------------------+
+| Host ID       | Hostname                          | Active Now       | Last 7 Days Active + Resolved |
++---------------+-----------------------------------+------------------+------------------------------+
+| 2334054       | pla12011.amberroad.com            | 0                | 0                  |
++---------------+-----------------------------------+------------------+--------------------+
+
+Total Active Problems (High + Disaster): 0
+Total Last 7 Days Problems (Active + Resolved): 0
+
+
+
+================ Processing Host: pla12011.amberroad.com =================
+
+
+ Processing host: pla12011.amberroad.com (enabled)
+
+ Removing group UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/Import Management/HUB00003225/GTM-Import-Internal from pla12011.amberroad.com
+
+ pla12011.amberroad.com moved to GO-LIVE group
+- GO-LIVE process completed.
++++++++++++++++++++++++++++++++++++++++++++++++
+Added automation host group 'GO-LIVE-SCRIPT-VM-ENABLED' to pla12011.amberroad.com
+Found 1 hosts in host group 'UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001022/General Mills-GTM'
+********************************************************************************
+ Processing Host ID: 2334056, Host Name: pla50019.amberroad.com
+ 2334056: Added 1 new tag(s)
+
+
+********************************************************************************
+
+Total hosts collecting data: 1
+
++----------+------------------------+-------------------+---------------+----------+
+|   HostID | Hostname               | Data Collection   | Failed Keys   | Status   |
++==========+========================+===================+===============+==========+
+|  2334056 | pla50019.amberroad.com | YES               | -             | Enabled  |
++----------+------------------------+-------------------+---------------+----------+
+************************************************************************
+
+Total hosts NOT collecting data: 0
+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+| HostID   | Hostname   | Failed Item Keys   | History (Actual/Expected)   | Data Collection   | Status   |
++==========+============+====================+=============================+===================+==========+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+
+
+
+High and Disaster problems in last 7 days and currently active problems
+
++---------------+-----------------------------------+------------------+------------------------------+
+| Host ID       | Hostname                          | Active Now       | Last 7 Days Active + Resolved |
++---------------+-----------------------------------+------------------+------------------------------+
+| 2334056       | pla50019.amberroad.com            | 0                | 0                  |
++---------------+-----------------------------------+------------------+--------------------+
+
+Total Active Problems (High + Disaster): 0
+Total Last 7 Days Problems (Active + Resolved): 0
+
+
+
+================ Processing Host: pla50019.amberroad.com =================
+
+
+ Processing host: pla50019.amberroad.com (enabled)
+
+ Created new HG: GO-LIVE/Global Trade - TA/TA/HUB00001022/General Mills-GTM
+
+ Removing group UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001022/General Mills-GTM from pla50019.amberroad.com
+
+ pla50019.amberroad.com moved to GO-LIVE group
+- GO-LIVE process completed.
++++++++++++++++++++++++++++++++++++++++++++++++
+Added automation host group 'GO-LIVE-SCRIPT-VM-ENABLED' to pla50019.amberroad.com
+Found 1 hosts in host group 'UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00003231/GTM-Agreements-Internal'
+********************************************************************************
+ Processing Host ID: 2334053, Host Name: pla11071.amberroad.com
+ 2334053: Added 1 new tag(s)
+
+
+********************************************************************************
+
+Total hosts collecting data: 1
+
++----------+------------------------+-------------------+---------------+----------+
+|   HostID | Hostname               | Data Collection   | Failed Keys   | Status   |
++==========+========================+===================+===============+==========+
+|  2334053 | pla11071.amberroad.com | YES               | -             | Enabled  |
++----------+------------------------+-------------------+---------------+----------+
+************************************************************************
+
+Total hosts NOT collecting data: 0
+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+| HostID   | Hostname   | Failed Item Keys   | History (Actual/Expected)   | Data Collection   | Status   |
++==========+============+====================+=============================+===================+==========+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+
+
+
+High and Disaster problems in last 7 days and currently active problems
+
++---------------+-----------------------------------+------------------+------------------------------+
+| Host ID       | Hostname                          | Active Now       | Last 7 Days Active + Resolved |
++---------------+-----------------------------------+------------------+------------------------------+
+| 2334053       | pla11071.amberroad.com            | 0                | 0                  |
++---------------+-----------------------------------+------------------+--------------------+
+
+Total Active Problems (High + Disaster): 0
+Total Last 7 Days Problems (Active + Resolved): 0
+
+
+
+================ Processing Host: pla11071.amberroad.com =================
+
+
+ Processing host: pla11071.amberroad.com (enabled)
+
+ Created new HG: GO-LIVE/Global Trade - TA/TA/HUB00003231/GTM-Agreements-Internal
+
+ Removing group UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00003231/GTM-Agreements-Internal from pla11071.amberroad.com
+
+ pla11071.amberroad.com moved to GO-LIVE group
+- GO-LIVE process completed.
++++++++++++++++++++++++++++++++++++++++++++++++
+Added automation host group 'GO-LIVE-SCRIPT-VM-ENABLED' to pla11071.amberroad.com
+Found 2 hosts in host group 'UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00002106/Ops Management (EXPIRED)'
+********************************************************************************
+ Processing Host ID: 2334051, Host Name: pla11042.amberroad.com
+ 2334051: Added 1 new tag(s)
+
+
+ Processing Host ID: 2334052, Host Name: pla11043.amberroad.com
+ 2334052: Added 1 new tag(s)
+
+
+********************************************************************************
+
+Total hosts collecting data: 2
+
++----------+------------------------+-------------------+---------------+----------+
+|   HostID | Hostname               | Data Collection   | Failed Keys   | Status   |
++==========+========================+===================+===============+==========+
+|  2334051 | pla11042.amberroad.com | YES               | -             | Enabled  |
++----------+------------------------+-------------------+---------------+----------+
+|  2334052 | pla11043.amberroad.com | YES               | -             | Enabled  |
++----------+------------------------+-------------------+---------------+----------+
+************************************************************************
+
+Total hosts NOT collecting data: 0
+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+| HostID   | Hostname   | Failed Item Keys   | History (Actual/Expected)   | Data Collection   | Status   |
++==========+============+====================+=============================+===================+==========+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+
+
+
+High and Disaster problems in last 7 days and currently active problems
+
++---------------+-----------------------------------+------------------+------------------------------+
+| Host ID       | Hostname                          | Active Now       | Last 7 Days Active + Resolved |
++---------------+-----------------------------------+------------------+------------------------------+
+| 2334051       | pla11042.amberroad.com            | 0                | 0                  |
++---------------+-----------------------------------+------------------+--------------------+
+| 2334052       | pla11043.amberroad.com            | 0                | 0                  |
++---------------+-----------------------------------+------------------+--------------------+
+
+Total Active Problems (High + Disaster): 0
+Total Last 7 Days Problems (Active + Resolved): 0
+
+
+
+================ Processing Host: pla11042.amberroad.com =================
+
+
+ Processing host: pla11042.amberroad.com (enabled)
+
+ Removing group UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00002106/Ops Management (EXPIRED) from pla11042.amberroad.com
+
+ pla11042.amberroad.com moved to GO-LIVE group
+- GO-LIVE process completed.
++++++++++++++++++++++++++++++++++++++++++++++++
+Added automation host group 'GO-LIVE-SCRIPT-VM-ENABLED' to pla11042.amberroad.com
+
+================ Processing Host: pla11043.amberroad.com =================
+
+
+ Processing host: pla11043.amberroad.com (enabled)
+
+ Removing group UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00002106/Ops Management (EXPIRED) from pla11043.amberroad.com
+
+ pla11043.amberroad.com moved to GO-LIVE group
+- GO-LIVE process completed.
++++++++++++++++++++++++++++++++++++++++++++++++
+Added automation host group 'GO-LIVE-SCRIPT-VM-ENABLED' to pla11043.amberroad.com
+********************************************************************************
+
+Total hosts collecting data: 0
+
++----------+------------+-------------------+---------------+----------+
+| HostID   | Hostname   | Data Collection   | Failed Keys   | Status   |
++==========+============+===================+===============+==========+
++----------+------------+-------------------+---------------+----------+
+************************************************************************
+
+Total hosts NOT collecting data: 0
+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+| HostID   | Hostname   | Failed Item Keys   | History (Actual/Expected)   | Data Collection   | Status   |
++==========+============+====================+=============================+===================+==========+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+
+
+
+High and Disaster problems in last 7 days and currently active problems
+
++---------------+-----------------------------------+------------------+------------------------------+
+| Host ID       | Hostname                          | Active Now       | Last 7 Days Active + Resolved |
++---------------+-----------------------------------+------------------+------------------------------+
+
+Total Active Problems (High + Disaster): 0
+Total Last 7 Days Problems (Active + Resolved): 0
+
+
+********************************************************************************
+
+Total hosts collecting data: 0
+
++----------+------------+-------------------+---------------+----------+
+| HostID   | Hostname   | Data Collection   | Failed Keys   | Status   |
++==========+============+===================+===============+==========+
++----------+------------+-------------------+---------------+----------+
+************************************************************************
+
+Total hosts NOT collecting data: 0
+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+| HostID   | Hostname   | Failed Item Keys   | History (Actual/Expected)   | Data Collection   | Status   |
++==========+============+====================+=============================+===================+==========+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+
+
+
+High and Disaster problems in last 7 days and currently active problems
+
++---------------+-----------------------------------+------------------+------------------------------+
+| Host ID       | Hostname                          | Active Now       | Last 7 Days Active + Resolved |
++---------------+-----------------------------------+------------------+------------------------------+
+
+Total Active Problems (High + Disaster): 0
+Total Last 7 Days Problems (Active + Resolved): 0
+
+
+********************************************************************************
+
+Total hosts collecting data: 0
+
++----------+------------+-------------------+---------------+----------+
+| HostID   | Hostname   | Data Collection   | Failed Keys   | Status   |
++==========+============+===================+===============+==========+
++----------+------------+-------------------+---------------+----------+
+************************************************************************
+
+Total hosts NOT collecting data: 0
+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+| HostID   | Hostname   | Failed Item Keys   | History (Actual/Expected)   | Data Collection   | Status   |
++==========+============+====================+=============================+===================+==========+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+
+
+
+High and Disaster problems in last 7 days and currently active problems
+
++---------------+-----------------------------------+------------------+------------------------------+
+| Host ID       | Hostname                          | Active Now       | Last 7 Days Active + Resolved |
++---------------+-----------------------------------+------------------+------------------------------+
+
+Total Active Problems (High + Disaster): 0
+Total Last 7 Days Problems (Active + Resolved): 0
+
+
+********************************************************************************
+
+Total hosts collecting data: 0
+
++----------+------------+-------------------+---------------+----------+
+| HostID   | Hostname   | Data Collection   | Failed Keys   | Status   |
++==========+============+===================+===============+==========+
++----------+------------+-------------------+---------------+----------+
+************************************************************************
+
+Total hosts NOT collecting data: 0
+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+| HostID   | Hostname   | Failed Item Keys   | History (Actual/Expected)   | Data Collection   | Status   |
++==========+============+====================+=============================+===================+==========+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+
+
+
+High and Disaster problems in last 7 days and currently active problems
+
++---------------+-----------------------------------+------------------+------------------------------+
+| Host ID       | Hostname                          | Active Now       | Last 7 Days Active + Resolved |
++---------------+-----------------------------------+------------------+------------------------------+
+
+Total Active Problems (High + Disaster): 0
+Total Last 7 Days Problems (Active + Resolved): 0
+
+
+Found 1 hosts in host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00046033/Jabil-GLO'
+********************************************************************************
+ Processing Host ID: 2334055, Host Name: pla50014.amberroad.com
+ 2334055: Added 1 new tag(s)
+
+
+********************************************************************************
+
+Total hosts collecting data: 1
+
++----------+------------------------+-------------------+---------------+----------+
+|   HostID | Hostname               | Data Collection   | Failed Keys   | Status   |
++==========+========================+===================+===============+==========+
+|  2334055 | pla50014.amberroad.com | YES               | -             | Enabled  |
++----------+------------------------+-------------------+---------------+----------+
+************************************************************************
+
+Total hosts NOT collecting data: 0
+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+| HostID   | Hostname   | Failed Item Keys   | History (Actual/Expected)   | Data Collection   | Status   |
++==========+============+====================+=============================+===================+==========+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+
+
+
+High and Disaster problems in last 7 days and currently active problems
+
++---------------+-----------------------------------+------------------+------------------------------+
+| Host ID       | Hostname                          | Active Now       | Last 7 Days Active + Resolved |
++---------------+-----------------------------------+------------------+------------------------------+
+| 2334055       | pla50014.amberroad.com            | 0                | 0                  |
++---------------+-----------------------------------+------------------+--------------------+
+
+Total Active Problems (High + Disaster): 0
+Total Last 7 Days Problems (Active + Resolved): 0
+
+
+
+================ Processing Host: pla50014.amberroad.com =================
+
+
+ Processing host: pla50014.amberroad.com (enabled)
+
+ Created new HG: GO-LIVE/Logistics - International/GLO-Solution/HUB00046033/Jabil-GLO
+
+ Removing group UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00046033/Jabil-GLO from pla50014.amberroad.com
+
+ pla50014.amberroad.com moved to GO-LIVE group
+- GO-LIVE process completed.
++++++++++++++++++++++++++++++++++++++++++++++++
+Added automation host group 'GO-LIVE-SCRIPT-VM-ENABLED' to pla50014.amberroad.com
+Found 1 hosts in host group 'UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/INTTRA/HUB00001989/INTTRA-Internal'
+********************************************************************************
+ Processing Host ID: 2333910, Host Name: njprododi01
+ 2333910: Added 1 new tag(s)
+
+
+********************************************************************************
+
+Total hosts collecting data: 1
+
++----------+-------------+-------------------+---------------+----------+
+|   HostID | Hostname    | Data Collection   | Failed Keys   | Status   |
++==========+=============+===================+===============+==========+
+|  2333910 | njprododi01 | YES               | -             | Enabled  |
++----------+-------------+-------------------+---------------+----------+
+************************************************************************
+
+Total hosts NOT collecting data: 0
+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+| HostID   | Hostname   | Failed Item Keys   | History (Actual/Expected)   | Data Collection   | Status   |
++==========+============+====================+=============================+===================+==========+
++----------+------------+--------------------+-----------------------------+-------------------+----------+
+
+
+
+High and Disaster problems in last 7 days and currently active problems
+
++---------------+-----------------------------------+------------------+------------------------------+
+| Host ID       | Hostname                          | Active Now       | Last 7 Days Active + Resolved |
++---------------+-----------------------------------+------------------+------------------------------+
+| 2333910       | njprododi01                       | 0                | 0                  |
++---------------+-----------------------------------+------------------+--------------------+
+
+Total Active Problems (High + Disaster): 0
+Total Last 7 Days Problems (Active + Resolved): 0
+
+
+
+================ Processing Host: njprododi01 =================
+
+
+ Processing host: njprododi01 (enabled)
+
+ Removing group UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/INTTRA/HUB00001989/INTTRA-Internal from njprododi01
+
+ njprododi01 moved to GO-LIVE group
+- GO-LIVE process completed.
++++++++++++++++++++++++++++++++++++++++++++++++
+Added automation host group 'GO-LIVE-SCRIPT-VM-ENABLED' to njprododi01
+Deleted empty uat host group: UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/Import Management/HUB00003225/GTM-Import-Internal
+Deleted empty uat host group: UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00001022/General Mills-GTM
+Deleted empty uat host group: UAT/CI-PROD-PRODUCTION/HUB/Global Trade - TA/TA/HUB00003231/GTM-Agreements-Internal
+Deleted empty uat host group: UAT/CI-PROD-PRODUCTION/HUB/Infrastructure/Infrastructure/HUB00002106/Ops Management (EXPIRED)
+Deleted empty uat host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00003209/MobileSTAR-Internal
+Deleted empty uat host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00015611/Schenker Asia Pacific--MobileStar
+Deleted empty uat host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - Domestic/Vehicle Routing & Scheduling/HUB00016872/Freightways Information Services, Ltd--MobileStar
+Deleted empty uat host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/Expedient/HUB00046634/Expedient Forwarding-Internal
+Deleted empty uat host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/GLO-Solution/HUB00046033/Jabil-GLO
+Deleted empty uat host group: UAT/CI-PROD-PRODUCTION/HUB/Logistics - International/INTTRA/HUB00001989/INTTRA-Internal
+
+D:\JENKINS-WS\Cloud_Insights\workspace\ZB-AUTO-GOLIVE-VALIDATION-PROD>exit 0 
+Finished: SUCCESS

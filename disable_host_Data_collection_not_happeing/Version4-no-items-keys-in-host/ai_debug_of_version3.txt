@@ -1,0 +1,238 @@
+Got it. I’ll walk you through what your script is actually doing, then pinpoint exactly why it’s classifying active hosts as “not collecting data”, and finally show you how to fix the logic.
+
+I’ll stay very concrete and Zabbix-specific.
+
+1️⃣ What your script is intended to do (your design)
+
+Your goal is:
+
+Take enabled hosts (non-GO-LIVE, non-ASG) from DB
+
+For each host, check 3 keys:
+
+system.uptime      → expected every 1m
+agent.ping         → expected every 3m
+system.localtime   → expected every 5m
+
+
+Look at last 1 hour of history
+
+If the host is NOT collecting data, classify it
+
+Add it to a special hostgroup
+
+Disable it
+
+✔️ This approach is conceptually correct
+
+2️⃣ What your script is ACTUALLY doing (important)
+Flow summary
+DB → host list
+   → Zabbix item.get (only 3 keys)
+      → history.get (last 1 hour)
+         → count history values
+            → classify host
+               → add hostgroup
+                  → disable
+
+
+The problem is step 4 (classification).
+
+3️⃣ The CORE logical bug (this is why results are wrong)
+❌ Your classification logic is inverted
+
+Look carefully at this part:
+
+if len(history) == system_uptime_standard_last_hour_value:
+    missing_items.append(...)
+
+
+Let’s decode this.
+
+What these numbers mean
+system_uptime_standard_last_hour_value = 60
+agent_ping_standard_last_hour_value = 20
+system_localtime_standard_last_hour_value = 12
+
+
+These represent EXPECTED data frequency, not missing data.
+
+Example:
+
+system.uptime every 1 min → ~60 values/hour
+
+agent.ping every 3 min → ~20 values/hour
+
+system.localtime every 5 min → ~12 values/hour
+
+What your code says (wrong meaning)
+if len(history) == EXPECTED_COUNT:
+    → mark as "missing"
+
+
+🚨 This means:
+
+“If a host has exactly the expected number of values, then it is missing data.”
+
+That is the exact opposite of what you want.
+
+Why your final hostgroup contains active hosts
+
+Active hosts:
+
+ARE collecting data
+
+DO have ~60 / 20 / 12 values
+
+So they match your == condition
+
+So they are incorrectly classified as “missing history”
+
+✔️ That explains your symptom perfectly
+
+4️⃣ What “not collecting data” really means in Zabbix
+
+A host is NOT collecting data if ANY of these is true:
+
+Case A — Item has no data at all
+len(history) == 0
+
+Case B — Item is stale (last value too old)
+now - lastclock > allowed_interval
+
+Case C — Partial data (far less than expected)
+len(history) < expected_threshold
+
+
+⚠️ You are currently only checking equality, which is meaningless here.
+
+5️⃣ The correct classification logic (fixed)
+✔️ Replace this ❌
+if len(history) == system_uptime_standard_last_hour_value:
+
+✔️ With something like this ✅
+if len(history) < system_uptime_standard_last_hour_value * 0.5:
+
+
+This means:
+
+“If less than 50% of expected data is present → classify as not collecting”
+
+6️⃣ A CORRECTED version of filter_empty_history_hosts()
+✅ Safe + realistic logic
+def filter_empty_history_hosts(non_golive_hosts):
+    hosts_not_collecting = []
+
+    for host in non_golive_hosts:
+        items = host.get('items', [])
+        failed_items = []
+
+        for item in items:
+            history = item.get('allhistory') or []
+            key = item.get('key_')
+
+            if key == 'system.uptime':
+                expected = system_uptime_standard_last_hour_value
+            elif key == 'agent.ping':
+                expected = agent_ping_standard_last_hour_value
+            elif key == 'system.localtime':
+                expected = system_localtime_standard_last_hour_value
+            else:
+                continue
+
+            # Condition: no data or too little data
+            if len(history) == 0 or len(history) < expected * 0.5:
+                failed_items.append({
+                    'key_': key,
+                    'history_count': len(history),
+                    'expected': expected
+                })
+
+        # If ALL keys are bad → host is not collecting
+        if len(failed_items) == 3:
+            hosts_not_collecting.append({
+                'hostid': host.get('hostid'),
+                'host': host.get('host'),
+                'failed_items': failed_items
+            })
+
+    return hosts_not_collecting
+
+7️⃣ Additional hidden issues (important but secondary)
+🔴 Issue 1: history.get(limit=expected_count) is misleading
+
+You are doing:
+
+limit=60
+
+
+If Zabbix has more than 60 values, it still returns 60
+So len(history) does NOT prove health
+
+✅ Better:
+
+Don’t rely on len(history)
+
+Use lastclock freshness instead
+
+🔴 Issue 2: You don’t check item state
+'state': item.get('state')
+
+
+If:
+
+state = 1 → item unsupported
+
+
+Then history is meaningless.
+
+You should immediately treat it as failed.
+
+🔴 Issue 3: Hostgroup naming by date creates duplicates daily
+HOST_DELETE_09/16/2026
+
+
+Zabbix allows it, but cleanup becomes messy.
+Better to use ISO format:
+
+HOST_DELETE_2026-09-16
+
+8️⃣ The REAL best practice (recommended)
+Instead of counting history → check freshness
+lastclock = int(item['lastclock'])
+now = int(time.time())
+
+if now - lastclock > 600:  # 10 minutes
+    → not collecting
+
+
+This is how Zabbix internally decides stale items.
+
+9️⃣ Summary (why it fails + fix)
+❌ Why your script fails
+
+You treat expected data count as missing data
+
+Equality (==) is wrong
+
+Active hosts naturally meet your condition
+
+✅ How to fix
+
+Use < expected_threshold
+
+Or better: lastclock freshness
+
+Consider item state
+
+If you want, next I can:
+
+🔧 Rewrite the script using lastclock-based logic
+
+📊 Add debug output per host
+
+🧪 Give you a dry-run mode
+
+🚀 Optimize API calls (your script is heavy)
+
+Just tell me.

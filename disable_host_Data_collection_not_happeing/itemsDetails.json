@@ -1,0 +1,106 @@
+{
+    "hostname": "dev1302.dev.e2open.com",
+    "hostid": "15019",
+    "checks": [
+        {
+            "itemid": "284109",
+            "name": "Agent ping",
+            "key_": "agent.ping",
+            "value_type": "3",
+            "state": "0",
+            "lastclock": "1763446148",
+            "lastvalue": "1"
+        },
+        {
+            "itemid": "284154",
+            "name": "System uptime",
+            "key_": "system.uptime",
+            "value_type": "3",
+            "state": "0",
+            "lastclock": "1763446152",
+            "lastvalue": "50055971"
+        }
+    ],
+    "history": [
+        {
+            "itemid": "284109",
+            "key_": "agent.ping",
+            "name": "Agent ping",
+            "value_type": 3,
+            "lastvalue": "1",
+            "lastclock": "1763446148",
+            "history": [
+                {
+                    "itemid": "284109",
+                    "clock": "1763446148",
+                    "value": "1",
+                    "ns": "134622487"
+                },
+                {
+                    "itemid": "284109",
+                    "clock": "1763446088",
+                    "value": "1",
+                    "ns": "3769332"
+                },
+                {
+                    "itemid": "284109",
+                    "clock": "1763446028",
+                    "value": "1",
+                    "ns": "955345551"
+                },
+                {
+                    "itemid": "284109",
+                    "clock": "1763445968",
+                    "value": "1",
+                    "ns": "937532711"
+                },
+                {
+                    "itemid": "284109",
+                    "clock": "1763445908",
+                    "value": "1",
+                    "ns": "817759846"
+                }
+            ]
+        },
+        {
+            "itemid": "284154",
+            "key_": "system.uptime",
+            "name": "System uptime",
+            "value_type": 3,
+            "lastvalue": "50055971",
+            "lastclock": "1763446152",
+            "history": [
+                {
+                    "itemid": "284154",
+                    "clock": "1763446152",
+                    "value": "50055971",
+                    "ns": "135363223"
+                },
+                {
+                    "itemid": "284154",
+                    "clock": "1763445552",
+                    "value": "50055371",
+                    "ns": "440416448"
+                },
+                {
+                    "itemid": "284154",
+                    "clock": "1763444952",
+                    "value": "50054771",
+                    "ns": "620087012"
+                },
+                {
+                    "itemid": "284154",
+                    "clock": "1763444352",
+                    "value": "50054171",
+                    "ns": "17488887"
+                },
+                {
+                    "itemid": "284154",
+                    "clock": "1763443752",
+                    "value": "50053571",
+                    "ns": "311285459"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+Endpoint :  https://australiasoutheast.snowsoftware.io/api/sam/estate/v1/user-accounts?page_size=50&page_number=1,,,,,,,,,,
+Total Records: 363017,,,,,,,,,,
+_links,autoEditing,email,fullName,id,lastLogon,location,orgHierarchy,organizationId,status,userName
+[],FALSE,WTG.Gordon.Brew@wtg.zone, ,90a848c0-bdb3-4be5-9e9b-00000c67d59c,2026-06-01T23:30:03.373Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,CORP\WTG.Gordon.Brew
+[],FALSE,,,0919b8b3-d91a-4da2-9767-00004f7b9963,2025-10-16T06:54:17.51Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\a26.myckel.hoogendij
+[],FALSE,,Mia Miao,fd9c906f-d30c-4ef0-8009-0000620529d3,2026-06-02T09:12:48Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,PROD\JWT.Xinwen.Miao
+[],FALSE,,Afzal Batliwala,e5c69587-c615-443b-94bb-00008f80de8d,2026-03-05T02:24:26Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,PROD\BBC.Afzal.Batliwala
+[],FALSE,,,32d40db5-2eb0-421a-8f37-0000b3bf2093,2025-10-20T21:28:31.76Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\dfs.jarrod
+[],FALSE,basiliojohn@ups.com,,9b21563b-2cc2-46a4-805a-0000caa88fd3,2025-10-20T13:17:26.11Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\up3.cr104153870
+[],FALSE,,,da6f8639-37f6-4b77-9228-0000ea6edb94,2024-11-22T17:15:24.42Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\dew.vicky.wei
+[],FALSE,jgangloff@consort.com.pg,,81a4b852-2efa-44d5-a945-00011e945b2b,2025-06-21T03:39:59.75Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\cpe.jgangloff
+[],FALSE,shatakshi.kumari@e2open.com,Shatakshi Kumari,1a928205-d784-4e1a-80b5-00014bb051c2,2026-03-23T12:46:51Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,E2HQ\shkumari
+[],FALSE,,,354f1c06-63c6-4e07-9adc-0001916d015f,2025-10-20T16:17:36.14Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\mo6.laura_rivas
+[],FALSE,,Michel Ehlers,59e2024b-36c0-4715-9e0f-0001d95b1309,2026-06-02T08:10:30Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,PROD\MFI.michel.ehlers
+[],FALSE,,CHRIS JIANG,51e78015-2030-4cf8-8a03-00027a7a2e12,2025-05-30T01:13:14Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,PROD\W32.CHRIS.JIANG
+[],FALSE,,Sashnee Thakurpersad,658ce810-2cd3-42b0-89a6-0002a3e070ed,2026-06-03T14:53:49Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,PROD\G37.Sashnee Thakurpe
+[],FALSE,,,6b9a7681-2285-4063-87f3-0002c12bcbea,2025-10-15T19:14:56.12Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\saa.colin
+[],FALSE,,,dc520b02-87a0-1874-dd81-0002d13bc6a1,2026-05-31T21:09:24Z,,WISETECH,00000000-0000-0000-0000-000000000000,Active,dbolanos@prod.e2open.com@dev4175
+[],FALSE,,,f29b6984-dd33-4cf5-8291-0002f6bea271,1970-01-01T00:00:00Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,wisecloud\fg1.figmental.demo18
+[],FALSE,,TAPAN SAHU,64e3ced9-a8ea-f3a3-5384-00034b28b020,2026-04-13T22:47:33Z,,WISETECH,00000000-0000-0000-0000-000000000000,Quarantined,PROD\FRA.TAPAN.SAHU
+[],FALSE,,Leticia Braga,c76a7f3c-f66d-4e32-a65e-000350d2baa5,2026-06-03T01:23:30Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,PROD\VIH.Leticia.Braga
+[],FALSE,,Ghotre Sandip Namdev,6c094739-52a5-4bc7-ab0d-0003749ace58,2026-06-03T17:08:10Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,PROD\DGL.HYD.SANDIP.NAMDE
+[],FALSE,A.Wu@utcoverseas-china.com,,d9d90645-34f5-4db6-a470-0003edd573f9,2025-10-20T02:50:14.61Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\utc.apple.wu
+[],FALSE,sshan@livingston.com,,f742fefd-c501-4870-92af-0004031c8536,2025-08-28T17:12:41.58Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\l77.stella.shan
+[],FALSE,,Alwyn van Heerden,3af51969-b95a-4b8c-a651-0004212253f7,2026-04-30T07:51:27Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,PROD\I34.Alwyn.vanHeerden
+[],FALSE,,Evelyn Roces,ea26ad4e-3263-4eb1-97e5-000423b675a9,2026-06-02T16:14:00Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,PROD\SIA.Evelyn.Roces
+[],FALSE,Erabre@cargoic.com,,39e37bde-98ed-4bf4-be48-00046b606aa4,2025-10-07T12:49:19.94Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\cic.erney.rabre
+[],FALSE,,MAYUKO NAGATA,e979d2b5-3fd9-49f6-a814-0004804a0502,2026-05-30T06:53:38Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,PROD\H43.m.nagata.us
+[],FALSE,,,db4ede9b-350a-4bcd-bab4-00048b3f1db5,2025-10-19T22:37:21.35Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\bts.ryan.moorman
+[],FALSE,ganesh@minusculetechnologies.com,,1df93b0c-71ee-4042-a9e9-00049b3891b5,2025-10-17T05:55:22.03Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\azb.ganesh
+[],FALSE,,,bb33a82b-8c9c-438b-9a7a-0004ed91355a,2025-02-23T18:24:29Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,PROD\swl.RWood
+[],FALSE,,,6ec01474-e3f7-4b5c-8271-0004f925610a,2025-07-07T13:19:48.73Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\ah7.juan.hernandez
+[],FALSE,vojtek@embassycargo.com,,585a3e9c-3290-4a2e-aa13-000529ec54e7,2025-09-26T12:49:20.95Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\em9.stefan.vojtek
+[],FALSE,,David Dendinger,733b8e41-2282-49d7-8ad5-0005306e78c3,2026-06-01T11:21:43Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,PROD\CWW.DavidD
+[],FALSE,,Supatra Srita,f78b8892-ce88-4171-a2e1-00057bc87e92,2026-06-01T21:09:52Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,PROD\trx.ssrita
+[],FALSE,,,a2967576-b0ff-420e-a64e-0005e77ed202,2025-09-14T00:00:39.23Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\adscc71cdafa261f4d00
+[],FALSE,ramya.janakiram@wisetechglobal.com,Ramya Janakiram,08cdaa33-f4b2-4c1c-9dbc-0005fe74a2c0,2026-06-02T17:55:43Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,corp\ramya.janakiram
+[],FALSE,,Bruno Andrey Mathias,1db04c4e-f036-4775-9841-00060783d40f,2026-06-02T08:20:28Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,PROD\SKL.Bruno.Mathias
+[],FALSE,air.operations@integralchile.com,,859db039-2e0a-4287-a3b4-00061f495daf,2025-10-13T12:04:00.87Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\i92.johan.codoceo
+[],FALSE,,,67868b76-1173-415a-8d5a-000633b7400a,2025-10-16T15:47:54.36Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\jsc.chalsey.higgs
+[],FALSE,,,52018d28-917a-4f4a-b0c2-000641e938d3,2025-10-16T14:10:35.17Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\dbg.vikram.shah
+[],FALSE,,,341896bb-d498-4933-a60b-00065930b434,2025-10-16T23:06:37.09Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\m67.roann.abao
+[],FALSE,,Jenny Nhi,69f0191d-833f-4bcc-83b6-00069392b85c,2026-06-01T21:28:46Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,PROD\W32.Jenny.Nhi
+[],FALSE,,Khalid Sultan,4198d42f-885d-4c39-9548-0006c63c7138,2026-06-03T03:20:29Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,PROD\DBG.khalid.sultankha
+[],FALSE,,,bb1d92db-16d1-42bd-bcd0-000720cbaeab,2025-10-16T15:30:08.73Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\trx.hmichel
+[],FALSE,,Nadir MAGAN SIDIK SANTIAGO,6032342b-0bb9-4a82-89f3-000733cbdbf0,2026-06-03T11:29:10Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,PROD\CC1.EXT.NMAGANSIDIKS
+[],FALSE,,SHUET NGAM WONG,b9f6cf02-cc5c-4e7b-91f9-00075c025f8a,2026-06-02T01:17:50Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,PROD\UP3.00000019069
+[],FALSE,,,4ce83e11-b8bc-4161-a68a-000770fe9dca,2025-10-20T18:37:50.75Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\nep.paul.mccagney
+[],FALSE,,Jamie Rioboli,f48b3544-45d7-4c18-989a-0007a887b88b,2026-06-02T14:27:41Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,PROD\DAM.Jamie.Rioboli
+[],FALSE,,Jehan Ashkanani,722004ee-0128-4306-a68d-0007fd98caf9,2026-06-03T07:48:38Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Active,PROD\KI5.Jehan.Ashkanani
+[],FALSE,,,f4b22f8d-b0aa-2cab-9d8a-0008308a2ac7,2026-05-22T21:15:24Z,,WISETECH,00000000-0000-0000-0000-000000000000,Active,tn_lnx@prod.e2open.com@dev11813
+[],FALSE,,,f64efd4d-6d1d-407f-8911-000857939b77,2025-01-23T07:52:45.22Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,wisecloud\oia.bartlomiejwasiel
+[],FALSE,,,37266079-d4e2-4ad1-bf60-000880d0d2bf,2025-10-01T22:46:03Z,,WISETECH,f213a91c-dcef-492f-b5d5-59f522bdbdc2,Quarantined,corp\wtg.travis.garner

@@ -1,0 +1,10 @@
+step 1: check you have enviorment variable setup  in your system with as "ZABBIX_SCRIPTS_APP_SECRET_KEY, open cmd terminal and type : echo %ZABBIX_SCRIPTS_APP_SECRET_KEY%
+        if not setup then run below:
+            for windows : setx ZABBIX_SCRIPTS_APP_SECRET_KEY "private key" /M 
+            for linux : nano ~/.bashrc
+                        export ZABBIX_SCRIPTS_APP_SECRET_KEY="private key"
+                        source ~/.bashrc
+                        echo $ZABBIX_SCRIPTS_APP_SECRET_KEY
+
+step 2 : navigate to script folder
+step 3 : run "Python count_problem.py <ENV Name> as PROD | STG | DEV"
